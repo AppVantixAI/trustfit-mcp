@@ -4,6 +4,8 @@ A read-only MCP server that lets an AI assistant search, rank, compare and vet A
 
 It makes no network calls while serving. Scores, reviews and datasets are local files.
 
+Some results quote text TrustFit did not write, such as headlines and model names. The server strips hidden and direction-changing characters from every string, caps very long ones, and tells the reading model that this text is data, not instructions (`src/untrusted.ts`).
+
 ## Tools
 
 | Tool | What it does |
@@ -11,7 +13,7 @@ It makes no network calls while serving. Scores, reviews and datasets are local 
 | `search_tools` | Find reviewed tools and the wider index by name, category or task |
 | `get_tool_profile` | One tool's scores, plan-by-plan answer on training with your inputs, deal-breakers and evidence |
 | `rank_for_company` | Rank the reviewed tools for a company's customers and deal-breakers |
-| `compare_tools` | Two or three tools side by side |
+| `compare_tools` | Two to five tools side by side |
 | `search_index`, `get_index_entry`, `get_index_summary` | The wider catalog of tools and models with public facts only, never scored. Empty until you run `scripts/ingest-index.ts` |
 | `get_methodology` | How scores are built, and what they do not claim |
 

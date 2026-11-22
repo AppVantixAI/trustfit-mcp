@@ -85,4 +85,4 @@ Spot a wrong fact or an outdated review? Open an issue with the source. Correcti
 
 ## Licence
 
-MIT for the code and the reviews (see `LICENSE`). Each dataset keeps its own licence, listed above.
+MIT for the code and the 40 written reviews in `shared/content` (see `LICENSE`). Each dataset in `data/snapshots` keeps its own licence, listed above.

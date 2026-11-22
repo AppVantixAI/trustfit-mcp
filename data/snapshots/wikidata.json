@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "source": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0",
+    "retrievedAt": "2026-11-22",
+    "note": "A match is accepted only when the item's official website (P856) is on the tool's own domain. Unmatched tools have no verified entity, not a wrong one."
+  },
+  "bySlug": {
+    "chatgpt": {
+      "qid": "Q115564437",
+      "label": "ChatGPT",
+      "officialWebsite": "https://chat.openai.com",
+      "relatedOrganizations": [
+        "OpenAI"
+      ],
+      "link": "https://www.wikidata.org/wiki/Q115564437"
+    },
+    "gemini": {
+      "qid": "Q116698014",
+      "label": "Gemini",
+      "officialWebsite": "https://gemini.google.com/",
+      "relatedOrganizations": [
+        "Alphabet Inc."
+      ],
+      "link": "https://www.wikidata.org/wiki/Q116698014"
+    },
+    "microsoft-copilot": {
+      "qid": "Q124023752",
+      "label": "Microsoft Copilot",
+      "officialWebsite": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q124023752"
+    },
+    "perplexity": {
+      "qid": "Q123403392",
+      "label": "Perplexity",
+      "officialWebsite": "https://www.perplexity.ai/",
+      "relatedOrganizations": [
+        "Perplexity AI"
+      ],
+      "link": "https://www.wikidata.org/wiki/Q123403392"
+    },
+    "github-copilot": {
+      "qid": "Q107435063",
+      "label": "",
+      "officialWebsite": "https://github.com/features/copilot/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q107435063"
+    },
+    "cursor": {
+      "qid": "Q131980386",
+      "label": "Cursor",
+      "officialWebsite": "https://www.cursor.com",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q131980386"
+    },
+    "deepseek": {
+      "qid": "Q131577453",
+      "label": "DeepSeek",
+      "officialWebsite": "https://deepseek.com",
+      "relatedOrganizations": [
+        "High-Flyer"
+      ],
+      "link": "https://www.wikidata.org/wiki/Q131577453"
+    },
+    "midjourney": {
+      "qid": "Q113070628",
+      "label": "Midjourney",
+      "officialWebsite": "https://www.midjourney.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q113070628"
+    },
+    "adobe-firefly": {
+      "qid": "Q120487902",
+      "label": "Adobe Firefly",
+      "officialWebsite": "https://firefly.adobe.com/?media=featured",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q120487902"
+    },
+    "otter": {
+      "qid": "Q65172862",
+      "label": "otter.ai",
+      "officialWebsite": "https://otter.ai",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q65172862"
+    },
+    "notion-ai": {
+      "qid": "Q60747998",
+      "label": "Notion",
+      "officialWebsite": "https://www.notion.com",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q60747998"
+    },
+    "grammarly": {
+      "qid": "Q16840770",
+      "label": "Grammarly",
+      "officialWebsite": "https://www.grammarly.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q16840770"
+    },
+    "hubspot-breeze": {
+      "qid": "Q5926631",
+      "label": "HubSpot",
+      "officialWebsite": "http://www.hubspot.com",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q5926631"
+    },
+    "salesforce-einstein": {
+      "qid": "Q941127",
+      "label": "Salesforce",
+      "officialWebsite": "https://www.salesforce.com",
+      "relatedOrganizations": [
+        "Marc Benioff"
+      ],
+      "link": "https://www.wikidata.org/wiki/Q941127"
+    },
+    "elevenlabs": {
+      "qid": "Q116798355",
+      "label": "ElevenLabs",
+      "officialWebsite": "https://elevenlabs.io/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q116798355"
+    },
+    "canva-magic": {
+      "qid": "Q23498528",
+      "label": "Canva",
+      "officialWebsite": "https://www.canva.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q23498528"
+    },
+    "slack-ai": {
+      "qid": "Q17130715",
+      "label": "Slack",
+      "officialWebsite": "https://slack.com",
+      "relatedOrganizations": [
+        "Salesforce"
+      ],
+      "link": "https://www.wikidata.org/wiki/Q17130715"
+    },
+    "zoom-ai-companion": {
+      "qid": "Q94979732",
+      "label": "Zoom",
+      "officialWebsite": "https://www.zoom.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q94979732"
+    },
+    "heygen": {
+      "qid": "Q123258741",
+      "label": "HeyGen",
+      "officialWebsite": "https://www.heygen.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q123258741"
+    },
+    "zapier-central": {
+      "qid": "Q27150165",
+      "label": "Zapier",
+      "officialWebsite": "http://zapier.com",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q27150165"
+    },
+    "n8n-ai": {
+      "qid": "Q130305687",
+      "label": "n8n",
+      "officialWebsite": "https://n8n.io",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q130305687"
+    },
+    "intercom-fin": {
+      "qid": "Q48965215",
+      "label": "Intercom",
+      "officialWebsite": "http://www.intercom.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q48965215"
+    },
+    "zendesk-ai": {
+      "qid": "Q15401349",
+      "label": "Zendesk",
+      "officialWebsite": "https://www.zendesk.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q15401349"
+    },
+    "copy-ai": {
+      "qid": "Q141895322",
+      "label": "Copy.ai",
+      "officialWebsite": "https://www.copy.ai/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q141895322"
+    },
+    "synthflow": {
+      "qid": "Q142149604",
+      "label": "Synthflow AI",
+      "officialWebsite": "https://synthflow.ai",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q142149604"
+    },
+    "retool-ai": {
+      "qid": "Q25038492",
+      "label": "Retool",
+      "officialWebsite": "https://retool.com",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q25038492"
+    },
+    "figma-ai": {
+      "qid": "Q96186334",
+      "label": "Figma",
+      "officialWebsite": "https://www.figma.com",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q96186334"
+    },
+    "amplitude-ai": {
+      "qid": "Q81969219",
+      "label": "Amplitude",
+      "officialWebsite": "https://amplitude.com/",
+      "relatedOrganizations": [],
+      "link": "https://www.wikidata.org/wiki/Q81969219"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "source": "Internet Archive Wayback Machine CDX index",
+    "url": "https://web.archive.org/",
+    "license": "NOT VERIFIED for systematic commercial reuse. Only counts and dates are stored; pages are not copied.",
+    "retrievedAt": "2026-11-22",
+    "windowStart": "2024-11-22",
+    "note": "Distinct versions is the number of different raw-HTML digests archived in 24 months. It over-counts: cosmetic or dynamic page changes also change the digest. Read it as 'how often the page was captured in a different state', not 'how often the policy changed'. Absence of captures is not absence of change.",
+    "status": "not collected: run the ingest script to fill this file"
+  },
+  "bySlug": {}
+}

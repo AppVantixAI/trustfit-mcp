@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "source": "TrustFit broad index (facts only, not reviewed, not scored)",
+    "url": "https://trustfit-iota.vercel.app",
+    "license": "Mixed per source; see each entry's sources. Contains CC BY 4.0 (LMArena) and CC0 (Wikidata) data and public metadata from OpenRouter and Hugging Face.",
+    "retrievedAt": "2026-11-22",
+    "sha256": "5cb21163e7d8e81cf0537d8f9ca92ea1955df194cb17ba24214de29c4001dbf2",
+    "count": 1356,
+    "note": "Entries have no TrustFit score. Only the reviewed catalog is scored. Prices and context sizes change; check asOf. Hugging Face download and like counts and OpenRouter descriptions and benchmarks are deliberately not stored.",
+    "status": "not collected: run the ingest script to fill this file"
+  },
+  "entries": []
+}

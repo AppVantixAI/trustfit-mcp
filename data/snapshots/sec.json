@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "source": "SEC EDGAR company filings",
+    "url": "https://www.sec.gov/edgar",
+    "license": "US government work, public domain.",
+    "retrievedAt": "2026-11-22",
+    "status": "not collected: the SEC requires a contact in the request user agent. Set SEC_USER_AGENT in mcp/.env.local and run again.",
+    "note": ""
+  },
+  "bySlug": {}
+}

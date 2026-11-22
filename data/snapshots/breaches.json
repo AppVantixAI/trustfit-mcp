@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "source": "Have I Been Pwned breach catalogue",
+    "url": "https://haveibeenpwned.com/",
+    "license": "CC BY 4.0 (stated in the HIBP API documentation, read 2026-11-22). Attribution with a link to haveibeenpwned.com is required wherever the data is shown.",
+    "retrievedAt": "2026-11-22",
+    "catalogueSize": 1054,
+    "note": "Matched by the breached service's domain, never by name. The catalogue lists breaches whose data reached HIBP: an empty result means no breach of that domain is in the catalogue, not that none happened. A breach can be years old and long fixed; read the date."
+  },
+  "bySlug": {
+    "chatgpt": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "openai.com",
+        "chatgpt.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "claude": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "anthropic.com",
+        "claude.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "gemini": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "google.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "microsoft-copilot": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "microsoft.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "perplexity": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "perplexity.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "github-copilot": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "github.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "cursor": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "cursor.com",
+        "cursor.sh"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "deepseek": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "deepseek.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "midjourney": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "midjourney.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "adobe-firefly": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "adobe.com"
+      ],
+      "vendorWide": true,
+      "items": [
+        {
+          "name": "Adobe",
+          "domain": "adobe.com",
+          "breachDate": "2013-10-04",
+          "addedDate": "2013-12-04",
+          "accounts": 152445165,
+          "dataClasses": [
+            "Email addresses",
+            "Password hints",
+            "Passwords",
+            "Usernames"
+          ],
+          "verified": true,
+          "link": "https://haveibeenpwned.com/Breach/Adobe"
+        }
+      ]
+    },
+    "otter": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "otter.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "fireflies": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "fireflies.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "granola": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "granola.ai",
+        "granola.so"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "descript": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "descript.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "notion-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "notion.so",
+        "notion.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "grammarly": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "grammarly.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "jasper": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "jasper.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "hubspot-breeze": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "hubspot.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "salesforce-einstein": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "salesforce.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "elevenlabs": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "elevenlabs.io"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "canva-magic": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "canva.com"
+      ],
+      "vendorWide": true,
+      "items": [
+        {
+          "name": "Canva",
+          "domain": "canva.com",
+          "breachDate": "2019-05-24",
+          "addedDate": "2019-08-09",
+          "accounts": 137272116,
+          "dataClasses": [
+            "Email addresses",
+            "Geographic locations",
+            "Names",
+            "Passwords",
+            "Usernames"
+          ],
+          "verified": true,
+          "link": "https://haveibeenpwned.com/Breach/Canva"
+        }
+      ]
+    },
+    "slack-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "slack.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "zoom-ai-companion": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "zoom.us",
+        "zoom.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "tabnine": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "tabnine.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "heygen": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "heygen.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "read-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "read.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "zapier-central": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "zapier.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "make-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "make.com",
+        "integromat.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "n8n-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "n8n.io"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "intercom-fin": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "intercom.com",
+        "intercom.io"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "zendesk-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "zendesk.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "gong-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "gong.io"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "copy-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "copy.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "synthflow": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "synthflow.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "vapi": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "vapi.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "retool-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "retool.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "lindy": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "lindy.ai"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "relevance-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "relevanceai.com"
+      ],
+      "vendorWide": false,
+      "items": []
+    },
+    "figma-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "figma.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    },
+    "amplitude-ai": {
+      "checkedAt": "2026-11-22",
+      "domainsChecked": [
+        "amplitude.com"
+      ],
+      "vendorWide": true,
+      "items": []
+    }
+  }
+}

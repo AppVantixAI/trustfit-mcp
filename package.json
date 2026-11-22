@@ -1,0 +1,24 @@
+{
+  "name": "trustfit-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Read-only MCP server that ranks, compares and vets AI tools for a company, with a dated public source behind every score.",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "hyparquet": "^1.33.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  },
+  "license": "MIT",
+  "author": "AppVantix LLC"
+}

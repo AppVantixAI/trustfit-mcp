@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "source": "GDELT Project DOC 2.0 API (global news index)",
+    "url": "https://www.gdeltproject.org/",
+    "license": "NOT VERIFIED in this run. GDELT describes its data as free for any use with a citation and a link. Headlines belong to their publishers: only the title, link, outlet and date are stored, and every item links out.",
+    "retrievedAt": "2026-11-22",
+    "window": "the most recent 250 English-language mentions of each group of vendors in the 7 days before each check, then the 30 days before it for vendors that first call missed; a stored headline is kept for 30 days",
+    "failedThisRun": [],
+    "note": "Automated keyword match, not reviewed by a person. A headline is kept only when its title names the product or vendor. GDELT returns a sample of coverage, not all of it, so a missing headline proves nothing. Coverage volume follows fame, not conduct, so headlines are shown and never scored. No headline is an endorsement or a finding by TrustFit.",
+    "status": "not collected: run the ingest script to fill this file"
+  },
+  "bySlug": {}
+}

@@ -1,0 +1,539 @@
+[
+  {
+    "slug": "chatgpt",
+    "url": "https://openai.com/enterprise-privacy/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "7da3daae47360cd9",
+    "changed": false
+  },
+  {
+    "slug": "chatgpt",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "claude",
+    "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "291ef3a2254af2af",
+    "changed": false
+  },
+  {
+    "slug": "claude",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "gemini",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "gemini",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "microsoft-copilot",
+    "url": "https://www.microsoft.com/en-us/copilot",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "1e82c4b704155044"
+  },
+  {
+    "slug": "microsoft-copilot",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "perplexity",
+    "url": "https://www.perplexity.ai/enterprise",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d0841b2220e4cbf5",
+    "changed": false
+  },
+  {
+    "slug": "perplexity",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "github-copilot",
+    "url": "https://docs.github.com/en/copilot/about-github-copilot",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://docs.github.com/en/copilot/get-started",
+    "hash": "fa141f17429f48c0",
+    "changed": false
+  },
+  {
+    "slug": "github-copilot",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "cursor",
+    "url": "https://cursor.com/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "806b4ec1ae1696b6",
+    "changed": false
+  },
+  {
+    "slug": "cursor",
+    "url": "https://ailist.airiskmanagement.ca/top",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "ae93cdc345b942ca",
+    "changed": false
+  },
+  {
+    "slug": "deepseek",
+    "url": "https://sanitized.ai/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "abc85808c9dc64ea",
+    "changed": false
+  },
+  {
+    "slug": "deepseek",
+    "url": "https://ailist.airiskmanagement.ca/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d06dc9a46d0878b4",
+    "changed": false
+  },
+  {
+    "slug": "midjourney",
+    "url": "https://docs.midjourney.com/hc/en-us/articles/32083472637453-Privacy-Policy",
+    "status": 403,
+    "checkedAt": "2026-11-22"
+  },
+  {
+    "slug": "midjourney",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "adobe-firefly",
+    "url": "https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "83aadb939a1a4b9c",
+    "changed": false
+  },
+  {
+    "slug": "adobe-firefly",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "otter",
+    "url": "https://ailist.airiskmanagement.ca/top",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "ae93cdc345b942ca",
+    "changed": false
+  },
+  {
+    "slug": "otter",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "fireflies",
+    "url": "https://fireflies.ai/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "be04b2d85524044e",
+    "changed": false
+  },
+  {
+    "slug": "fireflies",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "granola",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "granola",
+    "url": "https://www.granola.ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.granola.ai/",
+    "hash": "f052c4e50d0bc7b5",
+    "changed": false
+  },
+  {
+    "slug": "descript",
+    "url": "https://ailist.airiskmanagement.ca/top",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "ae93cdc345b942ca",
+    "changed": false
+  },
+  {
+    "slug": "descript",
+    "url": "https://www.descript.com/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "f0273f07e890be65",
+    "changed": false
+  },
+  {
+    "slug": "notion-ai",
+    "url": "https://www.notion.com/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "82eb17c97393f462",
+    "changed": false
+  },
+  {
+    "slug": "notion-ai",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "grammarly",
+    "url": "https://www.grammarly.com/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "1cbfeddbf012cc10",
+    "changed": false
+  },
+  {
+    "slug": "grammarly",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "jasper",
+    "url": "https://www.jasper.ai/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "1f44b0cce35775ae",
+    "changed": false
+  },
+  {
+    "slug": "jasper",
+    "url": "https://www.jasper.ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.jasper.ai/",
+    "hash": "aeb723dda59794d1",
+    "changed": false
+  },
+  {
+    "slug": "hubspot-breeze",
+    "url": "https://legal.hubspot.com/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "3835bb1f2a454103",
+    "changed": false
+  },
+  {
+    "slug": "hubspot-breeze",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "salesforce-einstein",
+    "url": "https://www.salesforce.com/company/privacy/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.salesforce.com/company/legal/privacy/?bc=DB",
+    "hash": "abb5b9905a4232bf",
+    "changed": false
+  },
+  {
+    "slug": "salesforce-einstein",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "elevenlabs",
+    "url": "https://elevenlabs.io/safety",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "13c8def487e8a738",
+    "changed": false
+  },
+  {
+    "slug": "elevenlabs",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "canva-magic",
+    "url": "https://www.canva.com/security/",
+    "status": 403,
+    "checkedAt": "2026-11-22"
+  },
+  {
+    "slug": "canva-magic",
+    "url": "https://aileakage.com/ai-tool-risk-directory/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "383613493a5684d3",
+    "changed": false
+  },
+  {
+    "slug": "slack-ai",
+    "url": "https://slack.com/trust",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "1530f9726ed34ca9",
+    "changed": false
+  },
+  {
+    "slug": "slack-ai",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "zoom-ai-companion",
+    "url": "https://www.zoom.com/en/trust/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.zoom.com/en/trust/?cms_guid=false",
+    "hash": "c4ef24c770de03ce",
+    "changed": false
+  },
+  {
+    "slug": "zoom-ai-companion",
+    "url": "https://shadowaipolicy.com/ai-tools/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d33051c0de673a5d",
+    "changed": false
+  },
+  {
+    "slug": "tabnine",
+    "url": "https://www.tabnine.com/security/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://trust.tabnine.com/",
+    "hash": "11aa5a63b68aab62",
+    "changed": false
+  },
+  {
+    "slug": "tabnine",
+    "url": "https://ailist.airiskmanagement.ca/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d06dc9a46d0878b4",
+    "changed": false
+  },
+  {
+    "slug": "heygen",
+    "url": "https://www.heygen.com/security",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "159d2c867524855a",
+    "changed": false
+  },
+  {
+    "slug": "heygen",
+    "url": "https://ailist.airiskmanagement.ca/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "d06dc9a46d0878b4",
+    "changed": false
+  },
+  {
+    "slug": "read-ai",
+    "url": "https://ailist.airiskmanagement.ca/top",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "ae93cdc345b942ca",
+    "changed": false
+  },
+  {
+    "slug": "read-ai",
+    "url": "https://trust.read.ai/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "1983da73c7525ea0",
+    "changed": false
+  },
+  {
+    "slug": "zapier-central",
+    "url": "https://zapier.com/ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "93670e1b50072f99",
+    "changed": false
+  },
+  {
+    "slug": "make-ai",
+    "url": "https://www.make.com/ai-agents",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "e41574c30ce8345f"
+  },
+  {
+    "slug": "n8n-ai",
+    "url": "https://n8n.io/ai/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://n8n.io/ai-agents/",
+    "hash": "1da7460223ceda5b",
+    "changed": false
+  },
+  {
+    "slug": "intercom-fin",
+    "url": "https://www.intercom.com/fin",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://fin.ai/",
+    "hash": "609e869bf0626ede",
+    "changed": true
+  },
+  {
+    "slug": "zendesk-ai",
+    "url": "https://www.zendesk.com/service/ai/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "47e55b26ea942772",
+    "changed": false
+  },
+  {
+    "slug": "gong-ai",
+    "url": "https://www.gong.io/security/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.gong.io/platform/trust",
+    "hash": "2384d3704c87d7ea",
+    "changed": false
+  },
+  {
+    "slug": "copy-ai",
+    "url": "https://www.copy.ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.copy.ai/",
+    "hash": "0b18e8a968e0e04d",
+    "changed": false
+  },
+  {
+    "slug": "synthflow",
+    "url": "https://synthflow.ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://synthflow.ai/",
+    "hash": "724631cd9231e8e6",
+    "changed": false
+  },
+  {
+    "slug": "vapi",
+    "url": "https://vapi.ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://vapi.ai/",
+    "hash": "f277e6cbeade1808",
+    "changed": false
+  },
+  {
+    "slug": "retool-ai",
+    "url": "https://retool.com/ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "e7f81b45d11103ea",
+    "changed": false
+  },
+  {
+    "slug": "lindy",
+    "url": "https://www.lindy.ai",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://www.lindy.ai/",
+    "hash": "5ed0f2740f88d2a2",
+    "changed": true
+  },
+  {
+    "slug": "relevance-ai",
+    "url": "https://relevanceai.com",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://relevanceai.com/",
+    "hash": "3c53059e48175219",
+    "changed": false
+  },
+  {
+    "slug": "figma-ai",
+    "url": "https://www.figma.com/ai/",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "hash": "c99678022c63268f",
+    "changed": false
+  },
+  {
+    "slug": "amplitude-ai",
+    "url": "https://amplitude.com",
+    "status": 200,
+    "checkedAt": "2026-11-22",
+    "finalUrl": "https://amplitude.com/",
+    "hash": "3db17885907de530",
+    "changed": false
+  }
+]

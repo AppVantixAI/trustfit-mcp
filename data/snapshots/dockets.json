@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "source": "CourtListener (Free Law Project) RECAP archive of US federal dockets",
+    "url": "https://www.courtlistener.com/",
+    "license": "NOT VERIFIED. Court records are public; confirm the API terms before redistributing.",
+    "retrievedAt": "2026-11-22",
+    "status": "not collected: run the ingest script to fill this file",
+    "note": ""
+  },
+  "bySlug": {}
+}

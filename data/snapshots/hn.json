@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "source": "Hacker News (via the HN Search API by Algolia)",
+    "url": "https://hn.algolia.com/",
+    "license": "NOT VERIFIED. No data license is stated. Only the story title, links, date and counts are stored.",
+    "retrievedAt": "2026-11-22",
+    "window": "12 months before the check date, stories with 40 or more points (10 or more for a tool with none at 40), title match only",
+    "failedThisRun": [],
+    "note": "Stories a developer audience voted up. Points measure attention, not approval, and the audience is not a sample of customers. Shown as links and never scored.",
+    "status": "not collected: run the ingest script to fill this file"
+  },
+  "bySlug": {}
+}

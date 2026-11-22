@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "source": "LMArena text leaderboard (style control), overall category",
+    "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
+    "file": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet",
+    "license": "CC BY 4.0",
+    "retrievedAt": "2026-11-22",
+    "publishedAt": "2026-11-19",
+    "sha256": "27bead57fff70f449181276a0f0a0f98fa5242f2db463b9adc5d7b899387256e",
+    "note": "Human preference ratings for text chat models. Measures model quality, not vendor trust."
+  },
+  "organizations": {
+    "google": {
+      "model": "Gemini 4 Carbon (High)",
+      "rating": 1527,
+      "ratingLower": 1517.3,
+      "ratingUpper": 1536.6,
+      "votes": 4262,
+      "rank": 1
+    },
+    "meta": {
+      "model": "Muse Wonder (Max)",
+      "rating": 1511.4,
+      "ratingLower": 1505.7,
+      "ratingUpper": 1517.2,
+      "votes": 16158,
+      "rank": 4
+    },
+    "anthropic": {
+      "model": "Claude Opus 5.5 (High)",
+      "rating": 1506,
+      "ratingLower": 1500.3,
+      "ratingUpper": 1511.7,
+      "votes": 18286,
+      "rank": 5
+    },
+    "moonshot": {
+      "model": "Kimi K3 (Max)",
+      "rating": 1487.8,
+      "ratingLower": 1483.6,
+      "ratingUpper": 1491.9,
+      "votes": 44364,
+      "rank": 22
+    },
+    "openai": {
+      "model": "GPT-5.6 Sol (xHigh)",
+      "rating": 1485.1,
+      "ratingLower": 1480.9,
+      "ratingUpper": 1489.4,
+      "votes": 43782,
+      "rank": 25
+    },
+    "alibaba": {
+      "model": "Qwen3.8-Max",
+      "rating": 1484,
+      "ratingLower": 1479.6,
+      "ratingUpper": 1488.4,
+      "votes": 40248,
+      "rank": 26
+    },
+    "zai": {
+      "model": "GLM-5.3 (Max)",
+      "rating": 1481.9,
+      "ratingLower": 1477.3,
+      "ratingUpper": 1486.5,
+      "votes": 34708,
+      "rank": 30
+    },
+    "xiaomi": {
+      "model": "MiMo-V2.6-Pro",
+      "rating": 1481,
+      "ratingLower": 1471.5,
+      "ratingUpper": 1490.5,
+      "votes": 4045,
+      "rank": 33
+    },
+    "deepseek": {
+      "model": "DeepSeek-V4.1-Flash-20260910 (Max)",
+      "rating": 1474.6,
+      "ratingLower": 1468.4,
+      "ratingUpper": 1480.8,
+      "votes": 13492,
+      "rank": 42
+    },
+    "xai": {
+      "model": "Grok 4.20 Beta 1",
+      "rating": 1474.5,
+      "ratingLower": 1469.9,
+      "ratingUpper": 1479.1,
+      "votes": 27577,
+      "rank": 43
+    },
+    "baidu": {
+      "model": "ERNIE 5.1",
+      "rating": 1467.2,
+      "ratingLower": 1462.6,
+      "ratingUpper": 1471.7,
+      "votes": 38932,
+      "rank": 57
+    },
+    "bytedance": {
+      "model": "Dola Seed 2.0 Pro",
+      "rating": 1456.7,
+      "ratingLower": 1453.3,
+      "ratingUpper": 1460.1,
+      "votes": 78009,
+      "rank": 75
+    },
+    "tencent": {
+      "model": "Hy3",
+      "rating": 1454.2,
+      "ratingLower": 1448.7,
+      "ratingUpper": 1459.7,
+      "votes": 16080,
+      "rank": 82
+    },
+    "stepfun": {
+      "model": "Step 5 Preview",
+      "rating": 1448.8,
+      "ratingLower": 1442.5,
+      "ratingUpper": 1455.1,
+      "votes": 12285,
+      "rank": 88
+    },
+    "thinky": {
+      "model": "Inkling",
+      "rating": 1442.5,
+      "ratingLower": 1438.5,
+      "ratingUpper": 1446.5,
+      "votes": 54140,
+      "rank": 101
+    },
+    "meituan": {
+      "model": "LongCat-Flash-Chat Exp (2602)",
+      "rating": 1435.8,
+      "ratingLower": 1431.3,
+      "ratingUpper": 1440.4,
+      "votes": 28971,
+      "rank": 109
+    },
+    "minimax": {
+      "model": "MiniMax-M3",
+      "rating": 1434.4,
+      "ratingLower": 1430.8,
+      "ratingUpper": 1438,
+      "votes": 76817,
+      "rank": 115
+    },
+    "reflection": {
+      "model": "Beam 1.0 501B A23B",
+      "rating": 1434.3,
+      "ratingLower": 1424.6,
+      "ratingUpper": 1443.9,
+      "votes": 3991,
+      "rank": 116
+    },
+    "nvidia": {
+      "model": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+      "rating": 1426.7,
+      "ratingLower": 1419.8,
+      "ratingUpper": 1433.6,
+      "votes": 11366,
+      "rank": 124
+    },
+    "amazon": {
+      "model": "amazon-nova-experimental-chat (26-02-10)",
+      "rating": 1426.7,
+      "ratingLower": 1417,
+      "ratingUpper": 1436.4,
+      "votes": 3500,
+      "rank": 125
+    },
+    "mistral": {
+      "model": "Mistral Medium 3.5",
+      "rating": 1426.3,
+      "ratingLower": 1419.9,
+      "ratingUpper": 1432.7,
+      "votes": 11634,
+      "rank": 127
+    },
+    "upstage": {
+      "model": "Solar Pro 4",
+      "rating": 1387.5,
+      "ratingLower": 1382.5,
+      "ratingUpper": 1392.6,
+      "votes": 26976,
+      "rank": 190
+    },
+    "cohere": {
+      "model": "Command A (03-2025)",
+      "rating": 1353.6,
+      "ratingLower": 1350.1,
+      "ratingUpper": 1357.1,
+      "votes": 55662,
+      "rank": 223
+    },
+    "ant-group": {
+      "model": "Ling-flash-2.0",
+      "rating": 1343.1,
+      "ratingLower": 1335.8,
+      "ratingUpper": 1350.4,
+      "votes": 6924,
+      "rank": 240
+    },
+    "inception-ai": {
+      "model": "Mercury 2",
+      "rating": 1343.1,
+      "ratingLower": 1332.5,
+      "ratingUpper": 1353.6,
+      "votes": 3153,
+      "rank": 241
+    },
+    "ibm": {
+      "model": "Granite 4.2 30B",
+      "rating": 1339.7,
+      "ratingLower": 1329.1,
+      "ratingUpper": 1350.3,
+      "votes": 3304,
+      "rank": 245
+    },
+    "allenai": {
+      "model": "Olmo 3.1 32B Instruct",
+      "rating": 1329.2,
+      "ratingLower": 1323.1,
+      "ratingUpper": 1335.4,
+      "votes": 11721,
+      "rank": 256
+    },
+    "microsoft": {
+      "model": "Phi-4",
+      "rating": 1256.3,
+      "ratingLower": 1251.7,
+      "ratingUpper": 1261,
+      "votes": 24126,
+      "rank": 330
+    }
+  }
+}

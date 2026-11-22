@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "source": "Stanford CRFM Foundation Model Transparency Index, December 2025 edition",
+    "url": "https://github.com/stanford-crfm/fmti",
+    "file": "https://raw.githubusercontent.com/stanford-crfm/fmti/main/Dec2025/Dec2025_scores.csv",
+    "license": "CC BY 4.0",
+    "retrievedAt": "2026-11-22",
+    "sha256": "6322c32e100397e9ccf572321d4138ad569e98f2d1517a4af5335973ea3c0094",
+    "note": "Developer-reported transparency (share of indicators satisfied). Not a security certification."
+  },
+  "indicators": 100,
+  "developers": {
+    "AI21 Labs": {
+      "satisfied": 66,
+      "score": 66
+    },
+    "Alibaba": {
+      "satisfied": 26,
+      "score": 26
+    },
+    "Amazon": {
+      "satisfied": 39,
+      "score": 39
+    },
+    "Anthropic": {
+      "satisfied": 46,
+      "score": 46
+    },
+    "DeepSeek": {
+      "satisfied": 32,
+      "score": 32
+    },
+    "Google": {
+      "satisfied": 41,
+      "score": 41
+    },
+    "IBM": {
+      "satisfied": 95,
+      "score": 95
+    },
+    "Meta": {
+      "satisfied": 31,
+      "score": 31
+    },
+    "Midjourney": {
+      "satisfied": 14,
+      "score": 14
+    },
+    "Mistral": {
+      "satisfied": 18,
+      "score": 18
+    },
+    "OpenAI": {
+      "satisfied": 35,
+      "score": 35
+    },
+    "Writer": {
+      "satisfied": 72,
+      "score": 72
+    },
+    "xAI": {
+      "satisfied": 14,
+      "score": 14
+    }
+  }
+}

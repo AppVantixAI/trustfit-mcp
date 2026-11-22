@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "source": "Terms of Service; Didn't Read (tosdr.org) service ratings",
+    "url": "https://tosdr.org/",
+    "license": "NOT VERIFIED. The site describes its work as open data but states no data license we could find; code repos are AGPL-3.0. Only derived facts are stored. Confirm before redistributing.",
+    "retrievedAt": "2026-11-22",
+    "note": "Community-reviewed grade A (best) to E of a service's terms and privacy policy. Many services are not comprehensively reviewed; a grade then rests on partial review. Matched by domain; 'vendor' scope means the grade is for the parent service, not this product.",
+    "status": "not collected: run the ingest script to fill this file"
+  },
+  "bySlug": {}
+}

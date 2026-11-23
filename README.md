@@ -85,4 +85,6 @@ Spot a wrong fact or an outdated review? Open an issue with the source. Correcti
 
 ## Licence
 
-MIT for the code and the 40 written reviews in `shared/content` (see `LICENSE`). Each dataset in `data/snapshots` keeps its own licence, listed above.
+- Code: MIT (see `LICENSE`).
+- The 40 written reviews in `shared/content`: CC BY 4.0 (see `LICENSE-REVIEWS`). Reuse them freely, with credit: "Reviews by TrustFit (https://trustfit-iota.vercel.app), CC BY 4.0".
+- Each dataset in `data/snapshots` keeps its own licence, listed above.

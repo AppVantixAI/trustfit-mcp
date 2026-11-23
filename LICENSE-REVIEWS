@@ -1,0 +1,18 @@
+The written reviews in shared/content (review text, scores, pros, cons,
+plan notes and evidence lists for the 40 reviewed tools) are licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 AppVantix LLC
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt the reviews for any purpose, including commercial
+use, as long as you give credit. Suggested credit:
+
+    Reviews by TrustFit (https://trustfit-iota.vercel.app), CC BY 4.0
+
+Code in the same files (functions, types and helpers) stays under the MIT
+licence in LICENSE.
+
+This applies from 2026-11-22. Copies taken before that date were published
+under the MIT licence.

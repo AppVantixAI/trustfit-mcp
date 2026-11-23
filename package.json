@@ -19,6 +19,6 @@
     "typescript": "^5",
     "vitest": "^3.2.7"
   },
-  "license": "MIT",
+  "license": "(MIT AND CC-BY-4.0)",
   "author": "AppVantix LLC"
 }

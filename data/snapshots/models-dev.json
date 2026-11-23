@@ -1,0 +1,4689 @@
+{
+ "meta": {
+  "id": "models-dev",
+  "source": "models.dev open model database",
+  "url": "https://models.dev/",
+  "license": "MIT",
+  "attribution": "Data from models.dev (https://github.com/sst/models.dev), MIT License, Copyright (c) 2025 models.dev",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "3e2948fbba3559d20aac8d193419c87d41ad3620b16f15ea5b5325c8494d36fd",
+  "status": "collected",
+  "providers": 326,
+  "matching": "A models.dev provider is matched to an organization only when its provider id is an exact alias in src/orgs.ts (so 'openai', never a reseller). Index entries by the same organization and normalized model id or name.",
+  "note": "Community-maintained listing of provider documentation. Prices are list prices in US dollars per million tokens and change often; check the provider's own page before relying on one."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "alibaba": {
+   "provider": "alibaba",
+   "modelsListed": 53,
+   "openWeightModels": 21,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "anthropic": {
+   "provider": "anthropic",
+   "modelsListed": 18,
+   "openWeightModels": 0,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "cohere": {
+   "provider": "cohere",
+   "modelsListed": 17,
+   "openWeightModels": 17,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "deepseek": {
+   "provider": "deepseek",
+   "modelsListed": 4,
+   "openWeightModels": 4,
+   "docs": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "google": {
+   "provider": "google",
+   "modelsListed": 39,
+   "openWeightModels": 2,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "meta": {
+   "provider": "meta",
+   "modelsListed": 7,
+   "openWeightModels": 0,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "minimax": {
+   "provider": "minimax",
+   "modelsListed": 8,
+   "openWeightModels": 8,
+   "docs": "https://platform.minimax.io/docs/guides/quickstart"
+  },
+  "mistral": {
+   "provider": "mistral",
+   "modelsListed": 36,
+   "openWeightModels": 28,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "moonshot": {
+   "provider": "moonshotai",
+   "modelsListed": 6,
+   "openWeightModels": 6,
+   "docs": "https://platform.moonshot.ai/docs/api/chat"
+  },
+  "nvidia": {
+   "provider": "nvidia",
+   "modelsListed": 52,
+   "openWeightModels": 48,
+   "docs": "https://docs.api.nvidia.com/nim/"
+  },
+  "openai": {
+   "provider": "openai",
+   "modelsListed": 53,
+   "openWeightModels": 0,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "perplexity": {
+   "provider": "perplexity",
+   "modelsListed": 4,
+   "openWeightModels": 0,
+   "docs": "https://docs.perplexity.ai"
+  },
+  "xai": {
+   "provider": "xai",
+   "modelsListed": 11,
+   "openWeightModels": 0,
+   "docs": "https://docs.x.ai/docs/models"
+  },
+  "xiaomi": {
+   "provider": "xiaomi",
+   "modelsListed": 6,
+   "openWeightModels": 6,
+   "docs": "https://platform.xiaomimimo.com/#/docs"
+  },
+  "zhipu": {
+   "provider": "zai",
+   "modelsListed": 18,
+   "openWeightModels": 15,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  }
+ },
+ "byIndexId": {
+  "arena:Aya Expanse 32B": {
+   "provider": "cohere",
+   "modelId": "c4ai-aya-expanse-32b",
+   "released": "2024-10-24",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": false,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4000,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 1,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "arena:Claude Haiku 4.5 (20251001)": {
+   "provider": "anthropic",
+   "modelId": "claude-haiku-4-5-20251001",
+   "released": "2025-10-15",
+   "knowledgeCutoff": "2025-02-28",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 1,
+   "outputUsdPerM": 5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 14,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "arena:Claude Opus 4.5 (20251101)": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4-5-20251101",
+   "released": "2025-11-24",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 8,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "arena:Claude Sonnet 4.5 (20250929)": {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-4-5-20250929",
+   "released": "2025-09-29",
+   "knowledgeCutoff": "2025-07-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 3,
+   "outputUsdPerM": 15,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 8,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "arena:Command A (03-2025)": {
+   "provider": "cohere",
+   "modelId": "command-a-03-2025",
+   "released": "2025-03-13",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 256000,
+   "outputTokens": 8000,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 2,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "arena:Command R": {
+   "provider": "cohere",
+   "modelId": "command-r-08-2024",
+   "released": "2024-08-30",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4000,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "arena:Command R+": {
+   "provider": "cohere",
+   "modelId": "command-r-plus-08-2024",
+   "released": "2024-08-30",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4000,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 7,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "arena:Llama 3.1 Nemotron 70B Instruct": {
+   "provider": "nvidia",
+   "modelId": "nvidia/llama-3.1-nemotron-70b-instruct",
+   "released": "2025-04-15",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 8192,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 1,
+   "docs": "https://docs.api.nvidia.com/nim/"
+  },
+  "arena:Llama 3.1 Nemotron Ultra 253B v1": {
+   "provider": "nvidia",
+   "modelId": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+   "released": "2025-04-07",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 128000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 0,
+   "docs": "https://docs.api.nvidia.com/nim/"
+  },
+  "arena:MiniMax-M2": {
+   "provider": "minimax",
+   "modelId": "MiniMax-M2",
+   "released": "2025-10-27",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 204800,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 1.2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 15,
+   "docs": "https://platform.minimax.io/docs/guides/quickstart"
+  },
+  "arena:Mistral Large 3": {
+   "provider": "mistral",
+   "modelId": "mistral-large-2512",
+   "released": "2024-11-01",
+   "knowledgeCutoff": "2024-11",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "arena:Mistral Large 4": {
+   "provider": "mistral",
+   "modelId": "mistral-large-4",
+   "released": "2026-10-06",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.7,
+   "outputUsdPerM": 2.1,
+   "status": "beta",
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "arena:Qwen3-235B-A22B": {
+   "provider": "alibaba",
+   "modelId": "qwen3-235b-a22b",
+   "released": "2025-04",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 16384,
+   "inputUsdPerM": 0.7,
+   "outputUsdPerM": 2.8,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "arena:Qwen3-Coder-480B-A35B-Instruct": {
+   "provider": "alibaba",
+   "modelId": "qwen3-coder-480b-a35b-instruct",
+   "released": "2025-04",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 1.5,
+   "outputUsdPerM": 7.5,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "arena:Qwen3-Next-80B-A3B-Thinking": {
+   "provider": "alibaba",
+   "modelId": "qwen3-next-80b-a3b-thinking",
+   "released": "2025-09",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 6,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "arena:Qwen3.5-Flash": {
+   "provider": "alibaba",
+   "modelId": "qwen3.5-flash",
+   "released": "2026-02-23",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "arena:Qwen3.6-Max-Preview": {
+   "provider": "alibaba",
+   "modelId": "qwen3.6-max-preview",
+   "released": "2026-04-20",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 1.3,
+   "outputUsdPerM": 7.8,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "arena:Qwen3.8-Max": {
+   "provider": "alibaba",
+   "modelId": "qwen3.8-max",
+   "released": "2026-08-03",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 45,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "arena:o3-mini": {
+   "provider": "openai",
+   "modelId": "o3-mini",
+   "released": "2024-12-20",
+   "knowledgeCutoff": "2024-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 100000,
+   "inputUsdPerM": 1.1,
+   "outputUsdPerM": 4.4,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 14,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "hf:Qwen/Qwen3-8B": {
+   "provider": "alibaba",
+   "modelId": "qwen3-8b",
+   "released": "2025-04",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 8192,
+   "inputUsdPerM": 0.18,
+   "outputUsdPerM": 0.7,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 6,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:anthropic/claude-fable-5": {
+   "provider": "anthropic",
+   "modelId": "claude-fable-5",
+   "released": "2026-06-07",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 10,
+   "outputUsdPerM": 50,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 51,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-fable-5.1": {
+   "provider": "anthropic",
+   "modelId": "claude-fable-5-1",
+   "released": "2026-09-01",
+   "knowledgeCutoff": "2026-06",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 10,
+   "outputUsdPerM": 50,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 46,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-fable-5.2": {
+   "provider": "anthropic",
+   "modelId": "claude-fable-5-2",
+   "released": "2026-11-09",
+   "knowledgeCutoff": "2026-06",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 8,
+   "outputUsdPerM": 40,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 23,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-haiku-4.5": {
+   "provider": "anthropic",
+   "modelId": "claude-haiku-4-5-20251001",
+   "released": "2025-10-15",
+   "knowledgeCutoff": "2025-02-28",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 1,
+   "outputUsdPerM": 5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 14,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-haiku-5.5": {
+   "provider": "anthropic",
+   "modelId": "claude-haiku-5-5",
+   "released": "2026-10-07",
+   "knowledgeCutoff": "2026-06",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 45,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-opus-4.5": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4-5",
+   "released": "2025-11-24",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 25,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-opus-4.6": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4-6",
+   "released": "2026-02-04",
+   "knowledgeCutoff": "2025-05-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 39,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-opus-4.7": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4-7",
+   "released": "2026-04-14",
+   "knowledgeCutoff": "2026-01-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 47,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-opus-4.8": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-4-8",
+   "released": "2026-05-28",
+   "knowledgeCutoff": "2026-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 51,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-opus-5": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-5",
+   "released": "2026-07-24",
+   "knowledgeCutoff": "2026-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 49,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-opus-5.5": {
+   "provider": "anthropic",
+   "modelId": "claude-opus-5-5",
+   "released": "2026-09-22",
+   "knowledgeCutoff": "2026-06",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 4,
+   "outputUsdPerM": 20,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 54,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-sonnet-4.5": {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-4-5",
+   "released": "2025-09-29",
+   "knowledgeCutoff": "2025-07-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 3,
+   "outputUsdPerM": 15,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 27,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-sonnet-4.6": {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-4-6",
+   "released": "2026-02-17",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 3,
+   "outputUsdPerM": 15,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 50,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-sonnet-5": {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-5",
+   "released": "2026-06-29",
+   "knowledgeCutoff": "2026-01-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 51,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:anthropic/claude-sonnet-5.5": {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-5-5",
+   "released": "2026-09-28",
+   "knowledgeCutoff": "2026-06",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 52,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  },
+  "or:cohere/command-a": {
+   "provider": "cohere",
+   "modelId": "command-a-03-2025",
+   "released": "2025-03-13",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 256000,
+   "outputTokens": 8000,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 2,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "or:cohere/command-a-plus": {
+   "provider": "cohere",
+   "modelId": "command-a-plus-05-2026",
+   "released": "2026-05-20",
+   "knowledgeCutoff": "2025-04-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 128000,
+   "outputTokens": 64000,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 0,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "or:cohere/command-r-08-2024": {
+   "provider": "cohere",
+   "modelId": "command-r-08-2024",
+   "released": "2024-08-30",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4000,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "or:cohere/command-r-plus-08-2024": {
+   "provider": "cohere",
+   "modelId": "command-r-plus-08-2024",
+   "released": "2024-08-30",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4000,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 7,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "or:cohere/command-r7b-12-2024": {
+   "provider": "cohere",
+   "modelId": "command-r7b-12-2024",
+   "released": "2024-12-13",
+   "knowledgeCutoff": "2024-06-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4000,
+   "inputUsdPerM": 0.0375,
+   "outputUsdPerM": 0.15,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://docs.cohere.com/docs/models"
+  },
+  "or:deepseek/deepseek-v4-flash": {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-flash",
+   "released": "2026-10-17",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 393216,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 67,
+   "docs": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "or:deepseek/deepseek-v4-flash-vision-exp": {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-flash-vision-exp",
+   "released": "2026-10-17",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 393216,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 17,
+   "docs": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "or:deepseek/deepseek-v4-pro": {
+   "provider": "deepseek",
+   "modelId": "deepseek-v4-pro",
+   "released": "2026-08-13",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 393216,
+   "inputUsdPerM": 0.66,
+   "outputUsdPerM": 1.98,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 81,
+   "docs": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "or:deepseek/deepseek-v4.1-flash-1017": {
+   "provider": "deepseek",
+   "modelId": "deepseek-flash",
+   "released": "2026-10-17",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 393216,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "or:google/gemini-2.5-flash": {
+   "provider": "google",
+   "modelId": "gemini-2.5-flash",
+   "released": "2025-06-17",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 2.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 29,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-2.5-flash-image": {
+   "provider": "google",
+   "modelId": "gemini-2.5-flash-image",
+   "released": "2025-08-26",
+   "knowledgeCutoff": "2024-06",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": false,
+   "contextTokens": 32768,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 2.5,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text",
+    "image"
+   ],
+   "otherProviders": 10,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-2.5-flash-lite": {
+   "provider": "google",
+   "modelId": "gemini-2.5-flash-lite",
+   "released": "2025-06-17",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 21,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-2.5-pro": {
+   "provider": "google",
+   "modelId": "gemini-2.5-pro",
+   "released": "2025-06-17",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 28,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3-flash-preview": {
+   "provider": "google",
+   "modelId": "gemini-3-flash-preview",
+   "released": "2025-12-17",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 3,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 24,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3-pro-image": {
+   "provider": "google",
+   "modelId": "gemini-3-pro-image",
+   "released": "2026-05-28",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": true,
+   "contextTokens": 65536,
+   "outputTokens": 32768,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 12,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text",
+    "image"
+   ],
+   "otherProviders": 9,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.1-flash-image": {
+   "provider": "google",
+   "modelId": "gemini-3.1-flash-image",
+   "released": "2026-05-28",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 3,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text",
+    "image"
+   ],
+   "otherProviders": 9,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.1-flash-lite": {
+   "provider": "google",
+   "modelId": "gemini-3.1-flash-lite",
+   "released": "2026-05-07",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 26,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.1-flash-lite-image": {
+   "provider": "google",
+   "modelId": "gemini-3.1-flash-lite-image",
+   "released": "2026-06-30",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 65536,
+   "outputTokens": 4096,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text",
+    "image"
+   ],
+   "otherProviders": 6,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.1-flash-lite-preview": {
+   "provider": "google",
+   "modelId": "gemini-3.1-flash-lite-preview",
+   "released": "2026-03-03",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 1.5,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 9,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.1-pro-preview": {
+   "provider": "google",
+   "modelId": "gemini-3.1-pro-preview",
+   "released": "2026-02-19",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 12,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 33,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.1-pro-preview-customtools": {
+   "provider": "google",
+   "modelId": "gemini-3.1-pro-preview-customtools",
+   "released": "2026-02-19",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 12,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 9,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.5-flash": {
+   "provider": "google",
+   "modelId": "gemini-3.5-flash",
+   "released": "2026-05-19",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 1.5,
+   "outputUsdPerM": 9,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 34,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.5-flash-lite": {
+   "provider": "google",
+   "modelId": "gemini-3.5-flash-lite",
+   "released": "2026-07-21",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 2.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 33,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.6-flash": {
+   "provider": "google",
+   "modelId": "gemini-3.6-flash",
+   "released": "2026-07-21",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.75,
+   "outputUsdPerM": 3.75,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 32,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.7-flash": {
+   "provider": "google",
+   "modelId": "gemini-3.7-flash",
+   "released": "2026-08-13",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.75,
+   "outputUsdPerM": 3.75,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 30,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-3.8-flash": {
+   "provider": "google",
+   "modelId": "gemini-3.8-flash",
+   "released": "2026-09-02",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.75,
+   "outputUsdPerM": 3.75,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 42,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-4-argon": {
+   "provider": "google",
+   "modelId": "gemini-4-argon",
+   "released": "2026-10-13",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 34,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-4-carbon": {
+   "provider": "google",
+   "modelId": "gemini-4-carbon",
+   "released": "2026-11-10",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 20,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-4-hydrogen": {
+   "provider": "google",
+   "modelId": "gemini-4-hydrogen",
+   "released": "2026-11-12",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 1.5,
+   "outputUsdPerM": 7.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 19,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemini-4-neon": {
+   "provider": "google",
+   "modelId": "gemini-4-neon",
+   "released": "2026-11-18",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 3,
+   "outputUsdPerM": 15,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 19,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemma-4-26b-a4b-it": {
+   "provider": "google",
+   "modelId": "gemma-4-26b-a4b-it",
+   "released": "2026-04-02",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 23,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/gemma-4-31b-it": {
+   "provider": "google",
+   "modelId": "gemma-4-31b-it",
+   "released": "2026-04-02",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 34,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/lyria-3-clip-preview": {
+   "provider": "google",
+   "modelId": "lyria-3-clip-preview",
+   "released": "2026-03-25",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": false,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text",
+    "audio"
+   ],
+   "otherProviders": 2,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:google/lyria-3-pro-preview": {
+   "provider": "google",
+   "modelId": "lyria-3-pro-preview",
+   "released": "2026-03-25",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": false,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text",
+    "audio"
+   ],
+   "otherProviders": 2,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:meta/muse-ember": {
+   "provider": "meta",
+   "modelId": "muse-ember-1.0",
+   "released": "2026-11-09",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 524288,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf",
+    "audio"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:meta/muse-spark-1.1": {
+   "provider": "meta",
+   "modelId": "muse-spark-1.1",
+   "released": "2026-04-08",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 4.25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 15,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:meta/muse-spark-1.2": {
+   "provider": "meta",
+   "modelId": "muse-spark-1.2",
+   "released": "2026-08-05",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 4.25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf",
+    "audio"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 18,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:meta/muse-spark-1.2-contributor": {
+   "provider": "meta",
+   "modelId": "muse-spark-1.2-contributor",
+   "released": "2026-08-05",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf",
+    "audio"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:meta/muse-spark-1.3": {
+   "provider": "meta",
+   "modelId": "muse-spark-1.3",
+   "released": "2026-09-02",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 4.25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf",
+    "audio"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:meta/muse-spark-1.3-contributor": {
+   "provider": "meta",
+   "modelId": "muse-spark-1.3-contributor",
+   "released": "2026-09-02",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf",
+    "audio"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:meta/muse-wonder": {
+   "provider": "meta",
+   "modelId": "muse-wonder-1.0",
+   "released": "2026-10-12",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 4,
+   "outputUsdPerM": 20,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf",
+    "audio"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 9,
+   "docs": "https://dev.meta.ai/docs"
+  },
+  "or:minimax/minimax-m2.5": {
+   "provider": "minimax",
+   "modelId": "MiniMax-M2.5",
+   "released": "2026-02-12",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 204800,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 1.2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 43,
+   "docs": "https://platform.minimax.io/docs/guides/quickstart"
+  },
+  "or:minimax/minimax-m2.7": {
+   "provider": "minimax",
+   "modelId": "MiniMax-M2.7",
+   "released": "2026-03-18",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 204800,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 1.2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 41,
+   "docs": "https://platform.minimax.io/docs/guides/quickstart"
+  },
+  "or:minimax/minimax-m3": {
+   "provider": "minimax",
+   "modelId": "MiniMax-M3",
+   "released": "2026-06-01",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 524288,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 1.2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 59,
+   "docs": "https://platform.minimax.io/docs/guides/quickstart"
+  },
+  "or:minimax/minimax-m3.1-flash": {
+   "provider": "minimax",
+   "modelId": "MiniMax-M3.1-Flash",
+   "released": "2026-10-19",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 524288,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 37,
+   "docs": "https://platform.minimax.io/docs/guides/quickstart"
+  },
+  "or:mistralai/codestral-2508": {
+   "provider": "mistral",
+   "modelId": "codestral-2508",
+   "released": "2025-07-30",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 256000,
+   "outputTokens": 8192,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 0.9,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 9,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/devstral-2512": {
+   "provider": "mistral",
+   "modelId": "devstral-2512",
+   "released": "2025-12-09",
+   "knowledgeCutoff": "2025-12",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 9,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/ministral-14b-2512": {
+   "provider": "mistral",
+   "modelId": "ministral-14b-2512",
+   "released": "2025-12-02",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.2,
+   "outputUsdPerM": 0.2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 10,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/ministral-3b-2512": {
+   "provider": "mistral",
+   "modelId": "ministral-3b-2512",
+   "released": "2025-12-02",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 131072,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.1,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 9,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/ministral-8b-2512": {
+   "provider": "mistral",
+   "modelId": "ministral-8b-2512",
+   "released": "2025-12-02",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.15,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 10,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/mistral-large-2512": {
+   "provider": "mistral",
+   "modelId": "mistral-large-2512",
+   "released": "2024-11-01",
+   "knowledgeCutoff": "2024-11",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/mistral-large-4-0": {
+   "provider": "mistral",
+   "modelId": "mistral-large-4",
+   "released": "2026-10-06",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.7,
+   "outputUsdPerM": 2.1,
+   "status": "beta",
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/mistral-medium-3": {
+   "provider": "mistral",
+   "modelId": "mistral-medium-2505",
+   "released": "2025-05-07",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 131072,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 3,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/mistral-medium-3-5": {
+   "provider": "mistral",
+   "modelId": "mistral-medium-2604",
+   "released": "2026-04-29",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 1.5,
+   "outputUsdPerM": 7.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 1,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/mistral-medium-3.1": {
+   "provider": "mistral",
+   "modelId": "mistral-medium-2508",
+   "released": "2025-08-12",
+   "knowledgeCutoff": "2025-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 0,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:mistralai/mistral-small-2603": {
+   "provider": "mistral",
+   "modelId": "mistral-small-2603",
+   "released": "2026-03-16",
+   "knowledgeCutoff": "2025-06",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 256000,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://docs.mistral.ai/getting-started/models/"
+  },
+  "or:moonshotai/kimi-k2.6": {
+   "provider": "moonshotai",
+   "modelId": "kimi-k2.6",
+   "released": "2026-04-20",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.95,
+   "outputUsdPerM": 4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 68,
+   "docs": "https://platform.moonshot.ai/docs/api/chat"
+  },
+  "or:moonshotai/kimi-k2.7-code": {
+   "provider": "moonshotai",
+   "modelId": "kimi-k2.7-code",
+   "released": "2026-06-12",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 262144,
+   "inputUsdPerM": 0.95,
+   "outputUsdPerM": 4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 58,
+   "docs": "https://platform.moonshot.ai/docs/api/chat"
+  },
+  "or:moonshotai/kimi-k3": {
+   "provider": "moonshotai",
+   "modelId": "kimi-k3",
+   "released": "2026-07-16",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 1048576,
+   "inputUsdPerM": 3,
+   "outputUsdPerM": 15,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 95,
+   "docs": "https://platform.moonshot.ai/docs/api/chat"
+  },
+  "or:moonshotai/kimi-k3.1-pro": {
+   "provider": "moonshotai",
+   "modelId": "kimi-k3.1-pro",
+   "released": "2026-10-23",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 1048576,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 58,
+   "docs": "https://platform.moonshot.ai/docs/api/chat"
+  },
+  "or:nvidia/nemotron-3-ultra-550b-a55b": {
+   "provider": "nvidia",
+   "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
+   "released": "2026-06-04",
+   "knowledgeCutoff": "2025-09",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 12,
+   "docs": "https://docs.api.nvidia.com/nim/"
+  },
+  "or:nvidia/nemotron-3.5-content-safety": {
+   "provider": "nvidia",
+   "modelId": "nvidia/nemotron-3.5-content-safety",
+   "released": "2026-06-02",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": false,
+   "reasoning": true,
+   "contextTokens": 128000,
+   "outputTokens": 8192,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 4,
+   "docs": "https://docs.api.nvidia.com/nim/"
+  },
+  "or:openai/gpt-4": {
+   "provider": "openai",
+   "modelId": "gpt-4",
+   "released": "2023-11-06",
+   "knowledgeCutoff": "2023-11",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 8192,
+   "outputTokens": 8192,
+   "inputUsdPerM": 30,
+   "outputUsdPerM": 60,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4.1": {
+   "provider": "openai",
+   "modelId": "gpt-4.1",
+   "released": "2025-04-14",
+   "knowledgeCutoff": "2024-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 1047576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 8,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 29,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4.1-mini": {
+   "provider": "openai",
+   "modelId": "gpt-4.1-mini",
+   "released": "2025-04-14",
+   "knowledgeCutoff": "2024-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 1047576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 1.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 29,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4.1-nano": {
+   "provider": "openai",
+   "modelId": "gpt-4.1-nano",
+   "released": "2025-04-14",
+   "knowledgeCutoff": "2024-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 1047576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.4,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 20,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4o": {
+   "provider": "openai",
+   "modelId": "gpt-4o",
+   "released": "2024-05-13",
+   "knowledgeCutoff": "2023-09",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 24,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4o-2024-05-13": {
+   "provider": "openai",
+   "modelId": "gpt-4o-2024-05-13",
+   "released": "2024-05-13",
+   "knowledgeCutoff": "2023-09",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4096,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 15,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 5,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4o-2024-08-06": {
+   "provider": "openai",
+   "modelId": "gpt-4o-2024-08-06",
+   "released": "2024-08-06",
+   "knowledgeCutoff": "2023-09",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 7,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4o-2024-11-20": {
+   "provider": "openai",
+   "modelId": "gpt-4o-2024-11-20",
+   "released": "2024-11-20",
+   "knowledgeCutoff": "2023-09",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 8,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-4o-mini": {
+   "provider": "openai",
+   "modelId": "gpt-4o-mini",
+   "released": "2024-07-18",
+   "knowledgeCutoff": "2023-09",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 24,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5": {
+   "provider": "openai",
+   "modelId": "gpt-5",
+   "released": "2025-08-07",
+   "knowledgeCutoff": "2024-09-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 33,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5-mini": {
+   "provider": "openai",
+   "modelId": "gpt-5-mini",
+   "released": "2025-08-07",
+   "knowledgeCutoff": "2024-05-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 34,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5-nano": {
+   "provider": "openai",
+   "modelId": "gpt-5-nano",
+   "released": "2025-08-07",
+   "knowledgeCutoff": "2024-05-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.05,
+   "outputUsdPerM": 0.4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 28,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5-pro": {
+   "provider": "openai",
+   "modelId": "gpt-5-pro",
+   "released": "2025-10-06",
+   "knowledgeCutoff": "2024-09-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 272000,
+   "inputUsdPerM": 15,
+   "outputUsdPerM": 120,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.1": {
+   "provider": "openai",
+   "modelId": "gpt-5.1",
+   "released": "2025-11-13",
+   "knowledgeCutoff": "2024-09-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 30,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.2": {
+   "provider": "openai",
+   "modelId": "gpt-5.2",
+   "released": "2025-12-11",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 1.75,
+   "outputUsdPerM": 14,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 32,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.2-pro": {
+   "provider": "openai",
+   "modelId": "gpt-5.2-pro",
+   "released": "2025-12-11",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 21,
+   "outputUsdPerM": 168,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.3-codex": {
+   "provider": "openai",
+   "modelId": "gpt-5.3-codex",
+   "released": "2026-02-05",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 1.75,
+   "outputUsdPerM": 14,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 30,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.4": {
+   "provider": "openai",
+   "modelId": "gpt-5.4",
+   "released": "2026-03-05",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 15,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 45,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.4-mini": {
+   "provider": "openai",
+   "modelId": "gpt-5.4-mini",
+   "released": "2026-03-17",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.75,
+   "outputUsdPerM": 4.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 38,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.4-nano": {
+   "provider": "openai",
+   "modelId": "gpt-5.4-nano",
+   "released": "2026-03-17",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.2,
+   "outputUsdPerM": 1.25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 33,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.4-pro": {
+   "provider": "openai",
+   "modelId": "gpt-5.4-pro",
+   "released": "2026-03-05",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 30,
+   "outputUsdPerM": 180,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 20,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.5": {
+   "provider": "openai",
+   "modelId": "gpt-5.5",
+   "released": "2026-04-23",
+   "knowledgeCutoff": "2025-12-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 5,
+   "outputUsdPerM": 30,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 52,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.5-pro": {
+   "provider": "openai",
+   "modelId": "gpt-5.5-pro",
+   "released": "2026-04-23",
+   "knowledgeCutoff": "2025-12-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 30,
+   "outputUsdPerM": 180,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 19,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.6-luna": {
+   "provider": "openai",
+   "modelId": "gpt-5.6-luna",
+   "released": "2026-07-09",
+   "knowledgeCutoff": "2026-02-16",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.2,
+   "outputUsdPerM": 1.2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 53,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.6-sol": {
+   "provider": "openai",
+   "modelId": "gpt-5.6-sol",
+   "released": "2026-07-09",
+   "knowledgeCutoff": "2026-02-16",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 4,
+   "outputUsdPerM": 20,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 55,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-5.6-terra": {
+   "provider": "openai",
+   "modelId": "gpt-5.6-terra",
+   "released": "2026-07-09",
+   "knowledgeCutoff": "2026-02-16",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 12,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 51,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6-astra": {
+   "provider": "openai",
+   "modelId": "gpt-6-astra",
+   "released": "2026-09-04",
+   "knowledgeCutoff": "2026-04-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 10,
+   "outputUsdPerM": 50,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 52,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6-luna": {
+   "provider": "openai",
+   "modelId": "gpt-6-luna",
+   "released": "2026-09-22",
+   "knowledgeCutoff": "2026-05-18",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 47,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6-sol": {
+   "provider": "openai",
+   "modelId": "gpt-6-sol",
+   "released": "2026-09-22",
+   "knowledgeCutoff": "2026-04-20",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 41,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6.1-sol": {
+   "provider": "openai",
+   "modelId": "gpt-6.1-sol",
+   "released": "2026-09-29",
+   "knowledgeCutoff": "2026-04-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 47,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6.1-terra": {
+   "provider": "openai",
+   "modelId": "gpt-6.1-terra",
+   "released": "2026-10-26",
+   "knowledgeCutoff": "2026-06-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 1,
+   "outputUsdPerM": 5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 28,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6.2-astra": {
+   "provider": "openai",
+   "modelId": "gpt-6.2-astra",
+   "released": "2026-11-17",
+   "knowledgeCutoff": "2026-05-18",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 8,
+   "outputUsdPerM": 40,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 23,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/gpt-6.2-sol": {
+   "provider": "openai",
+   "modelId": "gpt-6.2-sol",
+   "released": "2026-11-17",
+   "knowledgeCutoff": "2026-06-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 23,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/o3": {
+   "provider": "openai",
+   "modelId": "o3",
+   "released": "2025-04-16",
+   "knowledgeCutoff": "2024-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 100000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 8,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 22,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:openai/o3-pro": {
+   "provider": "openai",
+   "modelId": "o3-pro",
+   "released": "2025-06-10",
+   "knowledgeCutoff": "2024-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 100000,
+   "inputUsdPerM": 20,
+   "outputUsdPerM": 80,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 8,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "or:perplexity/sonar": {
+   "provider": "perplexity",
+   "modelId": "sonar",
+   "released": "2024-01-01",
+   "knowledgeCutoff": "2025-09-01",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 4096,
+   "inputUsdPerM": 1,
+   "outputUsdPerM": 1,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://docs.perplexity.ai"
+  },
+  "or:perplexity/sonar-deep-research": {
+   "provider": "perplexity",
+   "modelId": "sonar-deep-research",
+   "released": "2025-02-01",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": true,
+   "contextTokens": 128000,
+   "outputTokens": 32768,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 8,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 6,
+   "docs": "https://docs.perplexity.ai"
+  },
+  "or:perplexity/sonar-pro": {
+   "provider": "perplexity",
+   "modelId": "sonar-pro",
+   "released": "2024-01-01",
+   "knowledgeCutoff": "2025-09-01",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": false,
+   "contextTokens": 200000,
+   "outputTokens": 8192,
+   "inputUsdPerM": 3,
+   "outputUsdPerM": 15,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 8,
+   "docs": "https://docs.perplexity.ai"
+  },
+  "or:perplexity/sonar-reasoning-pro": {
+   "provider": "perplexity",
+   "modelId": "sonar-reasoning-pro",
+   "released": "2024-01-01",
+   "knowledgeCutoff": "2025-09-01",
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": true,
+   "contextTokens": 128000,
+   "outputTokens": 4096,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 8,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 6,
+   "docs": "https://docs.perplexity.ai"
+  },
+  "or:qwen/qwen-plus": {
+   "provider": "alibaba",
+   "modelId": "qwen-plus",
+   "released": "2024-01-25",
+   "knowledgeCutoff": "2024-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 1.2,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3-14b": {
+   "provider": "alibaba",
+   "modelId": "qwen3-14b",
+   "released": "2025-04",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 8192,
+   "inputUsdPerM": 0.35,
+   "outputUsdPerM": 1.4,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 8,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3-32b": {
+   "provider": "alibaba",
+   "modelId": "qwen3-32b",
+   "released": "2025-04",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 16384,
+   "inputUsdPerM": 0.7,
+   "outputUsdPerM": 2.8,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 15,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3-coder-30b-a3b-instruct": {
+   "provider": "alibaba",
+   "modelId": "qwen3-coder-30b-a3b-instruct",
+   "released": "2025-04",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.45,
+   "outputUsdPerM": 2.25,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 14,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3-coder-flash": {
+   "provider": "alibaba",
+   "modelId": "qwen3-coder-flash",
+   "released": "2025-07-28",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 1000000,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3-next-80b-a3b-instruct": {
+   "provider": "alibaba",
+   "modelId": "qwen3-next-80b-a3b-instruct",
+   "released": "2025-09",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 131072,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 2,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.5-122b-a10b": {
+   "provider": "alibaba",
+   "modelId": "qwen3.5-122b-a10b",
+   "released": "2026-02-23",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 3.2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 20,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.5-27b": {
+   "provider": "alibaba",
+   "modelId": "qwen3.5-27b",
+   "released": "2026-02-23",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 2.4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 21,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.5-35b-a3b": {
+   "provider": "alibaba",
+   "modelId": "qwen3.5-35b-a3b",
+   "released": "2026-02-23",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 22,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.5-397b-a17b": {
+   "provider": "alibaba",
+   "modelId": "qwen3.5-397b-a17b",
+   "released": "2026-02-15",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.6,
+   "outputUsdPerM": 3.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 31,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.5-flash-02-23": {
+   "provider": "alibaba",
+   "modelId": "qwen3.5-flash",
+   "released": "2026-02-23",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 11,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.6-27b": {
+   "provider": "alibaba",
+   "modelId": "qwen3.6-27b",
+   "released": "2026-04-22",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.6,
+   "outputUsdPerM": 3.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 27,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.6-35b-a3b": {
+   "provider": "alibaba",
+   "modelId": "qwen3.6-35b-a3b",
+   "released": "2026-04-17",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 262144,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.375,
+   "outputUsdPerM": 2.25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 32,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.6-flash": {
+   "provider": "alibaba",
+   "modelId": "qwen3.6-flash",
+   "released": "2026-04-27",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 1.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 20,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.6-plus": {
+   "provider": "alibaba",
+   "modelId": "qwen3.6-plus",
+   "released": "2026-04-02",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.5,
+   "outputUsdPerM": 3,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 26,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.7-flash": {
+   "provider": "alibaba",
+   "modelId": "qwen3.7-flash",
+   "released": "2026-07-15",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.03,
+   "outputUsdPerM": 0.13,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 15,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.7-max": {
+   "provider": "alibaba",
+   "modelId": "qwen3.7-max",
+   "released": "2026-05-21",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 2.5,
+   "outputUsdPerM": 7.5,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 32,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.7-plus": {
+   "provider": "alibaba",
+   "modelId": "qwen3.7-plus",
+   "released": "2026-06-02",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 1.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 33,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.8-flash": {
+   "provider": "alibaba",
+   "modelId": "qwen3.8-flash",
+   "released": "2026-08-26",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.47,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 36,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:qwen/qwen3.8-omni-flash": {
+   "provider": "alibaba",
+   "modelId": "qwen3.8-omni-flash",
+   "released": "2026-09-17",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.47,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 13,
+   "docs": "https://www.alibabacloud.com/help/en/model-studio/models"
+  },
+  "or:x-ai/grok-4.20-multi-agent": {
+   "provider": "xai",
+   "modelId": "grok-4.20-multi-agent-0309",
+   "released": "2026-03-09",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": false,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 30000,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 2.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 0,
+   "docs": "https://docs.x.ai/docs/models"
+  },
+  "or:x-ai/grok-4.3": {
+   "provider": "xai",
+   "modelId": "grok-4.3",
+   "released": "2026-04-17",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 30000,
+   "inputUsdPerM": 1.25,
+   "outputUsdPerM": 2.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 28,
+   "docs": "https://docs.x.ai/docs/models"
+  },
+  "or:x-ai/grok-4.5": {
+   "provider": "xai",
+   "modelId": "grok-4.5",
+   "released": "2026-07-08",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 500000,
+   "outputTokens": 500000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 28,
+   "docs": "https://docs.x.ai/docs/models"
+  },
+  "or:x-ai/grok-4.6": {
+   "provider": "xai",
+   "modelId": "grok-4.6",
+   "released": "2026-08-12",
+   "knowledgeCutoff": "2026-02-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 500000,
+   "outputTokens": 500000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 33,
+   "docs": "https://docs.x.ai/docs/models"
+  },
+  "or:x-ai/grok-4.7": {
+   "provider": "xai",
+   "modelId": "grok-4.7",
+   "released": "2026-09-21",
+   "knowledgeCutoff": "2026-05",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 500000,
+   "outputTokens": 500000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 35,
+   "docs": "https://docs.x.ai/docs/models"
+  },
+  "or:xiaomi/mimo-v2.5": {
+   "provider": "xiaomi",
+   "modelId": "mimo-v2.5",
+   "released": "2026-04-22",
+   "knowledgeCutoff": "2024-12",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.14,
+   "outputUsdPerM": 0.28,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 19,
+   "docs": "https://platform.xiaomimimo.com/#/docs"
+  },
+  "or:xiaomi/mimo-v2.5-pro": {
+   "provider": "xiaomi",
+   "modelId": "mimo-v2.5-pro",
+   "released": "2026-04-22",
+   "knowledgeCutoff": "2024-12",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.435,
+   "outputUsdPerM": 0.87,
+   "status": "deprecated",
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 19,
+   "docs": "https://platform.xiaomimimo.com/#/docs"
+  },
+  "or:xiaomi/mimo-v2.6-flash": {
+   "provider": "xiaomi",
+   "modelId": "mimo-v2.6-flash",
+   "released": "2026-09-22",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.14,
+   "outputUsdPerM": 0.28,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 29,
+   "docs": "https://platform.xiaomimimo.com/#/docs"
+  },
+  "or:xiaomi/mimo-v2.6-pro": {
+   "provider": "xiaomi",
+   "modelId": "mimo-v2.6-pro",
+   "released": "2026-09-22",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.435,
+   "outputUsdPerM": 0.87,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 29,
+   "docs": "https://platform.xiaomimimo.com/#/docs"
+  },
+  "or:xiaomi/mimo-v2.6-pro-ultraspeed": {
+   "provider": "xiaomi",
+   "modelId": "mimo-v2.6-pro-ultraspeed",
+   "released": "2026-09-21",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 131072,
+   "inputUsdPerM": 4.35,
+   "outputUsdPerM": 8.7,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "audio",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 10,
+   "docs": "https://platform.xiaomimimo.com/#/docs"
+  },
+  "or:z-ai/glm-4.5": {
+   "provider": "zai",
+   "modelId": "glm-4.5",
+   "released": "2025-07-28",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 98304,
+   "inputUsdPerM": 0.6,
+   "outputUsdPerM": 2.2,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 18,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-4.5-air": {
+   "provider": "zai",
+   "modelId": "glm-4.5-air",
+   "released": "2025-07-28",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 131072,
+   "outputTokens": 98304,
+   "inputUsdPerM": 0.2,
+   "outputUsdPerM": 1.1,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 17,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-4.5v": {
+   "provider": "zai",
+   "modelId": "glm-4.5v",
+   "released": "2025-08-11",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 64000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 0.6,
+   "outputUsdPerM": 1.8,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-4.6": {
+   "provider": "zai",
+   "modelId": "glm-4.6",
+   "released": "2025-09-30",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 204800,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.6,
+   "outputUsdPerM": 2.2,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 27,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-4.6v": {
+   "provider": "zai",
+   "modelId": "glm-4.6v",
+   "released": "2025-12-08",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 128000,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.3,
+   "outputUsdPerM": 0.9,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-4.7": {
+   "provider": "zai",
+   "modelId": "glm-4.7",
+   "released": "2025-12-22",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 204800,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.6,
+   "outputUsdPerM": 2.2,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 32,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-4.7-flash": {
+   "provider": "zai",
+   "modelId": "glm-4.7-flash",
+   "released": "2026-01-19",
+   "knowledgeCutoff": "2025-04",
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0,
+   "outputUsdPerM": 0,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 19,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5": {
+   "provider": "zai",
+   "modelId": "glm-5",
+   "released": "2026-02-12",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 204800,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1,
+   "outputUsdPerM": 3.2,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 39,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5-turbo": {
+   "provider": "zai",
+   "modelId": "glm-5-turbo",
+   "released": "2026-03-16",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.2,
+   "outputUsdPerM": 4,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5.1": {
+   "provider": "zai",
+   "modelId": "glm-5.1",
+   "released": "2026-04-07",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.4,
+   "outputUsdPerM": 4.4,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 44,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5.2": {
+   "provider": "zai",
+   "modelId": "glm-5.2",
+   "released": "2026-06-13",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.4,
+   "outputUsdPerM": 4.4,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 84,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5.3": {
+   "provider": "zai",
+   "modelId": "glm-5.3",
+   "released": "2026-08-14",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.4,
+   "outputUsdPerM": 4.4,
+   "status": null,
+   "inputModalities": [
+    "text"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 116,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5.3-flash": {
+   "provider": "zai",
+   "modelId": "glm-5.3-flash",
+   "released": "2026-08-26",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 117,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5.3-flashx": {
+   "provider": "zai",
+   "modelId": "glm-5.3-flashx",
+   "released": "2026-09-18",
+   "knowledgeCutoff": null,
+   "openWeights": true,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 0.37,
+   "outputUsdPerM": 1.25,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 10,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:z-ai/glm-5v-turbo": {
+   "provider": "zai",
+   "modelId": "glm-5v-turbo",
+   "released": "2026-04-01",
+   "knowledgeCutoff": null,
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 200000,
+   "outputTokens": 131072,
+   "inputUsdPerM": 1.2,
+   "outputUsdPerM": 4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 16,
+   "docs": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "or:~google/gemini-flash-latest": {
+   "provider": "google",
+   "modelId": "gemini-flash-latest",
+   "released": "2026-08-13",
+   "knowledgeCutoff": "2026-03",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 0.75,
+   "outputUsdPerM": 3.75,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 7,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "or:~google/gemini-pro-latest": {
+   "provider": "google",
+   "modelId": "gemini-pro-latest",
+   "released": "2026-02-19",
+   "knowledgeCutoff": "2025-01",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1048576,
+   "outputTokens": 65536,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 12,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 7,
+   "docs": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  "wd:Q127602360": {
+   "provider": "openai",
+   "modelId": "gpt-4o-mini",
+   "released": "2024-07-18",
+   "knowledgeCutoff": "2023-09",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 128000,
+   "outputTokens": 16384,
+   "inputUsdPerM": 0.15,
+   "outputUsdPerM": 0.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 24,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q134390755": {
+   "provider": "openai",
+   "modelId": "gpt-4.1-mini",
+   "released": "2025-04-14",
+   "knowledgeCutoff": "2024-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 1047576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.4,
+   "outputUsdPerM": 1.6,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 29,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q134390865": {
+   "provider": "openai",
+   "modelId": "gpt-4.1-nano",
+   "released": "2025-04-14",
+   "knowledgeCutoff": "2024-04",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": false,
+   "contextTokens": 1047576,
+   "outputTokens": 32768,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.4,
+   "status": "deprecated",
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 20,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q135661337": {
+   "provider": "openai",
+   "modelId": "gpt-5-mini",
+   "released": "2025-08-07",
+   "knowledgeCutoff": "2024-05-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.25,
+   "outputUsdPerM": 2,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 34,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q135661340": {
+   "provider": "openai",
+   "modelId": "gpt-5-nano",
+   "released": "2025-08-07",
+   "knowledgeCutoff": "2024-05-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.05,
+   "outputUsdPerM": 0.4,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 28,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q139328873": {
+   "provider": "openai",
+   "modelId": "gpt-5.3-codex",
+   "released": "2026-02-05",
+   "knowledgeCutoff": "2025-08-31",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 400000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 1.75,
+   "outputUsdPerM": 14,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 30,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q141554688": {
+   "provider": "openai",
+   "modelId": "gpt-6-astra",
+   "released": "2026-09-04",
+   "knowledgeCutoff": "2026-04-30",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 10,
+   "outputUsdPerM": 50,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 52,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q141592972": {
+   "provider": "openai",
+   "modelId": "gpt-6-luna",
+   "released": "2026-09-22",
+   "knowledgeCutoff": "2026-05-18",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 0.1,
+   "outputUsdPerM": 0.5,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 47,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q141593016": {
+   "provider": "openai",
+   "modelId": "gpt-6-sol",
+   "released": "2026-09-22",
+   "knowledgeCutoff": "2026-04-20",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1050000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 41,
+   "docs": "https://platform.openai.com/docs/models"
+  },
+  "wd:Q141613607": {
+   "provider": "anthropic",
+   "modelId": "claude-sonnet-5-5",
+   "released": "2026-09-28",
+   "knowledgeCutoff": "2026-06",
+   "openWeights": false,
+   "toolCalling": true,
+   "reasoning": true,
+   "contextTokens": 1000000,
+   "outputTokens": 128000,
+   "inputUsdPerM": 2,
+   "outputUsdPerM": 10,
+   "status": null,
+   "inputModalities": [
+    "text",
+    "image",
+    "pdf"
+   ],
+   "outputModalities": [
+    "text"
+   ],
+   "otherProviders": 52,
+   "docs": "https://docs.anthropic.com/en/docs/about-claude/models"
+  }
+ }
+}

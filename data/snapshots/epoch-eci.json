@@ -1,0 +1,1181 @@
+{
+ "meta": {
+  "id": "epoch-eci",
+  "source": "Epoch AI Capabilities Index (Epoch AI benchmarking hub)",
+  "url": "https://epoch.ai/benchmarks",
+  "license": "CC BY 4.0",
+  "attribution": "Epoch AI, 'Capabilities & benchmarking'. Published online at epoch.ai. Retrieved from https://epoch.ai/benchmarks",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "cd6850ac5b4b0823508b5b4ad3003b459bbd62c9d6f013090055690fde36b4c0",
+  "status": "collected",
+  "modelsScored": 258,
+  "matching": "Organizations by exact Epoch organization name; index entries by the same organization and normalized model name. An organization's rank counts every organization in the file, ties share a rank.",
+  "note": "The ECI combines many benchmarks into one capability number on Epoch's scale (Claude 3.5 Sonnet = 130, GPT-5 = 150). It measures what a model can do on tests, not how a vendor handles data or customers."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "alibaba": {
+   "best": {
+    "model": "Qwen 3.8 Max",
+    "eci": 157.55,
+    "low": 155.52,
+    "high": 159.85,
+    "date": "2026-08-02"
+   },
+   "modelsScored": 34,
+   "rankAmongOrgs": 8,
+   "orgsScored": 31
+  },
+  "anthropic": {
+   "best": {
+    "model": "Claude Fable 5.2",
+    "eci": 173.4,
+    "low": 170.04,
+    "high": 177.22,
+    "date": "2026-11-09"
+   },
+   "modelsScored": 27,
+   "rankAmongOrgs": 1,
+   "orgsScored": 31
+  },
+  "deepseek": {
+   "best": {
+    "model": "DeepSeek V4.1 Flash 1017",
+    "eci": 159.41,
+    "low": 157.13,
+    "high": 161.91,
+    "date": "2026-10-17"
+   },
+   "modelsScored": 16,
+   "rankAmongOrgs": 6,
+   "orgsScored": 31
+  },
+  "google": {
+   "best": {
+    "model": "Gemini 4 Carbon",
+    "eci": 169.68,
+    "low": 166.58,
+    "high": 173.14,
+    "date": "2026-11-10"
+   },
+   "modelsScored": 34,
+   "rankAmongOrgs": 3,
+   "orgsScored": 31
+  },
+  "meta": {
+   "best": {
+    "model": "Muse Wonder",
+    "eci": 161.74,
+    "low": 159.37,
+    "high": 164.29,
+    "date": "2026-10-12"
+   },
+   "modelsScored": 23,
+   "rankAmongOrgs": 4,
+   "orgsScored": 31
+  },
+  "microsoft": {
+   "best": {
+    "model": "Phi-4",
+    "eci": 129.24,
+    "low": 126.07,
+    "high": 132.03,
+    "date": "2024-12-12"
+   },
+   "modelsScored": 6,
+   "rankAmongOrgs": 16,
+   "orgsScored": 31
+  },
+  "minimax": {
+   "best": {
+    "model": "MiniMax-M3",
+    "eci": 147.84,
+    "low": 145.68,
+    "high": 149.96,
+    "date": "2026-06-01"
+   },
+   "modelsScored": 1,
+   "rankAmongOrgs": 13,
+   "orgsScored": 31
+  },
+  "mistral": {
+   "best": {
+    "model": "Mistral Large 4",
+    "eci": 154.57,
+    "low": 151.81,
+    "high": 157.43,
+    "date": "2026-10-29"
+   },
+   "modelsScored": 10,
+   "rankAmongOrgs": 10,
+   "orgsScored": 31
+  },
+  "moonshot": {
+   "best": {
+    "model": "Kimi K3.1 Pro",
+    "eci": 161.2,
+    "low": 158.95,
+    "high": 163.74,
+    "date": "2026-10-23"
+   },
+   "modelsScored": 7,
+   "rankAmongOrgs": 5,
+   "orgsScored": 31
+  },
+  "nvidia": {
+   "best": {
+    "model": "Nemotron 3 Ultra",
+    "eci": 147.02,
+    "low": 144.86,
+    "high": 149.16,
+    "date": "2026-06-04"
+   },
+   "modelsScored": 5,
+   "rankAmongOrgs": 14,
+   "orgsScored": 31
+  },
+  "openai": {
+   "best": {
+    "model": "GPT-6.2 Astra",
+    "eci": 172.82,
+    "low": 169.37,
+    "high": 176.94,
+    "date": "2026-11-17"
+   },
+   "modelsScored": 46,
+   "rankAmongOrgs": 2,
+   "orgsScored": 31
+  },
+  "salesforce": {
+   "best": {
+    "model": "XGen-7B",
+    "eci": 70.29,
+    "low": 54.26,
+    "high": 84.19,
+    "date": "2023-06-27"
+   },
+   "modelsScored": 1,
+   "rankAmongOrgs": 29,
+   "orgsScored": 31
+  },
+  "stability": {
+   "best": {
+    "model": "Stable Beluga 2",
+    "eci": 109.4,
+    "low": 101.98,
+    "high": 116.11,
+    "date": "2023-07-20"
+   },
+   "modelsScored": 1,
+   "rankAmongOrgs": 18,
+   "orgsScored": 31
+  },
+  "xai": {
+   "best": {
+    "model": "Grok 4.6",
+    "eci": 157.82,
+    "low": 155.9,
+    "high": 159.99,
+    "date": "2026-08-12"
+   },
+   "modelsScored": 10,
+   "rankAmongOrgs": 7,
+   "orgsScored": 31
+  },
+  "zhipu": {
+   "best": {
+    "model": "GLM-5.3",
+    "eci": 157.1,
+    "low": 155.01,
+    "high": 159.42,
+    "date": "2026-08-14"
+   },
+   "modelsScored": 6,
+   "rankAmongOrgs": 9,
+   "orgsScored": 31
+  }
+ },
+ "byIndexId": {
+  "arena:DeepSeek-R1": {
+   "model": "DeepSeek-R1",
+   "eci": 138.62,
+   "low": 136.64,
+   "high": 140.47,
+   "date": "2025-01-20"
+  },
+  "arena:DeepSeek-V3": {
+   "model": "DeepSeek-V3",
+   "eci": 131.69,
+   "low": 129.19,
+   "high": 134.04,
+   "date": "2024-12-26"
+  },
+  "arena:DeepSeek-V3.1": {
+   "model": "DeepSeek-V3.1",
+   "eci": 140.88,
+   "low": 137.68,
+   "high": 144.01,
+   "date": "2025-08-21"
+  },
+  "arena:Gemini 3 Flash": {
+   "model": "Gemini 3 Flash",
+   "eci": 152.35,
+   "low": 150.75,
+   "high": 154.06,
+   "date": "2025-12-17"
+  },
+  "arena:Gemini 3 Pro": {
+   "model": "Gemini 3 Pro",
+   "eci": 153.04,
+   "low": 151.47,
+   "high": 154.75,
+   "date": "2025-11-18"
+  },
+  "arena:Gemma 4 26B A4B": {
+   "model": "Gemma 4 26B A4B",
+   "eci": 141.56,
+   "low": 139.11,
+   "high": 143.94,
+   "date": "2026-04-02"
+  },
+  "arena:LLaMA 13B": {
+   "model": "LLaMA-13B",
+   "eci": 85.23,
+   "low": 73.38,
+   "high": 95.44,
+   "date": "2023-02-24"
+  },
+  "arena:Mistral Large 4": {
+   "model": "Mistral Large 4",
+   "eci": 154.57,
+   "low": 151.81,
+   "high": 157.43,
+   "date": "2026-10-29"
+  },
+  "arena:Muse Spark": {
+   "model": "Muse Spark",
+   "eci": 153.15,
+   "low": 150.95,
+   "high": 155.46,
+   "date": "2026-04-08"
+  },
+  "arena:QwQ-32B": {
+   "model": "QwQ-32B",
+   "eci": 136.44,
+   "low": 133.66,
+   "high": 139.1,
+   "date": "2025-03-05"
+  },
+  "arena:Qwen2.5-Max": {
+   "model": "Qwen2.5-Max",
+   "eci": 131.17,
+   "low": 128.38,
+   "high": 133.67,
+   "date": "2025-01-25"
+  },
+  "arena:Qwen3-235B-A22B": {
+   "model": "Qwen3-235B-A22B",
+   "eci": 138.4,
+   "low": 136.04,
+   "high": 140.72,
+   "date": "2025-04-28"
+  },
+  "arena:o1-mini": {
+   "model": "o1-mini",
+   "eci": 135.27,
+   "low": 133,
+   "high": 137.31,
+   "date": "2024-09-12"
+  },
+  "arena:o1-preview": {
+   "model": "o1-preview",
+   "eci": 133.58,
+   "low": 131.11,
+   "high": 135.92,
+   "date": "2024-09-12"
+  },
+  "arena:o3-mini": {
+   "model": "o3-mini",
+   "eci": 140.63,
+   "low": 138.9,
+   "high": 142.25,
+   "date": "2025-01-31"
+  },
+  "hf:Qwen/Qwen3-8B": {
+   "model": "Qwen3-8B",
+   "eci": 132.07,
+   "low": 128.93,
+   "high": 134.94,
+   "date": "2025-04-28"
+  },
+  "hf:deepseek-ai/DeepSeek-R1": {
+   "model": "DeepSeek-R1",
+   "eci": 138.62,
+   "low": 136.64,
+   "high": 140.47,
+   "date": "2025-01-20"
+  },
+  "hf:meta-llama/Llama-3.1-8B": {
+   "model": "Llama 3.1-8B",
+   "eci": 110.9,
+   "low": 105.08,
+   "high": 115.88,
+   "date": "2024-07-23"
+  },
+  "hf:mistralai/Mistral-7B-v0.1": {
+   "model": "Mistral 7B v0.1",
+   "eci": 102.72,
+   "low": 94.94,
+   "high": 109.11,
+   "date": "2023-09-27"
+  },
+  "or:anthropic/claude-fable-5": {
+   "model": "Claude Fable 5",
+   "eci": 164.18,
+   "low": 161.82,
+   "high": 166.91,
+   "date": "2026-06-09"
+  },
+  "or:anthropic/claude-fable-5.1": {
+   "model": "Claude Fable 5.1",
+   "eci": 167.06,
+   "low": 164.41,
+   "high": 170.13,
+   "date": "2026-09-01"
+  },
+  "or:anthropic/claude-fable-5.2": {
+   "model": "Claude Fable 5.2",
+   "eci": 173.4,
+   "low": 170.04,
+   "high": 177.22,
+   "date": "2026-11-09"
+  },
+  "or:anthropic/claude-haiku-4.5": {
+   "model": "Claude Haiku 4.5",
+   "eci": 142.74,
+   "low": 141.04,
+   "high": 144.41,
+   "date": "2025-10-15"
+  },
+  "or:anthropic/claude-haiku-5.5": {
+   "model": "Claude Haiku 5.5",
+   "eci": 160.33,
+   "low": 158.18,
+   "high": 162.69,
+   "date": "2026-10-07"
+  },
+  "or:anthropic/claude-opus-4.1": {
+   "model": "Claude Opus 4.1",
+   "eci": 144.76,
+   "low": 143.01,
+   "high": 146.51,
+   "date": "2025-08-05"
+  },
+  "or:anthropic/claude-opus-4.5": {
+   "model": "Claude Opus 4.5",
+   "eci": 151.87,
+   "low": 150.35,
+   "high": 153.45,
+   "date": "2025-11-24"
+  },
+  "or:anthropic/claude-opus-4.6": {
+   "model": "Claude Opus 4.6",
+   "eci": 156.33,
+   "low": 154.61,
+   "high": 158.27,
+   "date": "2026-02-05"
+  },
+  "or:anthropic/claude-opus-4.7": {
+   "model": "Claude Opus 4.7",
+   "eci": 157.49,
+   "low": 155.63,
+   "high": 159.56,
+   "date": "2026-04-16"
+  },
+  "or:anthropic/claude-opus-4.8": {
+   "model": "Claude Opus 4.8",
+   "eci": 159.9,
+   "low": 157.83,
+   "high": 162.21,
+   "date": "2026-05-28"
+  },
+  "or:anthropic/claude-opus-5": {
+   "model": "Claude Opus 5",
+   "eci": 164.72,
+   "low": 162.27,
+   "high": 167.48,
+   "date": "2026-07-24"
+  },
+  "or:anthropic/claude-opus-5.5": {
+   "model": "Claude Opus 5.5",
+   "eci": 168.67,
+   "low": 165.92,
+   "high": 171.96,
+   "date": "2026-09-22"
+  },
+  "or:anthropic/claude-sonnet-4.5": {
+   "model": "Claude Sonnet 4.5",
+   "eci": 147.56,
+   "low": 146.13,
+   "high": 149.07,
+   "date": "2025-09-29"
+  },
+  "or:anthropic/claude-sonnet-4.6": {
+   "model": "Claude Sonnet 4.6",
+   "eci": 152.85,
+   "low": 151.24,
+   "high": 154.53,
+   "date": "2026-02-17"
+  },
+  "or:anthropic/claude-sonnet-5": {
+   "model": "Claude Sonnet 5",
+   "eci": 156.9,
+   "low": 154.92,
+   "high": 159.06,
+   "date": "2026-06-30"
+  },
+  "or:anthropic/claude-sonnet-5.5": {
+   "model": "Claude Sonnet 5.5",
+   "eci": 166.6,
+   "low": 163.92,
+   "high": 169.61,
+   "date": "2026-09-28"
+  },
+  "or:deepseek/deepseek-chat": {
+   "model": "DeepSeek-V3",
+   "eci": 131.69,
+   "low": 129.19,
+   "high": 134.04,
+   "date": "2024-12-26"
+  },
+  "or:deepseek/deepseek-chat-v3.1": {
+   "model": "DeepSeek-V3.1",
+   "eci": 140.88,
+   "low": 137.68,
+   "high": 144.01,
+   "date": "2025-08-21"
+  },
+  "or:deepseek/deepseek-v3.2": {
+   "model": "DeepSeek-V3.2",
+   "eci": 146.26,
+   "low": 144.73,
+   "high": 147.77,
+   "date": "2025-12-01"
+  },
+  "or:deepseek/deepseek-v3.2-exp": {
+   "model": "DeepSeek-V3.2-Exp",
+   "eci": 144.39,
+   "low": 142.15,
+   "high": 146.7,
+   "date": "2025-09-29"
+  },
+  "or:deepseek/deepseek-v4-flash": {
+   "model": "DeepSeek-V4-Flash",
+   "eci": 146.91,
+   "low": 143.68,
+   "high": 150.18,
+   "date": "2026-04-24"
+  },
+  "or:deepseek/deepseek-v4-flash-0731": {
+   "model": "DeepSeek V4 Flash 0731",
+   "eci": 154.43,
+   "low": 152.61,
+   "high": 156.4,
+   "date": "2026-07-31"
+  },
+  "or:deepseek/deepseek-v4-pro": {
+   "model": "DeepSeek-V4-Pro",
+   "eci": 150.19,
+   "low": 148.42,
+   "high": 151.99,
+   "date": "2026-04-24"
+  },
+  "or:deepseek/deepseek-v4-pro-0813": {
+   "model": "DeepSeek V4 Pro 0813",
+   "eci": 155.96,
+   "low": 154.05,
+   "high": 158.06,
+   "date": "2026-08-13"
+  },
+  "or:deepseek/deepseek-v4.1-flash": {
+   "model": "DeepSeek V4.1 Flash",
+   "eci": 157.01,
+   "low": 155.05,
+   "high": 159.2,
+   "date": "2026-09-09"
+  },
+  "or:deepseek/deepseek-v4.1-flash-1017": {
+   "model": "DeepSeek V4.1 Flash 1017",
+   "eci": 159.41,
+   "low": 157.13,
+   "high": 161.91,
+   "date": "2026-10-17"
+  },
+  "or:google/gemini-3.1-flash-lite": {
+   "model": "Gemini 3.1 Flash-Lite",
+   "eci": 144.97,
+   "low": 142.78,
+   "high": 147.09,
+   "date": "2026-03-03"
+  },
+  "or:google/gemini-3.5-flash": {
+   "model": "Gemini 3.5 Flash",
+   "eci": 155.34,
+   "low": 153.52,
+   "high": 157.31,
+   "date": "2026-05-19"
+  },
+  "or:google/gemini-3.5-flash-lite": {
+   "model": "Gemini 3.5 Flash-Lite",
+   "eci": 145.63,
+   "low": 144.02,
+   "high": 147.23,
+   "date": "2026-07-21"
+  },
+  "or:google/gemini-3.6-flash": {
+   "model": "Gemini 3.6 Flash",
+   "eci": 155.24,
+   "low": 153.42,
+   "high": 157.26,
+   "date": "2026-07-21"
+  },
+  "or:google/gemini-3.7-flash": {
+   "model": "Gemini 3.7 Flash",
+   "eci": 158.4,
+   "low": 156.47,
+   "high": 160.58,
+   "date": "2026-08-13"
+  },
+  "or:google/gemini-3.8-flash": {
+   "model": "Gemini 3.8 Flash",
+   "eci": 158.81,
+   "low": 156.82,
+   "high": 161.01,
+   "date": "2026-09-02"
+  },
+  "or:google/gemini-4-argon": {
+   "model": "Gemini 4 Argon",
+   "eci": 166.53,
+   "low": 163.94,
+   "high": 169.47,
+   "date": "2026-10-13"
+  },
+  "or:google/gemini-4-carbon": {
+   "model": "Gemini 4 Carbon",
+   "eci": 169.68,
+   "low": 166.58,
+   "high": 173.14,
+   "date": "2026-11-10"
+  },
+  "or:google/gemini-4-hydrogen": {
+   "model": "Gemini 4 Hydrogen",
+   "eci": 166.81,
+   "low": 163.99,
+   "high": 170.1,
+   "date": "2026-11-12"
+  },
+  "or:google/gemma-2-27b-it": {
+   "model": "Gemma 2 27B",
+   "eci": 118.64,
+   "low": 114.2,
+   "high": 122.36,
+   "date": "2024-06-24"
+  },
+  "or:google/gemma-3-27b-it": {
+   "model": "Gemma 3 27B",
+   "eci": 127.56,
+   "low": 124.43,
+   "high": 130.41,
+   "date": "2025-03-12"
+  },
+  "or:google/gemma-4-26b-a4b-it": {
+   "model": "Gemma 4 26B A4B",
+   "eci": 141.56,
+   "low": 139.11,
+   "high": 143.94,
+   "date": "2026-04-02"
+  },
+  "or:google/gemma-4-31b-it": {
+   "model": "Gemma 4 31B IT",
+   "eci": 144.12,
+   "low": 141.72,
+   "high": 146.6,
+   "date": "2026-04-02"
+  },
+  "or:meta-llama/llama-4-maverick": {
+   "model": "Llama 4 Maverick",
+   "eci": 132.19,
+   "low": 129.85,
+   "high": 134.31,
+   "date": "2025-04-06"
+  },
+  "or:meta-llama/llama-4-scout": {
+   "model": "Llama 4 Scout",
+   "eci": 127.75,
+   "low": 124.86,
+   "high": 130.35,
+   "date": "2025-04-05"
+  },
+  "or:meta/muse-spark-1.1": {
+   "model": "Muse Spark 1.1",
+   "eci": 154.94,
+   "low": 152.38,
+   "high": 157.72,
+   "date": "2026-07-09"
+  },
+  "or:meta/muse-spark-1.2": {
+   "model": "Muse Spark 1.2",
+   "eci": 155.02,
+   "low": 152.68,
+   "high": 157.54,
+   "date": "2026-08-05"
+  },
+  "or:meta/muse-spark-1.3": {
+   "model": "Muse Spark 1.3",
+   "eci": 158.24,
+   "low": 156.16,
+   "high": 160.48,
+   "date": "2026-09-02"
+  },
+  "or:meta/muse-spark-open": {
+   "model": "Muse Spark Open",
+   "eci": 155.47,
+   "low": 153.34,
+   "high": 157.75,
+   "date": "2026-10-15"
+  },
+  "or:meta/muse-wonder": {
+   "model": "Muse Wonder",
+   "eci": 161.74,
+   "low": 159.37,
+   "high": 164.29,
+   "date": "2026-10-12"
+  },
+  "or:microsoft/phi-4": {
+   "model": "Phi-4",
+   "eci": 129.24,
+   "low": 126.07,
+   "high": 132.03,
+   "date": "2024-12-12"
+  },
+  "or:minimax/minimax-m3": {
+   "model": "MiniMax-M3",
+   "eci": 147.84,
+   "low": 145.68,
+   "high": 149.96,
+   "date": "2026-06-01"
+  },
+  "or:mistralai/mistral-large": {
+   "model": "Mistral Large",
+   "eci": 119.97,
+   "low": 115.91,
+   "high": 123.59,
+   "date": "2024-02-26"
+  },
+  "or:mistralai/mistral-large-4-0": {
+   "model": "Mistral Large 4",
+   "eci": 154.57,
+   "low": 151.81,
+   "high": 157.43,
+   "date": "2026-10-29"
+  },
+  "or:mistralai/mistral-medium-3": {
+   "model": "Mistral Medium 3",
+   "eci": 132.8,
+   "low": 130.12,
+   "high": 135.29,
+   "date": "2025-05-07"
+  },
+  "or:mistralai/mistral-medium-3-5": {
+   "model": "Mistral Medium 3.5",
+   "eci": 141.58,
+   "low": 138.33,
+   "high": 144.71,
+   "date": "2026-04-28"
+  },
+  "or:mistralai/mistral-nemo": {
+   "model": "Mistral NeMo",
+   "eci": 113.87,
+   "low": 108.58,
+   "high": 118.38,
+   "date": "2024-07-18"
+  },
+  "or:moonshotai/kimi-k2-thinking": {
+   "model": "Kimi K2 Thinking",
+   "eci": 145.46,
+   "low": 143.65,
+   "high": 147.29,
+   "date": "2025-11-06"
+  },
+  "or:moonshotai/kimi-k2.5": {
+   "model": "Kimi K2.5",
+   "eci": 148.79,
+   "low": 147.29,
+   "high": 150.33,
+   "date": "2026-01-27"
+  },
+  "or:moonshotai/kimi-k2.6": {
+   "model": "Kimi K2.6",
+   "eci": 151.6,
+   "low": 149.87,
+   "high": 153.43,
+   "date": "2026-04-20"
+  },
+  "or:moonshotai/kimi-k2.7-code": {
+   "model": "Kimi K2.7 Code",
+   "eci": 151.17,
+   "low": 149.18,
+   "high": 153.25,
+   "date": "2026-06-12"
+  },
+  "or:moonshotai/kimi-k3": {
+   "model": "Kimi K3",
+   "eci": 158.61,
+   "low": 156.66,
+   "high": 160.8,
+   "date": "2026-07-16"
+  },
+  "or:moonshotai/kimi-k3.1-pro": {
+   "model": "Kimi K3.1 Pro",
+   "eci": 161.2,
+   "low": 158.95,
+   "high": 163.74,
+   "date": "2026-10-23"
+  },
+  "or:nvidia/nemotron-3-ultra-550b-a55b": {
+   "model": "Nemotron 3 Ultra",
+   "eci": 147.02,
+   "low": 144.86,
+   "high": 149.16,
+   "date": "2026-06-04"
+  },
+  "or:openai/gpt-4.1": {
+   "model": "GPT-4.1",
+   "eci": 136.14,
+   "low": 134.19,
+   "high": 138.04,
+   "date": "2025-04-14"
+  },
+  "or:openai/gpt-4.1-mini": {
+   "model": "GPT-4.1 mini",
+   "eci": 134.24,
+   "low": 132.08,
+   "high": 136.21,
+   "date": "2025-04-14"
+  },
+  "or:openai/gpt-4.1-nano": {
+   "model": "GPT-4.1 nano",
+   "eci": 126.79,
+   "low": 123.78,
+   "high": 129.48,
+   "date": "2025-04-14"
+  },
+  "or:openai/gpt-4o-mini": {
+   "model": "GPT-4o mini",
+   "eci": 123.81,
+   "low": 120.46,
+   "high": 126.8,
+   "date": "2024-07-18"
+  },
+  "or:openai/gpt-5": {
+   "model": "GPT-5",
+   "eci": 150,
+   "low": 0,
+   "high": 0,
+   "date": "2025-08-07"
+  },
+  "or:openai/gpt-5-mini": {
+   "model": "GPT-5 mini",
+   "eci": 146.04,
+   "low": 144.48,
+   "high": 147.61,
+   "date": "2025-08-07"
+  },
+  "or:openai/gpt-5-nano": {
+   "model": "GPT-5 nano",
+   "eci": 139.07,
+   "low": 137.1,
+   "high": 140.93,
+   "date": "2025-08-07"
+  },
+  "or:openai/gpt-5-pro": {
+   "model": "GPT-5 Pro",
+   "eci": 151.3,
+   "low": 149.36,
+   "high": 153.35,
+   "date": "2025-10-07"
+  },
+  "or:openai/gpt-5.1": {
+   "model": "GPT-5.1",
+   "eci": 150.93,
+   "low": 149.35,
+   "high": 152.57,
+   "date": "2025-11-13"
+  },
+  "or:openai/gpt-5.2": {
+   "model": "GPT-5.2",
+   "eci": 154.53,
+   "low": 152.9,
+   "high": 156.3,
+   "date": "2025-12-11"
+  },
+  "or:openai/gpt-5.2-pro": {
+   "model": "GPT-5.2 Pro",
+   "eci": 157.35,
+   "low": 155.06,
+   "high": 159.95,
+   "date": "2025-12-11"
+  },
+  "or:openai/gpt-5.4": {
+   "model": "GPT-5.4",
+   "eci": 157.89,
+   "low": 156.04,
+   "high": 159.97,
+   "date": "2026-03-05"
+  },
+  "or:openai/gpt-5.4-mini": {
+   "model": "GPT-5.4 Mini",
+   "eci": 149.37,
+   "low": 147.71,
+   "high": 151.13,
+   "date": "2026-03-17"
+  },
+  "or:openai/gpt-5.4-nano": {
+   "model": "GPT-5.4 Nano",
+   "eci": 146.36,
+   "low": 144.7,
+   "high": 148.03,
+   "date": "2026-03-17"
+  },
+  "or:openai/gpt-5.4-pro": {
+   "model": "GPT-5.4 Pro",
+   "eci": 160.31,
+   "low": 157.93,
+   "high": 163.02,
+   "date": "2026-03-05"
+  },
+  "or:openai/gpt-5.5": {
+   "model": "GPT-5.5",
+   "eci": 160.19,
+   "low": 158.19,
+   "high": 162.43,
+   "date": "2026-04-23"
+  },
+  "or:openai/gpt-5.5-pro": {
+   "model": "GPT-5.5 Pro",
+   "eci": 162.78,
+   "low": 160.07,
+   "high": 165.88,
+   "date": "2026-04-23"
+  },
+  "or:openai/gpt-5.6-luna": {
+   "model": "GPT-5.6 Luna",
+   "eci": 156.72,
+   "low": 154.87,
+   "high": 158.77,
+   "date": "2026-07-09"
+  },
+  "or:openai/gpt-5.6-sol": {
+   "model": "GPT-5.6 Sol",
+   "eci": 163.02,
+   "low": 160.72,
+   "high": 165.58,
+   "date": "2026-07-09"
+  },
+  "or:openai/gpt-5.6-terra": {
+   "model": "GPT-5.6 Terra",
+   "eci": 160.8,
+   "low": 158.49,
+   "high": 163.29,
+   "date": "2026-07-09"
+  },
+  "or:openai/gpt-6-astra": {
+   "model": "GPT-6 Astra",
+   "eci": 169.21,
+   "low": 166.41,
+   "high": 172.49,
+   "date": "2026-09-03"
+  },
+  "or:openai/gpt-6-luna": {
+   "model": "GPT-6 Luna",
+   "eci": 156.45,
+   "low": 154.58,
+   "high": 158.48,
+   "date": "2026-09-22"
+  },
+  "or:openai/gpt-6-sol": {
+   "model": "GPT-6 Sol",
+   "eci": 163.83,
+   "low": 161.39,
+   "high": 166.55,
+   "date": "2026-09-22"
+  },
+  "or:openai/gpt-6.1-sol": {
+   "model": "GPT-6.1 Sol",
+   "eci": 168.61,
+   "low": 165.69,
+   "high": 171.91,
+   "date": "2026-09-29"
+  },
+  "or:openai/gpt-6.1-terra": {
+   "model": "GPT-6.1 Terra",
+   "eci": 167.71,
+   "low": 164.86,
+   "high": 171.04,
+   "date": "2026-10-26"
+  },
+  "or:openai/gpt-6.2-astra": {
+   "model": "GPT-6.2 Astra",
+   "eci": 172.82,
+   "low": 169.37,
+   "high": 176.94,
+   "date": "2026-11-17"
+  },
+  "or:openai/gpt-oss-120b": {
+   "model": "gpt-oss-120b",
+   "eci": 140.21,
+   "low": 138.34,
+   "high": 142.03,
+   "date": "2025-08-05"
+  },
+  "or:openai/gpt-oss-20b": {
+   "model": "gpt-oss-20b",
+   "eci": 134.89,
+   "low": 132.32,
+   "high": 137.28,
+   "date": "2025-08-05"
+  },
+  "or:openai/o3": {
+   "model": "o3",
+   "eci": 147.02,
+   "low": 145.54,
+   "high": 148.55,
+   "date": "2025-04-16"
+  },
+  "or:openai/o3-pro": {
+   "model": "o3-pro",
+   "eci": 147.47,
+   "low": 145.65,
+   "high": 149.36,
+   "date": "2025-06-10"
+  },
+  "or:qwen/qwen3-14b": {
+   "model": "Qwen3-14B",
+   "eci": 136.06,
+   "low": 133.32,
+   "high": 138.65,
+   "date": "2025-04-29"
+  },
+  "or:qwen/qwen3-30b-a3b": {
+   "model": "Qwen3-30B-A3B",
+   "eci": 134.16,
+   "low": 131.29,
+   "high": 136.71,
+   "date": "2025-04-29"
+  },
+  "or:qwen/qwen3-32b": {
+   "model": "Qwen3-32B",
+   "eci": 136.85,
+   "low": 134.39,
+   "high": 139.13,
+   "date": "2025-04-29"
+  },
+  "or:qwen/qwen3.5-35b-a3b": {
+   "model": "Qwen3.5-35B-A3B",
+   "eci": 144.05,
+   "low": 141.51,
+   "high": 146.63,
+   "date": "2026-02-24"
+  },
+  "or:qwen/qwen3.5-397b-a17b": {
+   "model": "Qwen3.5 397B-A17B",
+   "eci": 147.96,
+   "low": 145.86,
+   "high": 150.13,
+   "date": "2026-02-13"
+  },
+  "or:qwen/qwen3.5-9b": {
+   "model": "Qwen3.5-9B",
+   "eci": 139.5,
+   "low": 137.31,
+   "high": 141.66,
+   "date": "2026-02-24"
+  },
+  "or:qwen/qwen3.6-27b": {
+   "model": "Qwen3.6 27B",
+   "eci": 146.72,
+   "low": 144.63,
+   "high": 148.91,
+   "date": "2026-04-22"
+  },
+  "or:qwen/qwen3.7-max": {
+   "model": "Qwen3.7-Max",
+   "eci": 154.57,
+   "low": 152.61,
+   "high": 156.75,
+   "date": "2026-05-19"
+  },
+  "or:qwen/qwen3.7-plus": {
+   "model": "Qwen3.7-Plus",
+   "eci": 147.92,
+   "low": 145.96,
+   "high": 150.02,
+   "date": "2026-06-02"
+  },
+  "or:qwen/qwen3.8-max-0902": {
+   "model": "Qwen3.8 Max (0902)",
+   "eci": 155.99,
+   "low": 153.89,
+   "high": 158.32,
+   "date": "2026-09-01"
+  },
+  "or:x-ai/grok-4.20": {
+   "model": "Grok 4.20",
+   "eci": 152.26,
+   "low": 150.53,
+   "high": 154.12,
+   "date": "2026-02-17"
+  },
+  "or:x-ai/grok-4.5": {
+   "model": "Grok 4.5",
+   "eci": 154.98,
+   "low": 153.13,
+   "high": 156.87,
+   "date": "2026-07-08"
+  },
+  "or:x-ai/grok-4.6": {
+   "model": "Grok 4.6",
+   "eci": 157.82,
+   "low": 155.9,
+   "high": 159.99,
+   "date": "2026-08-12"
+  },
+  "or:x-ai/grok-4.7": {
+   "model": "Grok 4.7",
+   "eci": 156.43,
+   "low": 154.51,
+   "high": 158.52,
+   "date": "2026-09-21"
+  },
+  "or:z-ai/glm-4.7": {
+   "model": "GLM-4.7",
+   "eci": 143.34,
+   "low": 141.39,
+   "high": 145.28,
+   "date": "2025-12-22"
+  },
+  "or:z-ai/glm-5": {
+   "model": "GLM-5",
+   "eci": 146.53,
+   "low": 144.88,
+   "high": 148.14,
+   "date": "2026-02-11"
+  },
+  "or:z-ai/glm-5.1": {
+   "model": "GLM-5.1",
+   "eci": 150.71,
+   "low": 148.66,
+   "high": 152.82,
+   "date": "2026-04-07"
+  },
+  "or:z-ai/glm-5.2": {
+   "model": "GLM-5.2",
+   "eci": 153.07,
+   "low": 151.34,
+   "high": 154.91,
+   "date": "2026-06-16"
+  },
+  "or:z-ai/glm-5.3": {
+   "model": "GLM-5.3",
+   "eci": 157.1,
+   "low": 155.01,
+   "high": 159.42,
+   "date": "2026-08-14"
+  },
+  "or:z-ai/glm-5.3-flash": {
+   "model": "GLM-5.3-Flash",
+   "eci": 153.77,
+   "low": 151.95,
+   "high": 155.78,
+   "date": "2026-08-20"
+  },
+  "wd:Q124039587": {
+   "model": "Phi-2",
+   "eci": 96.21,
+   "low": 86.86,
+   "high": 104.25,
+   "date": "2023-12-12"
+  },
+  "wd:Q127602360": {
+   "model": "GPT-4o mini",
+   "eci": 123.81,
+   "low": 120.46,
+   "high": 126.8,
+   "date": "2024-07-18"
+  },
+  "wd:Q132804879": {
+   "model": "GPT-4.5",
+   "eci": 136.47,
+   "low": 134.39,
+   "high": 138.43,
+   "date": "2025-02-27"
+  },
+  "wd:Q134390755": {
+   "model": "GPT-4.1 mini",
+   "eci": 134.24,
+   "low": 132.08,
+   "high": 136.21,
+   "date": "2025-04-14"
+  },
+  "wd:Q134390865": {
+   "model": "GPT-4.1 nano",
+   "eci": 126.79,
+   "low": 123.78,
+   "high": 129.48,
+   "date": "2025-04-14"
+  },
+  "wd:Q135661337": {
+   "model": "GPT-5 mini",
+   "eci": 146.04,
+   "low": 144.48,
+   "high": 147.61,
+   "date": "2025-08-07"
+  },
+  "wd:Q135661340": {
+   "model": "GPT-5 nano",
+   "eci": 139.07,
+   "low": 137.1,
+   "high": 140.93,
+   "date": "2025-08-07"
+  },
+  "wd:Q141554688": {
+   "model": "GPT-6 Astra",
+   "eci": 169.21,
+   "low": 166.41,
+   "high": 172.49,
+   "date": "2026-09-03"
+  },
+  "wd:Q141592972": {
+   "model": "GPT-6 Luna",
+   "eci": 156.45,
+   "low": 154.58,
+   "high": 158.48,
+   "date": "2026-09-22"
+  },
+  "wd:Q141593016": {
+   "model": "GPT-6 Sol",
+   "eci": 163.83,
+   "low": 161.39,
+   "high": 166.55,
+   "date": "2026-09-22"
+  },
+  "wd:Q141613607": {
+   "model": "Claude Sonnet 5.5",
+   "eci": 166.6,
+   "low": 163.92,
+   "high": 169.61,
+   "date": "2026-09-28"
+  }
+ }
+}

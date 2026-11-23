@@ -1,0 +1,3003 @@
+{
+ "meta": {
+  "id": "epoch-models",
+  "source": "Epoch AI, Data on AI models",
+  "url": "https://epoch.ai/data/ai-models",
+  "license": "CC BY 4.0",
+  "attribution": "Epoch AI, 'Data on AI models'. Published online at epoch.ai. Retrieved from https://epoch.ai/data/ai-models",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "c3761cec57534647e8de8f4625e395608aa8b436b8ee3993c6d49e891398cacd",
+  "status": "collected",
+  "rows": 3730,
+  "matching": "Organizations by exact Epoch organization name (src/orgs.ts epoch field); a model with several organizations counts for each. Index entries by the same organization and the same normalized model name.",
+  "note": "Epoch curates notable and frontier models from public sources; it is not a complete list of every model a company has shipped. Training compute is often Epoch's estimate (see confidence), not a vendor disclosure."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "adobe": {
+   "models": 9,
+   "openWeights": 0,
+   "frontier": 0,
+   "releasedLast12Months": 0,
+   "latest": {
+    "model": "Firefly Image 4",
+    "date": "2025-04-24",
+    "link": "https://blog.adobe.com/en/publish/2025/04/24/adobe-firefly-next-evolution-creative-ai-is-here"
+   },
+   "largestCompute": {
+    "model": "GigaGAN",
+    "flop": 3.8680312e+22,
+    "date": "2023-06-19"
+   },
+   "countries": [
+    "China",
+    "South Korea",
+    "United States of America"
+   ]
+  },
+  "alibaba": {
+   "models": 137,
+   "openWeights": 95,
+   "frontier": 0,
+   "releasedLast12Months": 26,
+   "latest": {
+    "model": "Qwen4-Max",
+    "date": "2026-11-16",
+    "link": "https://www.qwencloud.com/models/qwen4-max"
+   },
+   "largestCompute": {
+    "model": "Qwen3-Max",
+    "flop": 1.512e+25,
+    "date": "2025-09-05"
+   },
+   "countries": [
+    "Canada",
+    "China",
+    "Hong Kong",
+    "United States of America"
+   ]
+  },
+  "allenai": {
+   "models": 44,
+   "openWeights": 31,
+   "frontier": 0,
+   "releasedLast12Months": 1,
+   "latest": {
+    "model": "MolmoAct 2",
+    "date": "2026-04-05",
+    "link": "https://arxiv.org/abs/2605.02881"
+   },
+   "largestCompute": {
+    "model": "OLMo 2 32B",
+    "flop": 1.3e+24,
+    "date": "2025-03-13"
+   },
+   "countries": [
+    "Canada",
+    "France",
+    "Germany",
+    "Hong Kong",
+    "Israel",
+    "Singapore",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "amazon": {
+   "models": 27,
+   "openWeights": 3,
+   "frontier": 1,
+   "releasedLast12Months": 3,
+   "latest": {
+    "model": "MolmoAct 2",
+    "date": "2026-04-05",
+    "link": "https://arxiv.org/abs/2605.02881"
+   },
+   "largestCompute": {
+    "model": "Amazon Nova Pro",
+    "flop": 6.000010000000001e+24,
+    "date": "2024-12-03"
+   },
+   "countries": [
+    "Canada",
+    "Singapore",
+    "United States of America"
+   ]
+  },
+  "anthropic": {
+   "models": 36,
+   "openWeights": 0,
+   "frontier": 3,
+   "releasedLast12Months": 16,
+   "latest": {
+    "model": "Claude Fable 5.2",
+    "date": "2026-11-09",
+    "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+   },
+   "largestCompute": {
+    "model": "Claude 3.7 Sonnet",
+    "flop": 3.35e+25,
+    "date": "2025-02-24"
+   },
+   "countries": [
+    "United States of America"
+   ]
+  },
+  "anysphere": {
+   "models": 4,
+   "openWeights": 0,
+   "frontier": 0,
+   "releasedLast12Months": 3,
+   "latest": {
+    "model": "Composer 2.5",
+    "date": "2026-05-18",
+    "link": "https://cursor.com/blog/composer-2-5"
+   },
+   "largestCompute": {
+    "model": "Composer 2.5",
+    "flop": 3.87e+25,
+    "date": "2026-05-18"
+   },
+   "countries": [
+    "United States of America"
+   ]
+  },
+  "baidu": {
+   "models": 27,
+   "openWeights": 10,
+   "frontier": 1,
+   "releasedLast12Months": 1,
+   "latest": {
+    "model": "ERNIE 5.1",
+    "date": "2026-05-09",
+    "link": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/"
+   },
+   "largestCompute": {
+    "model": "ERNIE-4.5-300B-A47B",
+    "flop": 2.82e+24,
+    "date": "2025-06-29"
+   },
+   "countries": [
+    "Canada",
+    "China",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "black-forest-labs": {
+   "models": 9,
+   "openWeights": 4,
+   "frontier": 0,
+   "releasedLast12Months": 2,
+   "latest": {
+    "model": "FLUX 3 Action",
+    "date": "2026-09-22",
+    "link": "https://bfl.ai/models/flux-3-action"
+   },
+   "largestCompute": null,
+   "countries": [
+    "Germany"
+   ]
+  },
+  "bytedance": {
+   "models": 68,
+   "openWeights": 13,
+   "frontier": 0,
+   "releasedLast12Months": 12,
+   "latest": {
+    "model": "SeedRealtime",
+    "date": "2026-08-05",
+    "link": "https://seed.bytedance.com/en/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction"
+   },
+   "largestCompute": {
+    "model": "Doubao-pro",
+    "flop": 2.505e+25,
+    "date": "2024-10-28"
+   },
+   "countries": [
+    "China",
+    "Germany",
+    "Hong Kong",
+    "Singapore",
+    "United States of America"
+   ]
+  },
+  "cohere": {
+   "models": 16,
+   "openWeights": 10,
+   "frontier": 0,
+   "releasedLast12Months": 2,
+   "latest": {
+    "model": "North Mini Code",
+    "date": "2026-06-09",
+    "link": "https://cohere.com/blog/north-mini-code"
+   },
+   "largestCompute": {
+    "model": "Cohere Command Light",
+    "flop": 1.001e+22,
+    "date": "2023-11-30"
+   },
+   "countries": [
+    "Canada",
+    "Japan",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "deepseek": {
+   "models": 42,
+   "openWeights": 40,
+   "frontier": 0,
+   "releasedLast12Months": 7,
+   "latest": {
+    "model": "DeepSeek V4.1 Flash",
+    "date": "2026-09-09",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf"
+   },
+   "largestCompute": {
+    "model": "DeepSeek V4 Pro 0813",
+    "flop": 9.702e+24,
+    "date": "2026-08-13"
+   },
+   "countries": [
+    "China",
+    "Hong Kong"
+   ]
+  },
+  "elevenlabs": {
+   "models": 7,
+   "openWeights": 0,
+   "frontier": 0,
+   "releasedLast12Months": 0,
+   "latest": {
+    "model": "Eleven v3",
+    "date": "2025-06-03",
+    "link": "https://elevenlabs.io/v3"
+   },
+   "largestCompute": null,
+   "countries": [
+    "United States of America"
+   ]
+  },
+  "google": {
+   "models": 441,
+   "openWeights": 100,
+   "frontier": 35,
+   "releasedLast12Months": 27,
+   "latest": {
+    "model": "Gemini 4 Neon",
+    "date": "2026-11-18",
+    "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+   },
+   "largestCompute": {
+    "model": "Gemini 1.0 Ultra",
+    "flop": 5.0000000001e+25,
+    "date": "2023-12-06"
+   },
+   "countries": [
+    "Australia",
+    "Canada",
+    "China",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "India",
+    "Israel",
+    "Luxembourg",
+    "Multinational",
+    "Poland",
+    "Portugal",
+    "South Korea",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "ibm": {
+   "models": 46,
+   "openWeights": 29,
+   "frontier": 4,
+   "releasedLast12Months": 2,
+   "latest": {
+    "model": "Granite 4.1 30B",
+    "date": "2026-04-29",
+    "link": "https://huggingface.co/blog/ibm-granite/granite-4-1"
+   },
+   "largestCompute": {
+    "model": "Granite 4.1 30B",
+    "flop": 2.7e+24,
+    "date": "2026-04-29"
+   },
+   "countries": [
+    "Australia",
+    "Canada",
+    "Germany",
+    "Iceland",
+    "India",
+    "Israel",
+    "Multinational",
+    "Netherlands",
+    "Singapore",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "meta": {
+   "models": 188,
+   "openWeights": 119,
+   "frontier": 4,
+   "releasedLast12Months": 10,
+   "latest": {
+    "model": "Muse Ember",
+    "date": "2026-11-09",
+    "link": "https://research.meta.ai/blog/muse-ember"
+   },
+   "largestCompute": {
+    "model": "Llama 4 Behemoth (preview)",
+    "flop": 5.18400000000001e+25,
+    "date": "2025-04-05"
+   },
+   "countries": [
+    "Canada",
+    "China",
+    "France",
+    "Germany",
+    "Hong Kong",
+    "Israel",
+    "Saudi Arabia",
+    "South Korea",
+    "Spain",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "microsoft": {
+   "models": 148,
+   "openWeights": 49,
+   "frontier": 3,
+   "releasedLast12Months": 22,
+   "latest": {
+    "model": "MAI-Image-2.7",
+    "date": "2026-10-27",
+    "link": "https://microsoft.ai/news/mai-image-2-7-debut/"
+   },
+   "largestCompute": {
+    "model": "MAI-Base-2",
+    "flop": 2.4e+25,
+    "date": "2026-10-15"
+   },
+   "countries": [
+    "Austria",
+    "Canada",
+    "China",
+    "Czechia",
+    "Germany",
+    "Hong Kong",
+    "Italy",
+    "Multinational",
+    "Spain",
+    "Switzerland",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "midjourney": {
+   "models": 3,
+   "openWeights": 0,
+   "frontier": 0,
+   "releasedLast12Months": 0,
+   "latest": {
+    "model": "Midjourney V7",
+    "date": "2025-04-03",
+    "link": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version"
+   },
+   "largestCompute": null,
+   "countries": [
+    "United States of America"
+   ]
+  },
+  "minimax": {
+   "models": 22,
+   "openWeights": 9,
+   "frontier": 0,
+   "releasedLast12Months": 4,
+   "latest": {
+    "model": "MiniMax-M3",
+    "date": "2026-06-01",
+    "link": "https://www.minimax.io/blog/minimax-m3"
+   },
+   "largestCompute": {
+    "model": "MiniMax-M1-80k",
+    "flop": 4.3240062e+24,
+    "date": "2025-06-13"
+   },
+   "countries": [
+    "China",
+    "Singapore"
+   ]
+  },
+  "mistral": {
+   "models": 46,
+   "openWeights": 33,
+   "frontier": 0,
+   "releasedLast12Months": 10,
+   "latest": {
+    "model": "Mistral Large 4",
+    "date": "2026-10-06",
+    "link": "https://mistral.ai/news/mistral-large-4/"
+   },
+   "largestCompute": {
+    "model": "Mistral Large 4",
+    "flop": 1.24e+25,
+    "date": "2026-10-06"
+   },
+   "countries": [
+    "France",
+    "United States of America"
+   ]
+  },
+  "moonshot": {
+   "models": 15,
+   "openWeights": 9,
+   "frontier": 0,
+   "releasedLast12Months": 5,
+   "latest": {
+    "model": "Kimi K3.1 Pro",
+    "date": "2026-10-23",
+    "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+   },
+   "largestCompute": {
+    "model": "Kimi K3.1 Pro",
+    "flop": 2.0001e+25,
+    "date": "2026-10-23"
+   },
+   "countries": [
+    "China"
+   ]
+  },
+  "nvidia": {
+   "models": 115,
+   "openWeights": 81,
+   "frontier": 5,
+   "releasedLast12Months": 7,
+   "latest": {
+    "model": "Nemotron 3.5 Bolt E4B",
+    "date": "2026-09-23",
+    "link": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-Technical-Report.pdf"
+   },
+   "largestCompute": {
+    "model": "Llama Nemotron Ultra 253B",
+    "flop": 3.911001e+25,
+    "date": "2025-03-18"
+   },
+   "countries": [
+    "Canada",
+    "China",
+    "Finland",
+    "Germany",
+    "Hong Kong",
+    "Israel",
+    "Japan",
+    "Singapore",
+    "South Korea",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "openai": {
+   "models": 151,
+   "openWeights": 20,
+   "frontier": 18,
+   "releasedLast12Months": 36,
+   "latest": {
+    "model": "GPT-6.2 Astra",
+    "date": "2026-11-17",
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+   },
+   "largestCompute": {
+    "model": "GPT-6 Astra",
+    "flop": 9.4e+26,
+    "date": "2026-09-03"
+   },
+   "countries": [
+    "Canada",
+    "Netherlands",
+    "United States of America"
+   ]
+  },
+  "perplexity": {
+   "models": 7,
+   "openWeights": 1,
+   "frontier": 0,
+   "releasedLast12Months": 0,
+   "latest": {
+    "model": "R1 1776",
+    "date": "2025-02-18",
+    "link": "https://www.perplexity.ai/hub/blog/open-sourcing-r1-1776"
+   },
+   "largestCompute": null,
+   "countries": [
+    "United States of America"
+   ]
+  },
+  "salesforce": {
+   "models": 27,
+   "openWeights": 13,
+   "frontier": 0,
+   "releasedLast12Months": 0,
+   "latest": {
+    "model": "xLAM-8x22B",
+    "date": "2024-09-06",
+    "link": "https://www.salesforce.com/blog/xlam-large-action-models/"
+   },
+   "largestCompute": {
+    "model": "XGen-7B",
+    "flop": 8.02e+22,
+    "date": "2023-09-07"
+   },
+   "countries": [
+    "Hong Kong",
+    "Singapore",
+    "United States of America"
+   ]
+  },
+  "stability": {
+   "models": 37,
+   "openWeights": 34,
+   "frontier": 0,
+   "releasedLast12Months": 0,
+   "latest": {
+    "model": "Stable Video 4D 2.0 (SV4D 2.0)",
+    "date": "2025-03-25",
+    "link": "https://arxiv.org/abs/2503.16396"
+   },
+   "largestCompute": {
+    "model": "Stable LM 2 12B",
+    "flop": 2.91e+23,
+    "date": "2024-04-08"
+   },
+   "countries": [
+    "Australia",
+    "Canada",
+    "India",
+    "Netherlands",
+    "United Kingdom",
+    "United States of America"
+   ]
+  },
+  "tencent": {
+   "models": 20,
+   "openWeights": 14,
+   "frontier": 0,
+   "releasedLast12Months": 3,
+   "latest": {
+    "model": "Tencent Hy4 preview",
+    "date": "2026-08-28",
+    "link": "https://hy.tencent.com/hy4-preview"
+   },
+   "largestCompute": {
+    "model": "Hunyuan-TurboS",
+    "flop": 5.4e+24,
+    "date": "2025-03-11"
+   },
+   "countries": [
+    "China",
+    "Singapore",
+    "Switzerland",
+    "United States of America"
+   ]
+  },
+  "xai": {
+   "models": 26,
+   "openWeights": 1,
+   "frontier": 3,
+   "releasedLast12Months": 10,
+   "latest": {
+    "model": "Grok Voice 3.0",
+    "date": "2026-10-14",
+    "link": "https://x.ai/news/grok-voice-3"
+   },
+   "largestCompute": {
+    "model": "Grok 4",
+    "flop": 5.0000000000001e+26,
+    "date": "2025-07-09"
+   },
+   "countries": [
+    "United States of America"
+   ]
+  },
+  "zhipu": {
+   "models": 24,
+   "openWeights": 19,
+   "frontier": 2,
+   "releasedLast12Months": 7,
+   "latest": {
+    "model": "GLM-5.3-Flash",
+    "date": "2026-08-20",
+    "link": "https://z.ai/blog/glm-5.3-flash"
+   },
+   "largestCompute": {
+    "model": "GLM-5",
+    "flop": 6.84e+24,
+    "date": "2026-02-12"
+   },
+   "countries": [
+    "China"
+   ]
+  }
+ },
+ "byIndexId": {
+  "arena:Command R": {
+   "model": "Command R",
+   "organization": "Cohere,Cohere Labs (formerly Cohere for AI)",
+   "published": "2024-03-11",
+   "parameters": 35000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (non-commercial)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://cohere.com/blog/command-r"
+  },
+  "arena:Command R+": {
+   "model": "Command R+",
+   "organization": "Cohere,Cohere Labs (formerly Cohere for AI)",
+   "published": "2024-04-04",
+   "parameters": 104000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (non-commercial)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://txt.cohere.com/command-r-plus-microsoft-azure/"
+  },
+  "arena:DeepSeek-R1": {
+   "model": "DeepSeek-R1",
+   "organization": "DeepSeek",
+   "published": "2025-01-20",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.3e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://api-docs.deepseek.com/news/news250120"
+  },
+  "arena:DeepSeek-V2.5": {
+   "model": "DeepSeek-V2.5",
+   "organization": "DeepSeek",
+   "published": "2024-09-06",
+   "parameters": 236000000000,
+   "trainingComputeFlop": 1.7892e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+  },
+  "arena:DeepSeek-V3": {
+   "model": "DeepSeek-V3",
+   "organization": "DeepSeek",
+   "published": "2024-12-24",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.3e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2412.19437"
+  },
+  "arena:DeepSeek-V3.1": {
+   "model": "DeepSeek-V3.1",
+   "organization": "DeepSeek",
+   "published": "2025-08-21",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.594058e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://api-docs.deepseek.com/news/news250821"
+  },
+  "arena:ERNIE 5.1": {
+   "model": "ERNIE 5.1",
+   "organization": "Baidu",
+   "published": "2026-05-09",
+   "parameters": 800000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/"
+  },
+  "arena:GLM-4 (0520)": {
+   "model": "GLM-4 (0520)",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2024-05-20",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://arxiv.org/abs/2406.12793"
+  },
+  "arena:GLM-4-Plus": {
+   "model": "GLM-4-Plus",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2024-08-29",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": true,
+   "confidence": "Speculative",
+   "link": "https://bigmodel.cn/dev/howuse/glm-4"
+  },
+  "arena:GPT-5.5 Instant": {
+   "model": "GPT-5.5 Instant",
+   "organization": "OpenAI",
+   "published": "2026-05-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-5-5-instant/"
+  },
+  "arena:Gemini 3 Flash": {
+   "model": "Gemini 3 Flash",
+   "organization": "Google DeepMind",
+   "published": "2025-12-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": ""
+  },
+  "arena:Gemini 3 Pro": {
+   "model": "Gemini 3 Pro",
+   "organization": "Google DeepMind",
+   "published": "2025-11-18",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://blog.google/products/gemini/gemini-3/"
+  },
+  "arena:Gemma 4 26B A4B": {
+   "model": "Gemma 4 26B A4B",
+   "organization": "Google DeepMind",
+   "published": "2026-04-02",
+   "parameters": 25200000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://ai.google.dev/gemma/docs/core/model_card_4"
+  },
+  "arena:Granite 4.1 8B": {
+   "model": "Granite 4.1 8B",
+   "organization": "IBM",
+   "published": "2026-04-29",
+   "parameters": 8000000000,
+   "trainingComputeFlop": 7.2e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://huggingface.co/blog/ibm-granite/granite-4-1"
+  },
+  "arena:Granite-4.0-H-Small": {
+   "model": "Granite-4.0-H-Small",
+   "organization": "IBM",
+   "published": "2025-10-02",
+   "parameters": 32000000000,
+   "trainingComputeFlop": 1.215e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models#:~:text=We're%20launching%20Granite%204,costs%20compared%20to%20conventional%20LLMs."
+  },
+  "arena:Grok 4.1": {
+   "model": "Grok 4.1",
+   "organization": "xAI",
+   "published": "2025-11-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://x.ai/news/grok-4-1"
+  },
+  "arena:LLaMA 13B": {
+   "model": "LLaMA-13B",
+   "organization": "Meta AI",
+   "published": "2023-02-27",
+   "parameters": 13000000000,
+   "trainingComputeFlop": 7.8e+22,
+   "accessibility": "Open weights (non-commercial)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2302.13971"
+  },
+  "arena:Llama 3.1 Nemotron 70B Instruct": {
+   "model": "Llama-3.1-Nemotron-70B-Instruct",
+   "organization": "Nvidia,Meta AI",
+   "published": "2024-10-12",
+   "parameters": null,
+   "trainingComputeFlop": 7.929e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/llama-3.1-nemotron-70b-instruct"
+  },
+  "arena:MiniMax-M2": {
+   "model": "MiniMax-M2",
+   "organization": "MiniMax",
+   "published": "2025-10-27",
+   "parameters": 229000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.minimax.io/news/minimax-m2"
+  },
+  "arena:Mistral Large 3": {
+   "model": "Mistral Large 3",
+   "organization": "Mistral AI",
+   "published": "2025-12-02",
+   "parameters": 675000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-3/"
+  },
+  "arena:Mistral Large 4": {
+   "model": "Mistral Large 4",
+   "organization": "Mistral AI",
+   "published": "2026-10-06",
+   "parameters": 1050000000000,
+   "trainingComputeFlop": 1.24e+25,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-large-4/"
+  },
+  "arena:Mistral Medium": {
+   "model": "Mistral Medium",
+   "organization": "Mistral AI",
+   "published": "2023-12-11",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://mistral.ai/news/la-plateforme/"
+  },
+  "arena:Muse Glimmer": {
+   "model": "Muse Glimmer",
+   "organization": "Meta AI",
+   "published": "2026-08-10",
+   "parameters": 30000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+  },
+  "arena:Muse Spark": {
+   "model": "Muse Spark",
+   "organization": "Meta AI",
+   "published": "2026-04-08",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+  },
+  "arena:Olmo 3.1 32B Think": {
+   "model": "Olmo 3.1 32B Think",
+   "organization": "Allen Institute for AI,University of Washington,Carnegie Mellon University (CMU),Stanford University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),University of Montreal / Université de Montréal,Princeton University,Massachusetts Institute of Technology (MIT),University of Maryland",
+   "published": "2025-11-20",
+   "parameters": 32000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://arxiv.org/abs/2512.13961,"
+  },
+  "arena:PaLM 2": {
+   "model": "PaLM 2",
+   "organization": "Google",
+   "published": "2023-05-10",
+   "parameters": 340000000000,
+   "trainingComputeFlop": 7.34e+24,
+   "accessibility": "API access",
+   "frontier": true,
+   "confidence": "Likely",
+   "link": "https://arxiv.org/abs/2305.10403"
+  },
+  "arena:QwQ-32B": {
+   "model": "QwQ-32B",
+   "organization": "Alibaba",
+   "published": "2025-03-06",
+   "parameters": 32500000000,
+   "trainingComputeFlop": 3.51e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://qwenlm.github.io/blog/qwq-32b/"
+  },
+  "arena:Qwen2.5-Max": {
+   "model": "Qwen2.5-Max",
+   "organization": "Alibaba",
+   "published": "2025-01-28",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://qwenlm.github.io/blog/qwen2.5-max/"
+  },
+  "arena:Qwen3-235B-A22B": {
+   "model": "Qwen3-235B-A22B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 235000000000,
+   "trainingComputeFlop": 4.752e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "arena:WizardLM 70B": {
+   "model": "WizardLM 70B",
+   "organization": "Microsoft,Peking University",
+   "published": "2023-04-24",
+   "parameters": 70000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://huggingface.co/WizardLM/WizardLM-70B-V1.0"
+  },
+  "arena:o1-mini": {
+   "model": "o1-mini",
+   "organization": "OpenAI",
+   "published": "2024-09-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/learning-to-reason-with-llms/"
+  },
+  "arena:o1-preview": {
+   "model": "o1-preview",
+   "organization": "OpenAI",
+   "published": "2024-09-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-openai-o1-preview/"
+  },
+  "arena:o3-mini": {
+   "model": "o3-mini",
+   "organization": "OpenAI",
+   "published": "2025-01-31",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/openai-o3-mini/"
+  },
+  "hf:Qwen/Qwen2.5-1.5B": {
+   "model": "Qwen2.5-1.5B",
+   "organization": "Alibaba",
+   "published": "2024-09-19",
+   "parameters": 1540000000,
+   "trainingComputeFlop": 1.6632e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+  },
+  "hf:Qwen/Qwen2.5-7B": {
+   "model": "Qwen2.5-7B",
+   "organization": "Alibaba",
+   "published": "2024-09-19",
+   "parameters": 7610000000,
+   "trainingComputeFlop": 8.2188e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen2.5/"
+  },
+  "hf:Qwen/Qwen3-0.6B": {
+   "model": "Qwen3-0.6B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 600000000,
+   "trainingComputeFlop": 1.296e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "hf:Qwen/Qwen3-1.7B": {
+   "model": "Qwen3-1.7B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 1700000000,
+   "trainingComputeFlop": 3.672e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "hf:Qwen/Qwen3-4B": {
+   "model": "Qwen3-4B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 4000000000,
+   "trainingComputeFlop": 8.64e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "hf:Qwen/Qwen3-8B": {
+   "model": "Qwen3-8B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 8200000000,
+   "trainingComputeFlop": 1.7712e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "hf:Qwen/Qwen3.5-0.8B": {
+   "model": "Qwen3.5-0.8B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 800000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file"
+  },
+  "hf:Qwen/Qwen3.5-2B": {
+   "model": "Qwen3.5-2B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 2000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file"
+  },
+  "hf:Qwen/Qwen3.5-4B": {
+   "model": "Qwen3.5-4B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 4000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file"
+  },
+  "hf:black-forest-labs/FLUX.1-dev": {
+   "model": "Flux.1 [dev]",
+   "organization": "Black Forest Labs",
+   "published": "2024-08-01",
+   "parameters": 12000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (non-commercial)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://blackforestlabs.ai/announcing-black-forest-labs/"
+  },
+  "hf:deepseek-ai/DeepSeek-OCR": {
+   "model": "Deepseek OCR",
+   "organization": "DeepSeek",
+   "published": "2025-10-21",
+   "parameters": 3000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2510.18234v1"
+  },
+  "hf:deepseek-ai/DeepSeek-R1": {
+   "model": "DeepSeek-R1",
+   "organization": "DeepSeek",
+   "published": "2025-01-20",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.3e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://api-docs.deepseek.com/news/news250120"
+  },
+  "hf:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+   "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "organization": "DeepSeek",
+   "published": "2025-01-22",
+   "parameters": 1780000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://arxiv.org/abs/2501.12948"
+  },
+  "hf:meta-llama/Llama-3.1-8B": {
+   "model": "Llama 3.1-8B",
+   "organization": "Meta AI",
+   "published": "2024-07-23",
+   "parameters": 8000000000,
+   "trainingComputeFlop": 1.224e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/"
+  },
+  "hf:meta-llama/Llama-3.2-1B": {
+   "model": "Llama 3.2 1B",
+   "organization": "Meta AI",
+   "published": "2024-09-24",
+   "parameters": 1230000000,
+   "trainingComputeFlop": 6.642e+22,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+  },
+  "hf:nvidia/parakeet-tdt-0.6b-v3": {
+   "model": "Parakeet-tdt-0.6b-v3",
+   "organization": "Nvidia",
+   "published": "2025-08-14",
+   "parameters": 600000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2509.14128"
+  },
+  "or:anthropic/claude-fable-5": {
+   "model": "Claude Fable 5",
+   "organization": "Anthropic",
+   "published": "2026-06-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+  },
+  "or:anthropic/claude-fable-5.1": {
+   "model": "Claude Fable 5.1",
+   "organization": "Anthropic",
+   "published": "2026-09-01",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+  },
+  "or:anthropic/claude-fable-5.2": {
+   "model": "Claude Fable 5.2",
+   "organization": "Anthropic",
+   "published": "2026-11-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+  },
+  "or:anthropic/claude-haiku-4.5": {
+   "model": "Claude Haiku 4.5",
+   "organization": "Anthropic",
+   "published": "2025-10-15",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  "or:anthropic/claude-haiku-5.5": {
+   "model": "Claude Haiku 5.5",
+   "organization": "Anthropic",
+   "published": "2026-10-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/claude-haiku-5-5"
+  },
+  "or:anthropic/claude-opus-4.1": {
+   "model": "Claude Opus 4.1",
+   "organization": "Anthropic",
+   "published": "2025-08-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  "or:anthropic/claude-opus-4.5": {
+   "model": "Claude Opus 4.5",
+   "organization": "Anthropic",
+   "published": "2025-11-24",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-opus-4-5"
+  },
+  "or:anthropic/claude-opus-4.6": {
+   "model": "Claude Opus 4.6",
+   "organization": "Anthropic",
+   "published": "2026-02-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://www.anthropic.com/news/claude-opus-4-6"
+  },
+  "or:anthropic/claude-opus-4.7": {
+   "model": "Claude Opus 4.7",
+   "organization": "Anthropic",
+   "published": "2026-04-16",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://www.anthropic.com/news/claude-opus-4-7"
+  },
+  "or:anthropic/claude-opus-4.8": {
+   "model": "Claude Opus 4.8",
+   "organization": "Anthropic",
+   "published": "2026-05-28",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-opus-4-8"
+  },
+  "or:anthropic/claude-opus-5": {
+   "model": "Claude Opus 5",
+   "organization": "Anthropic",
+   "published": "2026-07-24",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-opus-5"
+  },
+  "or:anthropic/claude-opus-5.5": {
+   "model": "Claude Opus 5.5",
+   "organization": "Anthropic",
+   "published": "2026-09-22",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/claude-opus-5-5"
+  },
+  "or:anthropic/claude-sonnet-4.5": {
+   "model": "Claude Sonnet 4.5",
+   "organization": "Anthropic",
+   "published": "2025-09-29",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  "or:anthropic/claude-sonnet-4.6": {
+   "model": "Claude Sonnet 4.6",
+   "organization": "Anthropic",
+   "published": "2026-02-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
+  },
+  "or:anthropic/claude-sonnet-5": {
+   "model": "Claude Sonnet 5",
+   "organization": "Anthropic",
+   "published": "2026-06-30",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/news/claude-sonnet-5"
+  },
+  "or:anthropic/claude-sonnet-5.5": {
+   "model": "Claude Sonnet 5.5",
+   "organization": "Anthropic",
+   "published": "2026-09-28",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/claude-sonnet-5-5"
+  },
+  "or:cohere/command-a-plus": {
+   "model": "Command A+",
+   "organization": "Cohere,Cohere Labs (formerly Cohere for AI)",
+   "published": "2026-05-20",
+   "parameters": 218000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://docs.cohere.com/changelog/command-a-plus-05-2026"
+  },
+  "or:deepseek/deepseek-chat": {
+   "model": "DeepSeek-V3",
+   "organization": "DeepSeek",
+   "published": "2024-12-24",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.3e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2412.19437"
+  },
+  "or:deepseek/deepseek-chat-v3.1": {
+   "model": "DeepSeek-V3.1",
+   "organization": "DeepSeek",
+   "published": "2025-08-21",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.594058e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://api-docs.deepseek.com/news/news250821"
+  },
+  "or:deepseek/deepseek-v3.1-terminus": {
+   "model": "DeepSeek-V3.1-Terminus",
+   "organization": "DeepSeek",
+   "published": "2025-09-22",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 3.594058e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://api-docs.deepseek.com/news/news250922"
+  },
+  "or:deepseek/deepseek-v3.2": {
+   "model": "DeepSeek-V3.2",
+   "organization": "DeepSeek",
+   "published": "2025-12-01",
+   "parameters": null,
+   "trainingComputeFlop": 4.2e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://api-docs.deepseek.com/news/news251201"
+  },
+  "or:deepseek/deepseek-v3.2-exp": {
+   "model": "DeepSeek-V3.2-Exp",
+   "organization": "DeepSeek",
+   "published": "2025-09-29",
+   "parameters": 671000000000,
+   "trainingComputeFlop": 4.18e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf"
+  },
+  "or:deepseek/deepseek-v4-flash": {
+   "model": "DeepSeek-V4-Flash",
+   "organization": "DeepSeek",
+   "published": "2026-04-24",
+   "parameters": 284000000000,
+   "trainingComputeFlop": 2.496e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+  },
+  "or:deepseek/deepseek-v4-flash-0731": {
+   "model": "DeepSeek V4 Flash 0731",
+   "organization": "DeepSeek",
+   "published": "2026-07-31",
+   "parameters": 284000000000,
+   "trainingComputeFlop": 2.496e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+  },
+  "or:deepseek/deepseek-v4-pro": {
+   "model": "DeepSeek-V4-Pro",
+   "organization": "DeepSeek",
+   "published": "2026-04-24",
+   "parameters": 1600000000000,
+   "trainingComputeFlop": 9.702e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+  },
+  "or:deepseek/deepseek-v4-pro-0813": {
+   "model": "DeepSeek V4 Pro 0813",
+   "organization": "DeepSeek",
+   "published": "2026-08-13",
+   "parameters": 1600000000000,
+   "trainingComputeFlop": 9.702e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+  },
+  "or:deepseek/deepseek-v4.1-flash": {
+   "model": "DeepSeek V4.1 Flash",
+   "organization": "DeepSeek",
+   "published": "2026-09-09",
+   "parameters": 552000000000,
+   "trainingComputeFlop": 4.32e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf"
+  },
+  "or:google/gemini-2.5-flash": {
+   "model": "Gemini 2.5 Flash",
+   "organization": "Google DeepMind",
+   "published": "2025-04-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://deepmind.google/models/gemini/flash/"
+  },
+  "or:google/gemini-2.5-flash-lite": {
+   "model": "Gemini 2.5 Flash-Lite",
+   "organization": "Google DeepMind",
+   "published": "2025-06-15",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://deepmind.google/models/gemini/flash-lite/"
+  },
+  "or:google/gemini-3.1-flash-lite": {
+   "model": "Gemini 3.1 Flash-Lite",
+   "organization": "Google",
+   "published": "2026-03-03",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
+  },
+  "or:google/gemini-3.5-flash": {
+   "model": "Gemini 3.5 Flash",
+   "organization": "Google DeepMind",
+   "published": "2026-05-19",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://deepmind.google/models/model-cards/gemini-3-5-flash/"
+  },
+  "or:google/gemini-3.5-flash-lite": {
+   "model": "Gemini 3.5 Flash-Lite",
+   "organization": "Google DeepMind",
+   "published": "2026-07-21",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+  },
+  "or:google/gemini-3.6-flash": {
+   "model": "Gemini 3.6 Flash",
+   "organization": "Google DeepMind",
+   "published": "2026-07-21",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+  },
+  "or:google/gemini-3.7-flash": {
+   "model": "Gemini 3.7 Flash",
+   "organization": "Google DeepMind",
+   "published": "2026-08-13",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://x.com/GoogleAIStudio/status/2087953811931320341"
+  },
+  "or:google/gemini-3.8-flash": {
+   "model": "Gemini 3.8 Flash",
+   "organization": "Google DeepMind",
+   "published": "2026-09-02",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash"
+  },
+  "or:google/gemini-4-argon": {
+   "model": "Gemini 4 Argon",
+   "organization": "Google DeepMind",
+   "published": "2026-10-13",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+  },
+  "or:google/gemini-4-carbon": {
+   "model": "Gemini 4 Carbon",
+   "organization": "Google DeepMind",
+   "published": "2026-11-10",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+  },
+  "or:google/gemini-4-hydrogen": {
+   "model": "Gemini 4 Hydrogen",
+   "organization": "Google DeepMind",
+   "published": "2026-11-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
+  },
+  "or:google/gemini-4-neon": {
+   "model": "Gemini 4 Neon",
+   "organization": "Google DeepMind",
+   "published": "2026-11-18",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+  },
+  "or:google/gemma-2-27b-it": {
+   "model": "Gemma 2 27B",
+   "organization": "Google DeepMind",
+   "published": "2024-06-24",
+   "parameters": 27000000000,
+   "trainingComputeFlop": 2.106e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf"
+  },
+  "or:google/gemma-3-12b-it": {
+   "model": "Gemma 3 12B",
+   "organization": "Google DeepMind",
+   "published": "2025-03-12",
+   "parameters": 12000000000,
+   "trainingComputeFlop": 8.64e+23,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
+  },
+  "or:google/gemma-3-27b-it": {
+   "model": "Gemma 3 27B",
+   "organization": "Google DeepMind",
+   "published": "2025-03-12",
+   "parameters": 27000000000,
+   "trainingComputeFlop": 2.268e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
+  },
+  "or:google/gemma-3-4b-it": {
+   "model": "Gemma 3 4B",
+   "organization": "Google DeepMind",
+   "published": "2025-03-12",
+   "parameters": 4000000000,
+   "trainingComputeFlop": 9.6e+22,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
+  },
+  "or:google/gemma-4-26b-a4b-it": {
+   "model": "Gemma 4 26B A4B",
+   "organization": "Google DeepMind",
+   "published": "2026-04-02",
+   "parameters": 25200000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://ai.google.dev/gemma/docs/core/model_card_4"
+  },
+  "or:google/gemma-4-31b-it": {
+   "model": "Gemma 4 31B IT",
+   "organization": "Google DeepMind",
+   "published": "2026-04-02",
+   "parameters": 31000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": ""
+  },
+  "or:meta-llama/llama-4-maverick": {
+   "model": "Llama 4 Maverick",
+   "organization": "Meta AI",
+   "published": "2025-04-05",
+   "parameters": 400000000000,
+   "trainingComputeFlop": 2.244000000001e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  },
+  "or:meta-llama/llama-4-scout": {
+   "model": "Llama 4 Scout",
+   "organization": "Meta AI",
+   "published": "2025-04-05",
+   "parameters": 109000000000,
+   "trainingComputeFlop": 4.08e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  },
+  "or:meta/muse-ember": {
+   "model": "Muse Ember",
+   "organization": "Meta AI",
+   "published": "2026-11-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://research.meta.ai/blog/muse-ember"
+  },
+  "or:meta/muse-spark-1.1": {
+   "model": "Muse Spark 1.1",
+   "organization": "Meta AI",
+   "published": "2026-07-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+  },
+  "or:meta/muse-spark-1.2": {
+   "model": "Muse Spark 1.2",
+   "organization": "Meta AI",
+   "published": "2026-08-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+  },
+  "or:meta/muse-spark-1.3": {
+   "model": "Muse Spark 1.3",
+   "organization": "Meta AI",
+   "published": "2026-09-02",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+  },
+  "or:meta/muse-spark-open": {
+   "model": "Muse Spark Open",
+   "organization": "Meta AI",
+   "published": "2026-10-15",
+   "parameters": 816000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://research.meta.ai/blog/muse-spark-open"
+  },
+  "or:meta/muse-wonder": {
+   "model": "Muse Wonder",
+   "organization": "Meta AI",
+   "published": "2026-10-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://research.meta.ai/blog/muse-wonder"
+  },
+  "or:microsoft/phi-4": {
+   "model": "Phi-4",
+   "organization": "Microsoft Research",
+   "published": "2024-12-12",
+   "parameters": 14000000000,
+   "trainingComputeFlop": 9.3202015e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2412.08905"
+  },
+  "or:minimax/minimax-m2.5": {
+   "model": "MiniMax-M2.5",
+   "organization": "MiniMax",
+   "published": "2026-02-12",
+   "parameters": 229000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://www.minimax.io/news/minimax-m25"
+  },
+  "or:minimax/minimax-m2.7": {
+   "model": "MiniMax-M2.7",
+   "organization": "MiniMax",
+   "published": "2026-03-18",
+   "parameters": 229000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (non-commercial)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.minimax.io/news/minimax-m27-en"
+  },
+  "or:minimax/minimax-m3": {
+   "model": "MiniMax-M3",
+   "organization": "MiniMax",
+   "published": "2026-06-01",
+   "parameters": 428000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.minimax.io/blog/minimax-m3"
+  },
+  "or:mistralai/mistral-large": {
+   "model": "Mistral Large",
+   "organization": "Mistral AI",
+   "published": "2024-02-26",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://mistral.ai/news/mistral-large/"
+  },
+  "or:mistralai/mistral-large-4-0": {
+   "model": "Mistral Large 4",
+   "organization": "Mistral AI",
+   "published": "2026-10-06",
+   "parameters": 1050000000000,
+   "trainingComputeFlop": 1.24e+25,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-large-4/"
+  },
+  "or:mistralai/mistral-medium-3": {
+   "model": "Mistral Medium 3",
+   "organization": "Mistral AI",
+   "published": "2025-05-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://mistral.ai/news/mistral-medium-3"
+  },
+  "or:mistralai/mistral-medium-3-5": {
+   "model": "Mistral Medium 3.5",
+   "organization": "Mistral AI",
+   "published": "2026-04-29",
+   "parameters": 128000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+  },
+  "or:mistralai/mistral-medium-3.1": {
+   "model": "Mistral Medium 3.1",
+   "organization": "Mistral AI",
+   "published": "2025-08-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://x.com/MistralAI/status/1955316715417382979?lang=en"
+  },
+  "or:mistralai/mistral-nemo": {
+   "model": "Mistral NeMo",
+   "organization": "Mistral AI",
+   "published": "2024-07-18",
+   "parameters": 12000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-nemo/"
+  },
+  "or:mistralai/mistral-saba": {
+   "model": "Mistral Saba",
+   "organization": "Mistral AI",
+   "published": "2025-02-17",
+   "parameters": 24000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-saba"
+  },
+  "or:mistralai/mistral-small-24b-instruct-2501": {
+   "model": "Mistral Small 3",
+   "organization": "Mistral AI",
+   "published": "2025-01-30",
+   "parameters": 24000000000,
+   "trainingComputeFlop": 1.152e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-small-3/"
+  },
+  "or:mistralai/mistral-small-2603": {
+   "model": "Mistral Small 4",
+   "organization": "Mistral AI",
+   "published": "2026-03-16",
+   "parameters": 119000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://mistral.ai/news/mistral-small-4/"
+  },
+  "or:moonshotai/kimi-k2": {
+   "model": "Kimi K2",
+   "organization": "Moonshot",
+   "published": "2025-07-11",
+   "parameters": 1000000000000,
+   "trainingComputeFlop": 2.976e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://moonshotai.github.io/Kimi-K2/"
+  },
+  "or:moonshotai/kimi-k2-thinking": {
+   "model": "Kimi K2 Thinking",
+   "organization": "Moonshot",
+   "published": "2025-11-06",
+   "parameters": 1000000000000,
+   "trainingComputeFlop": 4.2e+24,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://moonshotai.github.io/Kimi-K2/thinking"
+  },
+  "or:moonshotai/kimi-k2.5": {
+   "model": "Kimi K2.5",
+   "organization": "Moonshot",
+   "published": "2026-02-02",
+   "parameters": 1040000000000,
+   "trainingComputeFlop": 5.8e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://arxiv.org/abs/2602.02276"
+  },
+  "or:moonshotai/kimi-k2.6": {
+   "model": "Kimi K2.6",
+   "organization": "Moonshot",
+   "published": "2026-04-20",
+   "parameters": 1040000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.kimi.com/ai-models/kimi-k2-6"
+  },
+  "or:moonshotai/kimi-k2.7-code": {
+   "model": "Kimi K2.7 Code",
+   "organization": "Moonshot",
+   "published": "2026-06-12",
+   "parameters": 1040000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart"
+  },
+  "or:moonshotai/kimi-k3": {
+   "model": "Kimi K3",
+   "organization": "Moonshot",
+   "published": "2026-07-16",
+   "parameters": 2800000000000,
+   "trainingComputeFlop": 2.0001e+25,
+   "accessibility": "Open weights (non-commercial)",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://huggingface.co/moonshotai/Kimi-K3"
+  },
+  "or:moonshotai/kimi-k3.1-pro": {
+   "model": "Kimi K3.1 Pro",
+   "organization": "Moonshot",
+   "published": "2026-10-23",
+   "parameters": 2800000000000,
+   "trainingComputeFlop": 2.0001e+25,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+  },
+  "or:nvidia/nemotron-3-nano-30b-a3b": {
+   "model": "Nemotron 3-Nano-30B-A3B",
+   "organization": "Nvidia",
+   "published": "2025-12-15",
+   "parameters": 31600000000,
+   "trainingComputeFlop": 4.8e+23,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Nano-Technical-Report.pdf"
+  },
+  "or:nvidia/nemotron-3-super-120b-a12b": {
+   "model": "Nemotron 3 Super",
+   "organization": "Nvidia",
+   "published": "2026-03-11",
+   "parameters": 120000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/"
+  },
+  "or:nvidia/nemotron-3-ultra-550b-a55b": {
+   "model": "Nemotron 3 Ultra",
+   "organization": "Nvidia",
+   "published": "2026-06-04",
+   "parameters": 550000000000,
+   "trainingComputeFlop": 6.6e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://arxiv.org/abs/2512.20856"
+  },
+  "or:nvidia/nemotron-3.5-lightning": {
+   "model": "Nemotron 3.5 Lightning",
+   "organization": "Nvidia",
+   "published": "2026-08-11",
+   "parameters": 30000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/"
+  },
+  "or:openai/gpt-4.1": {
+   "model": "GPT-4.1",
+   "organization": "OpenAI",
+   "published": "2025-04-14",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-4-1/"
+  },
+  "or:openai/gpt-4.1-mini": {
+   "model": "GPT-4.1 mini",
+   "organization": "OpenAI",
+   "published": "2025-04-14",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-4-1/"
+  },
+  "or:openai/gpt-4.1-nano": {
+   "model": "GPT-4.1 nano",
+   "organization": "OpenAI",
+   "published": "2025-04-14",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-4-1/"
+  },
+  "or:openai/gpt-4o": {
+   "model": "GPT-4o",
+   "organization": "OpenAI",
+   "published": "2024-05-13",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": true,
+   "confidence": "Speculative",
+   "link": "https://openai.com/index/hello-gpt-4o/"
+  },
+  "or:openai/gpt-4o-mini": {
+   "model": "GPT-4o mini",
+   "organization": "OpenAI",
+   "published": "2024-07-18",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+  },
+  "or:openai/gpt-5": {
+   "model": "GPT-5",
+   "organization": "OpenAI",
+   "published": "2025-08-07",
+   "parameters": null,
+   "trainingComputeFlop": 6.6e+25,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://cdn.openai.com/gpt-5-system-card.pdf"
+  },
+  "or:openai/gpt-5-mini": {
+   "model": "GPT-5 mini",
+   "organization": "OpenAI",
+   "published": "2025-08-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://cdn.openai.com/gpt-5-system-card.pdf"
+  },
+  "or:openai/gpt-5-nano": {
+   "model": "GPT-5 nano",
+   "organization": "OpenAI",
+   "published": "2025-08-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://cdn.openai.com/gpt-5-system-card.pdf"
+  },
+  "or:openai/gpt-5-pro": {
+   "model": "GPT-5 Pro",
+   "organization": "OpenAI",
+   "published": "2025-10-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://cdn.openai.com/gpt-5-system-card.pdf"
+  },
+  "or:openai/gpt-5.1": {
+   "model": "GPT-5.1",
+   "organization": "OpenAI",
+   "published": "2025-11-13",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-5-1/"
+  },
+  "or:openai/gpt-5.1-codex": {
+   "model": "GPT-5.1-Codex",
+   "organization": "OpenAI",
+   "published": "2025-11-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": ""
+  },
+  "or:openai/gpt-5.1-codex-max": {
+   "model": "GPT-5.1-Codex-Max",
+   "organization": "OpenAI",
+   "published": "2025-11-19",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-5-1-codex-max/"
+  },
+  "or:openai/gpt-5.1-codex-mini": {
+   "model": "GPT-5.1-Codex-mini",
+   "organization": "OpenAI",
+   "published": "2025-11-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": ""
+  },
+  "or:openai/gpt-5.2": {
+   "model": "GPT-5.2",
+   "organization": "OpenAI",
+   "published": "2025-12-11",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": ""
+  },
+  "or:openai/gpt-5.2-codex": {
+   "model": "GPT-5.2 Codex",
+   "organization": "OpenAI",
+   "published": "2025-12-18",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-2-codex/"
+  },
+  "or:openai/gpt-5.2-pro": {
+   "model": "GPT-5.2 Pro",
+   "organization": "OpenAI",
+   "published": "2025-12-11",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-2/"
+  },
+  "or:openai/gpt-5.3-codex": {
+   "model": "GPT-5.3 Codex",
+   "organization": "OpenAI",
+   "published": "2026-02-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
+  },
+  "or:openai/gpt-5.4": {
+   "model": "GPT-5.4",
+   "organization": "OpenAI",
+   "published": "2026-03-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-4/"
+  },
+  "or:openai/gpt-5.4-mini": {
+   "model": "GPT-5.4 Mini",
+   "organization": "OpenAI",
+   "published": "2026-03-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+  },
+  "or:openai/gpt-5.4-nano": {
+   "model": "GPT-5.4 Nano",
+   "organization": "OpenAI",
+   "published": "2026-03-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+  },
+  "or:openai/gpt-5.4-pro": {
+   "model": "GPT-5.4 Pro",
+   "organization": "OpenAI",
+   "published": "2026-03-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-4/"
+  },
+  "or:openai/gpt-5.5": {
+   "model": "GPT-5.5",
+   "organization": "OpenAI",
+   "published": "2026-04-23",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-5/"
+  },
+  "or:openai/gpt-5.5-pro": {
+   "model": "GPT-5.5 Pro",
+   "organization": "OpenAI",
+   "published": "2026-04-23",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-5/"
+  },
+  "or:openai/gpt-5.6-luna": {
+   "model": "GPT-5.6 Luna",
+   "organization": "OpenAI",
+   "published": "2026-07-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-5-6/"
+  },
+  "or:openai/gpt-5.6-sol": {
+   "model": "GPT-5.6 Sol",
+   "organization": "OpenAI",
+   "published": "2026-07-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-5-6/"
+  },
+  "or:openai/gpt-5.6-terra": {
+   "model": "GPT-5.6 Terra",
+   "organization": "OpenAI",
+   "published": "2026-07-09",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-5-6/"
+  },
+  "or:openai/gpt-6-astra": {
+   "model": "GPT-6 Astra",
+   "organization": "OpenAI",
+   "published": "2026-09-03",
+   "parameters": null,
+   "trainingComputeFlop": 9.4e+26,
+   "accessibility": "API access",
+   "frontier": true,
+   "confidence": "Likely",
+   "link": ""
+  },
+  "or:openai/gpt-6-luna": {
+   "model": "GPT-6 Luna",
+   "organization": "OpenAI",
+   "published": "2026-09-22",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  },
+  "or:openai/gpt-6-sol": {
+   "model": "GPT-6 Sol",
+   "organization": "OpenAI",
+   "published": "2026-09-22",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  },
+  "or:openai/gpt-6.1-sol": {
+   "model": "GPT-6.1 Sol",
+   "organization": "OpenAI",
+   "published": "2026-09-29",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-1-sol/"
+  },
+  "or:openai/gpt-6.1-terra": {
+   "model": "GPT-6.1 Terra",
+   "organization": "OpenAI",
+   "published": "2026-10-26",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+  },
+  "or:openai/gpt-6.2-astra": {
+   "model": "GPT-6.2 Astra",
+   "organization": "OpenAI",
+   "published": "2026-11-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+  },
+  "or:openai/gpt-6.2-sol": {
+   "model": "GPT-6.2 Sol",
+   "organization": "OpenAI",
+   "published": "2026-11-17",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+  },
+  "or:openai/gpt-oss-120b": {
+   "model": "gpt-oss-120b",
+   "organization": "OpenAI",
+   "published": "2025-08-05",
+   "parameters": 116830000000,
+   "trainingComputeFlop": 4.94e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf"
+  },
+  "or:openai/gpt-oss-20b": {
+   "model": "gpt-oss-20b",
+   "organization": "OpenAI",
+   "published": "2025-08-05",
+   "parameters": 20910000000,
+   "trainingComputeFlop": 5.49e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf"
+  },
+  "or:openai/o3": {
+   "model": "o3",
+   "organization": "OpenAI",
+   "published": "2024-12-20",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+  },
+  "or:openai/o3-pro": {
+   "model": "o3-pro",
+   "organization": "OpenAI",
+   "published": "2025-06-10",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": ""
+  },
+  "or:perplexity/sonar": {
+   "model": "Sonar",
+   "organization": "Perplexity",
+   "published": "2025-01-21",
+   "parameters": 70000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.perplexity.ai/hub/blog/meet-new-sonar"
+  },
+  "or:perplexity/sonar-deep-research": {
+   "model": "Sonar Deep Research",
+   "organization": "Perplexity",
+   "published": "2025-02-14",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "Hosted access (no API)",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research"
+  },
+  "or:perplexity/sonar-pro": {
+   "model": "Sonar Pro",
+   "organization": "Perplexity",
+   "published": "2025-01-25",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api"
+  },
+  "or:perplexity/sonar-reasoning-pro": {
+   "model": "Sonar Reasoning Pro",
+   "organization": "Perplexity",
+   "published": "2025-02-01",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://docs.perplexity.ai/models/models/sonar-reasoning-pro"
+  },
+  "or:qwen/qwen-plus": {
+   "model": "Qwen Plus",
+   "organization": "Alibaba",
+   "published": "2024-02-06",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://help.aliyun.com/zh/model-studio/models?scm=20140722.S_help%40%40%E6%96%87%E6%A1%A3%40%402840914.S_BB1%40bl%2BBB2%40bl%2BRQW%40ag0%2Bos0.ID_2840914-RL_plus-LOC_doc%7EUND%7Eab-OR_ser-PAR1_2102029c17437872399601371d08f3-V_4-P0_0-P1_0&spm=a2c4g.11186623.help-search.i20"
+  },
+  "or:qwen/qwen3-14b": {
+   "model": "Qwen3-14B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 14800000000,
+   "trainingComputeFlop": 3.1968e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "or:qwen/qwen3-30b-a3b": {
+   "model": "Qwen3-30B-A3B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 30000000000,
+   "trainingComputeFlop": 6.48e+23,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "or:qwen/qwen3-32b": {
+   "model": "Qwen3-32B",
+   "organization": "Alibaba",
+   "published": "2025-04-29",
+   "parameters": 32800000000,
+   "trainingComputeFlop": 7.0848e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  "or:qwen/qwen3-coder": {
+   "model": "Qwen3-Coder-480B-A35B",
+   "organization": "Alibaba",
+   "published": "2025-07-22",
+   "parameters": 480000000000,
+   "trainingComputeFlop": 1.575e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwenlm.github.io/blog/qwen3-coder/"
+  },
+  "or:qwen/qwen3-coder-next": {
+   "model": "Qwen3-Coder-Next",
+   "organization": "Alibaba",
+   "published": "2026-02-02",
+   "parameters": 80000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://qwen.ai/blog?id=qwen3-coder-next"
+  },
+  "or:qwen/qwen3.5-122b-a10b": {
+   "model": "Qwen3.5-122B-A10B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 122000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file"
+  },
+  "or:qwen/qwen3.5-27b": {
+   "model": "Qwen3.5-27B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 27000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file"
+  },
+  "or:qwen/qwen3.5-35b-a3b": {
+   "model": "Qwen3.5-35B-A3B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 35000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+  },
+  "or:qwen/qwen3.5-397b-a17b": {
+   "model": "Qwen3.5 397B-A17B",
+   "organization": "Alibaba",
+   "published": "2026-02-15",
+   "parameters": 397000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://qwen.ai/blog?id=qwen3.5"
+  },
+  "or:qwen/qwen3.5-9b": {
+   "model": "Qwen3.5-9B",
+   "organization": "Alibaba",
+   "published": "2026-02-24",
+   "parameters": 9000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file"
+  },
+  "or:qwen/qwen3.6-27b": {
+   "model": "Qwen3.6 27B",
+   "organization": "Alibaba",
+   "published": "2026-04-22",
+   "parameters": 27000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://qwen.ai/blog?id=qwen3.6-27b"
+  },
+  "or:qwen/qwen3.7-flash": {
+   "model": "Qwen3.7 Flash",
+   "organization": "Alibaba",
+   "published": "2026-07-27",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.qwencloud.com/models/qwen3.7-flash"
+  },
+  "or:qwen/qwen3.7-max": {
+   "model": "Qwen3.7-Max",
+   "organization": "Alibaba",
+   "published": "2026-05-19",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://qwen.ai/blog?id=qwen3.7"
+  },
+  "or:qwen/qwen3.7-plus": {
+   "model": "Qwen3.7-Plus",
+   "organization": "Alibaba",
+   "published": "2026-06-03",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://qwen.ai/blog?id=qwen3.7-plus"
+  },
+  "or:qwen/qwen3.8-2.4t-a95b": {
+   "model": "Qwen3.8-2.4T-A95B",
+   "organization": "Alibaba",
+   "published": "2026-08-08",
+   "parameters": 2400000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+  },
+  "or:qwen/qwen4-max": {
+   "model": "Qwen4-Max",
+   "organization": "Alibaba",
+   "published": "2026-11-16",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.qwencloud.com/models/qwen4-max"
+  },
+  "or:x-ai/grok-4.20": {
+   "model": "Grok 4.20",
+   "organization": "xAI",
+   "published": "2026-02-17",
+   "parameters": 500000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://docs.x.ai/developers/models"
+  },
+  "or:x-ai/grok-4.5": {
+   "model": "Grok 4.5",
+   "organization": "xAI",
+   "published": "2026-07-08",
+   "parameters": 1500000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://x.ai/news/grok-4-5"
+  },
+  "or:x-ai/grok-4.6": {
+   "model": "Grok 4.6",
+   "organization": "xAI",
+   "published": "2026-08-12",
+   "parameters": 1500000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://x.ai/news/grok-4-6"
+  },
+  "or:x-ai/grok-4.7": {
+   "model": "Grok 4.7",
+   "organization": "xAI",
+   "published": "2026-09-21",
+   "parameters": 2100000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://x.ai/news/grok-4-7"
+  },
+  "or:z-ai/glm-4.5": {
+   "model": "GLM-4.5",
+   "organization": "Z.ai (Zhipu AI),Tsinghua University",
+   "published": "2025-07-28",
+   "parameters": 355000000000,
+   "trainingComputeFlop": 4.42e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2508.06471"
+  },
+  "or:z-ai/glm-4.5-air": {
+   "model": "GLM-4.5-Air",
+   "organization": "Z.ai (Zhipu AI),Tsinghua University",
+   "published": "2025-07-28",
+   "parameters": 106000000000,
+   "trainingComputeFlop": 1.656e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2508.06471"
+  },
+  "or:z-ai/glm-4.5v": {
+   "model": "GLM-4.5V",
+   "organization": "Z.ai (Zhipu AI),Tsinghua University",
+   "published": "2025-08-15",
+   "parameters": 108000000000,
+   "trainingComputeFlop": 1.8e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://arxiv.org/abs/2507.01006"
+  },
+  "or:z-ai/glm-4.6": {
+   "model": "GLM-4.6",
+   "organization": "Z.ai (Zhipu AI),Tsinghua University",
+   "published": "2025-09-30",
+   "parameters": 357000000000,
+   "trainingComputeFlop": 4.42e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://z.ai/blog/glm-4.6"
+  },
+  "or:z-ai/glm-4.7": {
+   "model": "GLM-4.7",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2025-12-22",
+   "parameters": 358000000000,
+   "trainingComputeFlop": 4.42e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://z.ai/blog/glm-4.7"
+  },
+  "or:z-ai/glm-4.7-flash": {
+   "model": "GLM 4.7 Flash",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2026-01-19",
+   "parameters": 30000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  "or:z-ai/glm-5": {
+   "model": "GLM-5",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2026-02-12",
+   "parameters": 744000000000,
+   "trainingComputeFlop": 6.84e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://arxiv.org/pdf/2602.15763"
+  },
+  "or:z-ai/glm-5.1": {
+   "model": "GLM-5.1",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2026-04-07",
+   "parameters": 754000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://z.ai/blog/glm-5.1"
+  },
+  "or:z-ai/glm-5.2": {
+   "model": "GLM-5.2",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2026-06-16",
+   "parameters": 744000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://z.ai/blog/glm-5.2"
+  },
+  "or:z-ai/glm-5.3": {
+   "model": "GLM-5.3",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2026-08-14",
+   "parameters": 744000000000,
+   "trainingComputeFlop": null,
+   "accessibility": "Open weights (restricted use)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://z.ai/blog/glm-5.3"
+  },
+  "or:z-ai/glm-5.3-flash": {
+   "model": "GLM-5.3-Flash",
+   "organization": "Z.ai (Zhipu AI)",
+   "published": "2026-08-20",
+   "parameters": 320000000000,
+   "trainingComputeFlop": 3.24e+24,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://z.ai/blog/glm-5.3-flash"
+  },
+  "wd:Q116685562": {
+   "model": "DALL·E 2",
+   "organization": "OpenAI",
+   "published": "2022-04-06",
+   "parameters": 3500000000,
+   "trainingComputeFlop": 3.3695784e+23,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://cdn.openai.com/papers/dall-e-2.pdf"
+  },
+  "wd:Q124039587": {
+   "model": "Phi-2",
+   "organization": "Microsoft",
+   "published": "2023-12-12",
+   "parameters": 2700000000,
+   "trainingComputeFlop": 2.27e+22,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Confident",
+   "link": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/"
+  },
+  "wd:Q124617868": {
+   "model": "DALL·E 3",
+   "organization": "OpenAI",
+   "published": "2023-10-19",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://cdn.openai.com/papers/dall-e-3.pdf"
+  },
+  "wd:Q127602360": {
+   "model": "GPT-4o mini",
+   "organization": "OpenAI",
+   "published": "2024-07-18",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Speculative",
+   "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+  },
+  "wd:Q132804879": {
+   "model": "GPT-4.5",
+   "organization": "OpenAI",
+   "published": "2025-02-27",
+   "parameters": null,
+   "trainingComputeFlop": 3.8e+26,
+   "accessibility": "API access",
+   "frontier": true,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-4-5/"
+  },
+  "wd:Q134390755": {
+   "model": "GPT-4.1 mini",
+   "organization": "OpenAI",
+   "published": "2025-04-14",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-4-1/"
+  },
+  "wd:Q134390865": {
+   "model": "GPT-4.1 nano",
+   "organization": "OpenAI",
+   "published": "2025-04-14",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/gpt-4-1/"
+  },
+  "wd:Q135661337": {
+   "model": "GPT-5 mini",
+   "organization": "OpenAI",
+   "published": "2025-08-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://cdn.openai.com/gpt-5-system-card.pdf"
+  },
+  "wd:Q135661340": {
+   "model": "GPT-5 nano",
+   "organization": "OpenAI",
+   "published": "2025-08-07",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://cdn.openai.com/gpt-5-system-card.pdf"
+  },
+  "wd:Q138274786": {
+   "model": "Seedance 2.0",
+   "organization": "ByteDance",
+   "published": "2026-02-12",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "Hosted access (no API)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://seed.bytedance.com/en/seedance2_0"
+  },
+  "wd:Q139328873": {
+   "model": "GPT-5.3 Codex",
+   "organization": "OpenAI",
+   "published": "2026-02-05",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
+  },
+  "wd:Q141554688": {
+   "model": "GPT-6 Astra",
+   "organization": "OpenAI",
+   "published": "2026-09-03",
+   "parameters": null,
+   "trainingComputeFlop": 9.4e+26,
+   "accessibility": "API access",
+   "frontier": true,
+   "confidence": "Likely",
+   "link": ""
+  },
+  "wd:Q141592972": {
+   "model": "GPT-6 Luna",
+   "organization": "OpenAI",
+   "published": "2026-09-22",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  },
+  "wd:Q141593016": {
+   "model": "GPT-6 Sol",
+   "organization": "OpenAI",
+   "published": "2026-09-22",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  },
+  "wd:Q141613607": {
+   "model": "Claude Sonnet 5.5",
+   "organization": "Anthropic",
+   "published": "2026-09-28",
+   "parameters": null,
+   "trainingComputeFlop": null,
+   "accessibility": "API access",
+   "frontier": false,
+   "confidence": "Unknown",
+   "link": "https://www.anthropic.com/claude-sonnet-5-5"
+  },
+  "wd:Q95726718": {
+   "model": "GPT-1",
+   "organization": "OpenAI",
+   "published": "2018-06-01",
+   "parameters": 117000000,
+   "trainingComputeFlop": 17578125000000000000,
+   "accessibility": "Open weights (unrestricted)",
+   "frontier": false,
+   "confidence": "Likely",
+   "link": "https://openai.com/blog/language-unsupervised/"
+  }
+ }
+}

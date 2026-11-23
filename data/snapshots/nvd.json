@@ -1,0 +1,819 @@
+{
+ "meta": {
+  "id": "nvd",
+  "source": "CVE counts derived by TrustFit from the NVD CVE API",
+  "url": "https://nvd.nist.gov/developers/vulnerabilities",
+  "license": "US Government work, public domain (NVD terms of use)",
+  "attribution": "This product uses the NVD API but is not endorsed or certified by the NVD.",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "c7e73836249307c72f6786096bf71ee3aa9a3f4257c6155bb05260d98906e19d",
+  "status": "collected",
+  "matching": "By CPE match string cpe:2.3:a:<vendor> or cpe:2.3:a:<vendor>:<product> from src/orgs.ts. For large vendors only an AI product string is used (microsoft:copilot); for others the whole vendor, so counts can include the vendor's non-AI software. Rejected CVEs are dropped.",
+  "note": "A CVE is a disclosed flaw, usually fixed. Counts depend on how much of a vendor's software is installable and audited: a cloud-only service has few CVEs because there is nothing to install, not because it has no flaws. Severity is the highest CVSS version given, primary scorer first."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "anthropic": {
+   "matchedOn": [
+    "anthropic"
+   ],
+   "total": 34,
+   "last24Months": 34,
+   "bySeverity": {
+    "CRITICAL": 1,
+    "MEDIUM": 9,
+    "HIGH": 22,
+    "LOW": 2
+   },
+   "products": {
+    "anthropic:bun": 1,
+    "anthropic:claude_code": 26,
+    "anthropic:claude_desktop": 2,
+    "anthropic:claude_sdk_for_typescript": 2,
+    "anthropic:claude": 1,
+    "anthropic:claude_sdk_for_python": 2
+   },
+   "latest": [
+    {
+     "id": "CVE-2026-111497",
+     "published": "2026-10-22",
+     "severity": "CRITICAL",
+     "score": 9.2,
+     "products": [
+      "anthropic:bun"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+    },
+    {
+     "id": "CVE-2026-46406",
+     "published": "2026-06-29",
+     "severity": "MEDIUM",
+     "score": 4.4,
+     "products": [
+      "anthropic:claude_code"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46406"
+    },
+    {
+     "id": "CVE-2026-55607",
+     "published": "2026-06-29",
+     "severity": "HIGH",
+     "score": 7.7,
+     "products": [
+      "anthropic:claude_code"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55607"
+    },
+    {
+     "id": "CVE-2026-54316",
+     "published": "2026-06-23",
+     "severity": "MEDIUM",
+     "score": 6,
+     "products": [
+      "anthropic:claude_code"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54316"
+    },
+    {
+     "id": "CVE-2026-44467",
+     "published": "2026-05-13",
+     "severity": "HIGH",
+     "score": 7.4,
+     "products": [
+      "anthropic:claude_desktop"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44467"
+    }
+   ]
+  },
+  "anysphere": {
+   "matchedOn": [
+    "anysphere"
+   ],
+   "total": 22,
+   "last24Months": 22,
+   "bySeverity": {
+    "HIGH": 14,
+    "CRITICAL": 6,
+    "MEDIUM": 2
+   },
+   "products": {
+    "anysphere:cursor": 22
+   },
+   "latest": [
+    {
+     "id": "CVE-2026-63093",
+     "published": "2026-07-17",
+     "severity": "HIGH",
+     "score": 8.7,
+     "products": [
+      "anysphere:cursor"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63093"
+    },
+    {
+     "id": "CVE-2026-50548",
+     "published": "2026-06-25",
+     "severity": "CRITICAL",
+     "score": 9.3,
+     "products": [
+      "anysphere:cursor"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50548"
+    },
+    {
+     "id": "CVE-2026-50549",
+     "published": "2026-06-25",
+     "severity": "CRITICAL",
+     "score": 9.3,
+     "products": [
+      "anysphere:cursor"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50549"
+    },
+    {
+     "id": "CVE-2026-31854",
+     "published": "2026-03-11",
+     "severity": "HIGH",
+     "score": 8.7,
+     "products": [
+      "anysphere:cursor"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31854"
+    },
+    {
+     "id": "CVE-2026-26268",
+     "published": "2026-02-13",
+     "severity": "CRITICAL",
+     "score": 9.9,
+     "products": [
+      "anysphere:cursor"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26268"
+    }
+   ]
+  },
+  "canva": {
+   "matchedOn": [
+    "canva"
+   ],
+   "total": 19,
+   "last24Months": 19,
+   "bySeverity": {
+    "HIGH": 19
+   },
+   "products": {
+    "canva:affinity": 19
+   },
+   "latest": [
+    {
+     "id": "CVE-2025-47873",
+     "published": "2026-03-17",
+     "severity": "HIGH",
+     "score": 7.1,
+     "products": [
+      "canva:affinity"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47873"
+    },
+    {
+     "id": "CVE-2025-58427",
+     "published": "2026-03-17",
+     "severity": "HIGH",
+     "score": 7.1,
+     "products": [
+      "canva:affinity"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58427"
+    },
+    {
+     "id": "CVE-2025-61952",
+     "published": "2026-03-17",
+     "severity": "HIGH",
+     "score": 7.1,
+     "products": [
+      "canva:affinity"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61952"
+    },
+    {
+     "id": "CVE-2025-61979",
+     "published": "2026-03-17",
+     "severity": "HIGH",
+     "score": 7.1,
+     "products": [
+      "canva:affinity"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61979"
+    },
+    {
+     "id": "CVE-2025-62403",
+     "published": "2026-03-17",
+     "severity": "HIGH",
+     "score": 7.1,
+     "products": [
+      "canva:affinity"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62403"
+    }
+   ]
+  },
+  "deepseek": {
+   "matchedOn": [
+    "deepseek"
+   ],
+   "total": 2,
+   "last24Months": 2,
+   "bySeverity": {
+    "MEDIUM": 1,
+    "HIGH": 1
+   },
+   "products": {
+    "deepseek:deepseek": 1,
+    "deepseek:deepseek-r1": 1,
+    "deepseek:deepseek-v2": 1,
+    "deepseek:deepseek-v3": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2025-63872",
+     "published": "2025-12-02",
+     "severity": "MEDIUM",
+     "score": 6.1,
+     "products": [
+      "deepseek:deepseek"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63872"
+    },
+    {
+     "id": "CVE-2025-26210",
+     "published": "2025-09-03",
+     "severity": "HIGH",
+     "score": 8.8,
+     "products": [
+      "deepseek:deepseek-r1",
+      "deepseek:deepseek-v2",
+      "deepseek:deepseek-v3"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26210"
+    }
+   ]
+  },
+  "figma": {
+   "matchedOn": [
+    "figma"
+   ],
+   "total": 1,
+   "last24Months": 1,
+   "bySeverity": {
+    "HIGH": 1
+   },
+   "products": {
+    "figma:desktop": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2025-56803",
+     "published": "2025-09-03",
+     "severity": "HIGH",
+     "score": 8.4,
+     "products": [
+      "figma:desktop"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56803"
+    }
+   ]
+  },
+  "grammarly": {
+   "matchedOn": [
+    "grammarly"
+   ],
+   "total": 1,
+   "last24Months": 0,
+   "bySeverity": {
+    "HIGH": 1
+   },
+   "products": {
+    "grammarly:grammarly": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2018-6654",
+     "published": "2018-02-06",
+     "severity": "HIGH",
+     "score": 8.8,
+     "products": [
+      "grammarly:grammarly"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6654"
+    }
+   ]
+  },
+  "hubspot": {
+   "matchedOn": [
+    "hubspot"
+   ],
+   "total": 7,
+   "last24Months": 2,
+   "bySeverity": {
+    "CRITICAL": 2,
+    "MEDIUM": 3,
+    "HIGH": 2
+   },
+   "products": {
+    "hubspot:jinjava": 4,
+    "hubspot:hubspot": 2,
+    "hubspot:hubl-server": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2026-25526",
+     "published": "2026-02-04",
+     "severity": "CRITICAL",
+     "score": 9.8,
+     "products": [
+      "hubspot:jinjava"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25526"
+    },
+    {
+     "id": "CVE-2025-59340",
+     "published": "2025-09-17",
+     "severity": "CRITICAL",
+     "score": 10,
+     "products": [
+      "hubspot:jinjava"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59340"
+    },
+    {
+     "id": "CVE-2024-5879",
+     "published": "2024-08-30",
+     "severity": "MEDIUM",
+     "score": 5.4,
+     "products": [
+      "hubspot:hubspot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5879"
+    },
+    {
+     "id": "CVE-2022-1239",
+     "published": "2022-05-02",
+     "severity": "HIGH",
+     "score": 8.8,
+     "products": [
+      "hubspot:hubspot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1239"
+    },
+    {
+     "id": "CVE-2020-12668",
+     "published": "2021-02-19",
+     "severity": "MEDIUM",
+     "score": 6.5,
+     "products": [
+      "hubspot:jinjava"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12668"
+    }
+   ]
+  },
+  "microsoft": {
+   "matchedOn": [
+    "microsoft:copilot"
+   ],
+   "total": 6,
+   "last24Months": 6,
+   "bySeverity": {
+    "MEDIUM": 1,
+    "HIGH": 5
+   },
+   "products": {
+    "microsoft:copilot": 6
+   },
+   "latest": [
+    {
+     "id": "CVE-2026-55946",
+     "published": "2026-09-17",
+     "severity": "MEDIUM",
+     "score": 5.9,
+     "products": [
+      "microsoft:copilot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55946"
+    },
+    {
+     "id": "CVE-2026-24301",
+     "published": "2026-08-18",
+     "severity": "HIGH",
+     "score": 7.5,
+     "products": [
+      "microsoft:copilot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24301"
+    },
+    {
+     "id": "CVE-2026-55145",
+     "published": "2026-07-14",
+     "severity": "HIGH",
+     "score": 7.1,
+     "products": [
+      "microsoft:copilot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55145"
+    },
+    {
+     "id": "CVE-2026-42824",
+     "published": "2026-06-04",
+     "severity": "HIGH",
+     "score": 7.5,
+     "products": [
+      "microsoft:copilot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42824"
+    },
+    {
+     "id": "CVE-2026-45497",
+     "published": "2026-06-04",
+     "severity": "HIGH",
+     "score": 8.8,
+     "products": [
+      "microsoft:copilot"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45497"
+    }
+   ]
+  },
+  "n8n": {
+   "matchedOn": [
+    "n8n"
+   ],
+   "total": 179,
+   "last24Months": 176,
+   "bySeverity": {
+    "MEDIUM": 83,
+    "HIGH": 71,
+    "LOW": 1,
+    "CRITICAL": 24
+   },
+   "products": {
+    "n8n:n8n": 179
+   },
+   "latest": [
+    {
+     "id": "CVE-2026-86073",
+     "published": "2026-09-08",
+     "severity": "MEDIUM",
+     "score": 5.9,
+     "products": [
+      "n8n:n8n"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86073"
+    },
+    {
+     "id": "CVE-2026-86074",
+     "published": "2026-09-08",
+     "severity": "MEDIUM",
+     "score": 5.9,
+     "products": [
+      "n8n:n8n"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86074"
+    },
+    {
+     "id": "CVE-2026-86075",
+     "published": "2026-09-08",
+     "severity": "HIGH",
+     "score": 8.7,
+     "products": [
+      "n8n:n8n"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86075"
+    },
+    {
+     "id": "CVE-2026-86076",
+     "published": "2026-09-08",
+     "severity": "HIGH",
+     "score": 8.7,
+     "products": [
+      "n8n:n8n"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86076"
+    },
+    {
+     "id": "CVE-2026-86077",
+     "published": "2026-09-08",
+     "severity": "MEDIUM",
+     "score": 6.3,
+     "products": [
+      "n8n:n8n"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86077"
+    }
+   ]
+  },
+  "notion": {
+   "matchedOn": [
+    "notion"
+   ],
+   "total": 2,
+   "last24Months": 0,
+   "bySeverity": {
+    "CRITICAL": 1,
+    "LOW": 1
+   },
+   "products": {
+    "notion:web_clipper": 1,
+    "notion:notion": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2024-23745",
+     "published": "2024-01-31",
+     "severity": "CRITICAL",
+     "score": 9.8,
+     "products": [
+      "notion:web_clipper"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23745"
+    },
+    {
+     "id": "CVE-2024-23743",
+     "published": "2024-01-28",
+     "severity": "LOW",
+     "score": 3.3,
+     "products": [
+      "notion:notion"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23743"
+    }
+   ]
+  },
+  "openai": {
+   "matchedOn": [
+    "openai"
+   ],
+   "total": 2,
+   "last24Months": 2,
+   "bySeverity": {
+    "MEDIUM": 2
+   },
+   "products": {
+    "openai:operator": 1,
+    "openai:chatgpt": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2025-7021",
+     "published": "2025-07-10",
+     "severity": "MEDIUM",
+     "score": 6.9,
+     "products": [
+      "openai:operator"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7021"
+    },
+    {
+     "id": "CVE-2025-43714",
+     "published": "2025-05-19",
+     "severity": "MEDIUM",
+     "score": 6.5,
+     "products": [
+      "openai:chatgpt"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43714"
+    }
+   ]
+  },
+  "retool": {
+   "matchedOn": [
+    "retool"
+   ],
+   "total": 1,
+   "last24Months": 0,
+   "bySeverity": {
+    "MEDIUM": 1
+   },
+   "products": {
+    "retool:retool": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2024-42056",
+     "published": "2024-08-22",
+     "severity": "MEDIUM",
+     "score": 6.5,
+     "products": [
+      "retool:retool"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42056"
+    }
+   ]
+  },
+  "zapier": {
+   "matchedOn": [
+    "zapier"
+   ],
+   "total": 1,
+   "last24Months": 0,
+   "bySeverity": {
+    "CRITICAL": 1
+   },
+   "products": {
+    "zapier:code_by_zapier": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2022-28802",
+     "published": "2022-09-21",
+     "severity": "CRITICAL",
+     "score": 9.9,
+     "products": [
+      "zapier:code_by_zapier"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-28802"
+    }
+   ]
+  },
+  "zendesk": {
+   "matchedOn": [
+    "zendesk"
+   ],
+   "total": 3,
+   "last24Months": 0,
+   "bySeverity": {
+    "HIGH": 2,
+    "LOW": 1
+   },
+   "products": {
+    "zendesk:enc_datavault": 1,
+    "zendesk:enc_vaultapi": 1,
+    "zendesk:samlr": 1,
+    "zendesk:zendesk_feedback_tab": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2021-36750",
+     "published": "2021-12-22",
+     "severity": "HIGH",
+     "score": 8.1,
+     "products": [
+      "zendesk:enc_datavault",
+      "zendesk:enc_vaultapi"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-36750"
+    },
+    {
+     "id": "CVE-2018-20857",
+     "published": "2019-07-26",
+     "severity": "HIGH",
+     "score": 7.5,
+     "products": [
+      "zendesk:samlr"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-20857"
+    },
+    {
+     "id": "CVE-2015-6921",
+     "published": "2015-09-11",
+     "severity": "LOW",
+     "score": 2.6,
+     "products": [
+      "zendesk:zendesk_feedback_tab"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-6921"
+    }
+   ]
+  },
+  "zoom": {
+   "matchedOn": [
+    "zoom"
+   ],
+   "total": 235,
+   "last24Months": 71,
+   "bySeverity": {
+    "HIGH": 115,
+    "CRITICAL": 19,
+    "MEDIUM": 96,
+    "LOW": 5
+   },
+   "products": {
+    "zoom:rooms": 109,
+    "zoom:remote_control_for_zoom_contact_center": 1,
+    "zoom:workplace_desktop": 75,
+    "zoom:workplace_virtual_desktop_infrastructure": 60,
+    "zoom:remote_control": 1,
+    "zoom:workplace": 42,
+    "zoom:meeting_software_development_kit": 84,
+    "zoom:rooms_controller": 44,
+    "zoom:zoom": 63,
+    "zoom:video_software_development_kit": 23,
+    "zoom:vdi_windows_meeting_clients": 9,
+    "zoom:meeting_sdk": 2,
+    "zoom:virtual_desktop_infrastructure": 25,
+    "zoom:meetings": 37,
+    "zoom:cleanzoom": 1,
+    "zoom:zoom_software_development_kit": 1,
+    "zoom:poly_ccx_600_firmware": 1,
+    "zoom:poly_ccx_700_firmware": 1,
+    "zoom:yealink_mp54_firmware": 1,
+    "zoom:yealink_mp56_firmware": 1,
+    "zoom:yealink_vp59_firmware": 1,
+    "zoom:rooms_for_conference_rooms": 4,
+    "zoom:zoom_on-premise_meeting_connector_mmr": 9,
+    "zoom:meeting_connector": 6,
+    "zoom:on-premise_meeting_connector_multimedia_router": 1,
+    "zoom:zoom_plugin_for_microsoft_outlook": 3,
+    "zoom:zoom_on-premise_meeting_connector_controller": 5,
+    "zoom:android_meeting_sdk": 2,
+    "zoom:android_video_sdk": 2,
+    "zoom:controllers_for_zoom_rooms": 2,
+    "zoom:hybrid_mmr": 2,
+    "zoom:hybrid_zproxy": 2,
+    "zoom:iphone_os_meeting_sdk": 2,
+    "zoom:iphone_os_video_sdk": 2,
+    "zoom:macos_meeting_sdk": 2,
+    "zoom:macos_video_sdk": 2,
+    "zoom:meetings_for_blackberry": 2,
+    "zoom:meetings_for_chrome_os": 2,
+    "zoom:meetings_for_intune": 2,
+    "zoom:vdi_azure_virtual_desktop": 2,
+    "zoom:vdi_citrix": 2,
+    "zoom:vdi_vmware": 2,
+    "zoom:vdi_windows_meeting_client": 1,
+    "zoom:windows_meeting_sdk": 2,
+    "zoom:windows_video_sdk": 2,
+    "zoom:zoom_on-premise_recording_connector": 4,
+    "zoom:zoom_on-premise_virtual_room_connector": 4,
+    "zoom:zoom_on-premise_virtual_room_connector_load_balancer": 4,
+    "zoom:zoom_client_for_meetings": 2,
+    "zoom:screen_sharing": 1,
+    "zoom:recording_connector": 2,
+    "zoom:virtual_room_connector": 2,
+    "zoom:virtual_room_connector_load_balancer": 2,
+    "zoom:chat": 1,
+    "zoom:sharing_service": 1,
+    "zoom:it_installer": 1,
+    "zoom:zoom_cloud_meetings": 1
+   },
+   "latest": [
+    {
+     "id": "CVE-2026-53409",
+     "published": "2026-07-16",
+     "severity": "HIGH",
+     "score": 7.8,
+     "products": [
+      "zoom:rooms"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53409"
+    },
+    {
+     "id": "CVE-2026-53410",
+     "published": "2026-07-16",
+     "severity": "HIGH",
+     "score": 7,
+     "products": [
+      "zoom:remote_control_for_zoom_contact_center",
+      "zoom:rooms",
+      "zoom:workplace_desktop",
+      "zoom:workplace_virtual_desktop_infrastructure"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53410"
+    },
+    {
+     "id": "CVE-2026-53411",
+     "published": "2026-07-16",
+     "severity": "HIGH",
+     "score": 7,
+     "products": [
+      "zoom:workplace_virtual_desktop_infrastructure"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53411"
+    },
+    {
+     "id": "CVE-2026-53412",
+     "published": "2026-07-16",
+     "severity": "CRITICAL",
+     "score": 9.8,
+     "products": [
+      "zoom:workplace_desktop",
+      "zoom:workplace_virtual_desktop_infrastructure"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53412"
+    },
+    {
+     "id": "CVE-2026-53406",
+     "published": "2026-06-12",
+     "severity": "HIGH",
+     "score": 7.8,
+     "products": [
+      "zoom:remote_control"
+     ],
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53406"
+    }
+   ]
+  }
+ },
+ "byIndexId": {}
+}

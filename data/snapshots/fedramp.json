@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "id": "fedramp",
+    "source": "FedRAMP Marketplace (US General Services Administration)",
+    "url": "https://marketplace.fedramp.gov/",
+    "license": "NOT VERIFIED. Federal data with no licence statement found; shown with credit and a link, not redistributed.",
+    "attribution": "Source: FedRAMP Marketplace, US General Services Administration (https://marketplace.fedramp.gov/)",
+    "redistribute": false,
+    "retrievedAt": "2026-11-23",
+    "sourceUpdatedAt": "2026-11-16",
+    "sha256": "1a6ddb44e526a42b57a26d5b8c719ca6a836347034e9fccd25550c59d0f34976",
+    "status": "not collected: run the ingest script to fill this file",
+    "matching": "By the exact cloud service provider name in the marketplace (src/orgs.ts fedramp field).",
+    "note": "FedRAMP authorizes a named cloud offering for US federal use at an impact level. It covers that offering only (for example a government edition), not every product the company sells, and it is not a general security certification."
+  },
+  "bySlug": {},
+  "byOrg": {},
+  "byIndexId": {}
+}

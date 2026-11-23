@@ -1,0 +1,1289 @@
+{
+ "meta": {
+  "id": "security-txt",
+  "source": "TrustFit check of each vendor's /.well-known/security.txt (RFC 9116)",
+  "url": "https://www.rfc-editor.org/rfc/rfc9116",
+  "license": "TrustFit first-party observation, CC BY 4.0. The files themselves belong to each vendor; only field values are stored.",
+  "attribution": "Checked by TrustFit (https://trustfit-iota.vercel.app)",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "103af956723e4a2e2d0753374b3bff6a941400ece47da684f9ee9b80ca9800f3",
+  "status": "collected",
+  "matching": "The organization's own registrable domains in src/orgs.ts (at most two per organization).",
+  "note": "security.txt tells researchers how to report a flaw. Publishing one is a small sign of a working disclosure process; lacking one does not mean the vendor ignores reports (many use a web form or a bug bounty page instead). A file past its Expires date should be treated as stale."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "adobe": [
+   {
+    "url": "https://adobe.com/.well-known/security.txt",
+    "servedFrom": "https://www.adobe.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://app.intigriti.com/programs/adobe/adobepublic/detail",
+     "psirt@adobe.com"
+    ],
+    "policy": "https://helpx.adobe.com/security.html/security/policy.ug.html",
+    "expires": "2027-07-30T01:00:00.000Z",
+    "expired": false,
+    "acknowledgments": "https://helpx.adobe.com/security.html",
+    "hiring": "https://www.adobe.com/careers.html",
+    "preferredLanguages": "en, ro, hi",
+    "canonical": [
+     "https://www.adobe.com/.well-known/security.txt"
+    ],
+    "signed": true
+   }
+  ],
+  "alibaba": [
+   {
+    "url": "https://alibabacloud.com/.well-known/security.txt",
+    "servedFrom": "https://www.alibabacloud.com/en/.well-known/security.txt?_p_lc=1",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://qwen.ai/.well-known/security.txt",
+    "servedFrom": "https://qwen.ai/",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "allenai": [
+   {
+    "url": "https://allenai.org/.well-known/security.txt",
+    "servedFrom": "https://allenai.org/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@allenai.org"
+    ],
+    "policy": null,
+    "expires": "2026-07-31T05:00:00.000Z",
+    "expired": true,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en-us",
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "amazon": [
+   {
+    "url": "https://amazon.com/.well-known/security.txt",
+    "servedFrom": "https://www.amazon.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://hackerone.com/amazonvrp/reports/new"
+    ],
+    "policy": "https://hackerone.com/amazonvrp",
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": "https://www.amazon.jobs/en/teams/infosec",
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "amplitude": [
+   {
+    "url": "https://amplitude.com/.well-known/security.txt",
+    "servedFrom": "https://amplitude.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://tracker.bugcrowd.com/amplitude",
+     "mailto:security@amplitude.com"
+    ],
+    "policy": "https://amplitude.com/docs/faq/security-and-privacy",
+    "expires": "2028-12-31T23:59:00Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://amplitude.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://amplitude.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "anthropic": [
+   {
+    "url": "https://anthropic.com/.well-known/security.txt",
+    "servedFrom": "https://www.anthropic.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://hackerone.com/4f1f16ba-10d3-4d09-9ecc-c721aad90f24/embedded_submissions/new"
+    ],
+    "policy": "https://www.anthropic.com/responsible-disclosure-policy",
+    "expires": "2027-11-01T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.anthropic.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://anthropic.com/.well-known/security.txt",
+     "https://www.anthropic.com/.well-known/security.txt",
+     "https://claude.ai/.well-known/security.txt"
+    ],
+    "signed": false
+   },
+   {
+    "url": "https://claude.ai/.well-known/security.txt",
+    "servedFrom": "https://www.anthropic.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://hackerone.com/4f1f16ba-10d3-4d09-9ecc-c721aad90f24/embedded_submissions/new"
+    ],
+    "policy": "https://www.anthropic.com/responsible-disclosure-policy",
+    "expires": "2027-11-01T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.anthropic.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://anthropic.com/.well-known/security.txt",
+     "https://www.anthropic.com/.well-known/security.txt",
+     "https://claude.ai/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "anysphere": [
+   {
+    "url": "https://cursor.com/.well-known/security.txt",
+    "servedFrom": "https://cursor.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://github.com/getcursor/cursor/security"
+    ],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://cursor.sh/.well-known/security.txt",
+    "servedFrom": "https://cursor.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://github.com/getcursor/cursor/security"
+    ],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "baidu": [
+   {
+    "url": "https://baidu.com/.well-known/security.txt",
+    "servedFrom": "https://www.baidu.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "black-forest-labs": [
+   {
+    "url": "https://bfl.ai/.well-known/security.txt",
+    "servedFrom": "https://bfl.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@blackforestlabs.ai"
+    ],
+    "policy": null,
+    "expires": "2027-02-01T00:00:00Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://bfl.ai/careers",
+    "preferredLanguages": "en, de",
+    "canonical": [
+     "https://bfl.ai/.well-known/security.txt",
+     "https://blackforestlabs.ai/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "bytedance": [
+   {
+    "url": "https://bytedance.com/.well-known/security.txt",
+    "servedFrom": "https://www.bytedance.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "canva": [
+   {
+    "url": "https://canva.com/.well-known/security.txt",
+    "servedFrom": "https://www.canva.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://canva.com/security/bug-bounty",
+     "https://www.canva.com/help/describe-your-issue"
+    ],
+    "policy": "https://canva.com/security/vulnerability-disclosure",
+    "expires": null,
+    "expired": null,
+    "acknowledgments": "https://bugcrowd.com/engagements/canva/hall_of_fames",
+    "hiring": "https://www.canva.com/careers/jobs/?specialty=security",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://canva.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "cohere": [
+   {
+    "url": "https://cohere.com/.well-known/security.txt",
+    "servedFrom": "https://cohere.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "copy-ai": [
+   {
+    "url": "https://copy.ai/.well-known/security.txt",
+    "servedFrom": "https://copy.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "deepseek": [
+   {
+    "url": "https://deepseek.com/.well-known/security.txt",
+    "servedFrom": "https://deepseek.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "descript": [
+   {
+    "url": "https://descript.com/.well-known/security.txt",
+    "servedFrom": "https://www.descript.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@descript.com"
+    ],
+    "policy": null,
+    "expires": "2027-10-26T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://www.descript.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "elevenlabs": [
+   {
+    "url": "https://elevenlabs.io/.well-known/security.txt",
+    "servedFrom": "https://elevenlabs.io/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://elevenlabs.io/security/report"
+    ],
+    "policy": null,
+    "expires": "2027-10-06T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "figma": [
+   {
+    "url": "https://figma.com/.well-known/security.txt",
+    "servedFrom": "https://www.figma.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://hackerone.com/figma"
+    ],
+    "policy": "https://hackerone.com/figma",
+    "expires": "2027-10-21T15:25:00.000Z",
+    "expired": false,
+    "acknowledgments": "https://hackerone.com/figma/thanks",
+    "hiring": "https://www.figma.com/careers/#job-openings",
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "fireflies": [
+   {
+    "url": "https://fireflies.ai/.well-known/security.txt",
+    "servedFrom": "https://fireflies.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "github": [
+   {
+    "url": "https://github.com/.well-known/security.txt",
+    "servedFrom": "https://github.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://hackerone.com/github"
+    ],
+    "policy": "https://bounty.github.com",
+    "expires": "2026-12-23T02:31:04z",
+    "expired": false,
+    "acknowledgments": "https://hackerone.com/github/hacktivity",
+    "hiring": "https://github.careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://github.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "gong": [
+   {
+    "url": "https://gong.io/.well-known/security.txt",
+    "servedFrom": "https://www.gong.io/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "google": [
+   {
+    "url": "https://google.com/.well-known/security.txt",
+    "servedFrom": "https://www.google.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://g.co/vulnz",
+     "mailto:security@google.com"
+    ],
+    "policy": "https://g.co/vrp",
+    "expires": "2030-04-01T00:00:00z",
+    "expired": false,
+    "acknowledgments": "https://bughunters.google.com/",
+    "hiring": "https://g.co/SecurityPrivacyEngJobs",
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://deepmind.google/.well-known/security.txt",
+    "servedFrom": "https://deepmind.google/.well-known/security.txt/",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "grammarly": [
+   {
+    "url": "https://grammarly.com/.well-known/security.txt",
+    "servedFrom": "https://grammarly.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "security@grammarly.com"
+    ],
+    "policy": "https://hackerone.com/grammarly",
+    "expires": null,
+    "expired": null,
+    "acknowledgments": "https://hackerone.com/grammarly/thanks",
+    "hiring": "https://www.grammarly.com/jobs/",
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "granola": [
+   {
+    "url": "https://granola.ai/.well-known/security.txt",
+    "servedFrom": "https://www.granola.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@granola.so"
+    ],
+    "policy": null,
+    "expires": "2026-12-11T10:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.granola.ai/jobs",
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://granola.so/.well-known/security.txt",
+    "servedFrom": "https://www.granola.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@granola.so"
+    ],
+    "policy": null,
+    "expires": "2026-12-11T10:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.granola.ai/jobs",
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "heygen": [
+   {
+    "url": "https://heygen.com/.well-known/security.txt",
+    "servedFrom": "https://www.heygen.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@heygen.com"
+    ],
+    "policy": null,
+    "expires": "2026-12-31T08:00:00Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://heygen.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "hubspot": [
+   {
+    "url": "https://hubspot.com/.well-known/security.txt",
+    "servedFrom": "https://www.hubspot.com/hubfs/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security-notifications@hubspot.com"
+    ],
+    "policy": "https://hackerone.com/hubspot",
+    "expires": "2034-06-01:00:00.000Z",
+    "expired": false,
+    "acknowledgments": "https://hackerone.com/hubspot/thanks",
+    "hiring": "https://www.hubspot.com/careers/jobs?q=security",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://www.hubspot.com/.well-known/security.txt"
+    ],
+    "signed": true
+   }
+  ],
+  "ibm": [
+   {
+    "url": "https://ibm.com/.well-known/security.txt",
+    "servedFrom": "https://www.ibm.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://www.ibm.com/trust/security-psirt",
+     "https://hackerone.com/ibm?type=team",
+     "mailto:psirt@us.ibm.com"
+    ],
+    "policy": null,
+    "expires": "2026-12-23T00:00:00+00:00",
+    "expired": false,
+    "acknowledgments": "https://www.ibm.com/blogs/psirt/ibm-acknowledgement/",
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "intercom": [
+   {
+    "url": "https://intercom.com/.well-known/security.txt",
+    "servedFrom": "https://app.intercom.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://bugcrowd.com/intercom",
+     "mailto:security@intercom.com"
+    ],
+    "policy": "https://www.bugcrowd.com/resource/standard-disclosure-terms/",
+    "expires": "2029-03-15T00:00:00z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://intercom.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://app.intercom.com/.well-known/security.txt"
+    ],
+    "signed": false
+   },
+   {
+    "url": "https://intercom.io/.well-known/security.txt",
+    "servedFrom": "https://app.intercom.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://bugcrowd.com/intercom",
+     "mailto:security@intercom.com"
+    ],
+    "policy": "https://www.bugcrowd.com/resource/standard-disclosure-terms/",
+    "expires": "2029-03-15T00:00:00z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://intercom.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://app.intercom.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "jasper": [
+   {
+    "url": "https://jasper.ai/.well-known/security.txt",
+    "servedFrom": "https://jasper.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "lindy": [
+   {
+    "url": "https://lindy.ai/.well-known/security.txt",
+    "servedFrom": "https://www.lindy.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "make": [
+   {
+    "url": "https://make.com/.well-known/security.txt",
+    "servedFrom": "https://www.make.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "meta": [
+   {
+    "url": "https://meta.com/.well-known/security.txt",
+    "servedFrom": "https://www.meta.com/.well-known/security.txt",
+    "found": false,
+    "reason": "no Contact field",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "microsoft": [
+   {
+    "url": "https://microsoft.com/.well-known/security.txt",
+    "servedFrom": "https://www.microsoft.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://msrc.microsoft.com/report/vulnerability/new"
+    ],
+    "policy": "https://www.microsoft.com/en-us/msrc/bounty/",
+    "expires": "2027-10-27T16:00:00.000Z",
+    "expired": false,
+    "acknowledgments": "https://msrc.microsoft.com/update-guide/acknowledgement",
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://www.microsoft.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "midjourney": [
+   {
+    "url": "https://midjourney.com/.well-known/security.txt",
+    "servedFrom": "https://midjourney.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 403",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "minimax": [
+   {
+    "url": "https://minimax.io/.well-known/security.txt",
+    "servedFrom": "https://www.minimax.io/",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://minimaxi.com/.well-known/security.txt",
+    "servedFrom": "https://minimax.cn/",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "mistral": [
+   {
+    "url": "https://mistral.ai/.well-known/security.txt",
+    "servedFrom": "https://mistral.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@mistral.ai"
+    ],
+    "policy": "https://hackerone.com/58acc269-165e-4d18-a2d8-61f296cdea60/embedded_submissions/new",
+    "expires": "2027-05-05T23:59:59.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "EN",
+    "canonical": [
+     "https://mistral.ai/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "moonshot": [
+   {
+    "url": "https://moonshot.ai/.well-known/security.txt",
+    "servedFrom": "https://www.moonshot.ai/",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://moonshot.cn/.well-known/security.txt",
+    "servedFrom": "https://www.moonshot.cn/",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "n8n": [
+   {
+    "url": "https://n8n.io/.well-known/security.txt",
+    "servedFrom": "https://n8n.io/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://n8n.io/report-a-vulnerability/"
+    ],
+    "policy": "https://n8n.io/legal/vulnerability-disclosure-policy/",
+    "expires": "2027-12-31T22:59:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://n8n.io/careers",
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "notion": [
+   {
+    "url": "https://notion.so/.well-known/security.txt",
+    "servedFrom": "https://www.notion.so/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://www.notion.so/Responsible-Disclosure-Policy-5f18bb6b86804eaf989c006131778b9c"
+    ],
+    "policy": "https://www.notion.so/Responsible-Disclosure-Policy-5f18bb6b86804eaf989c006131778b9c",
+    "expires": "2030-01-01T07:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://notion.com/.well-known/security.txt",
+    "servedFrom": "https://www.notion.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "nvidia": [
+   {
+    "url": "https://nvidia.com/.well-known/security.txt",
+    "servedFrom": "https://www.nvidia.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 403",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "openai": [
+   {
+    "url": "https://openai.com/.well-known/security.txt",
+    "servedFrom": "https://openai.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://bugcrowd.com/openai",
+     "mailto:disclosure@openai.com"
+    ],
+    "policy": "https://openai.com/policies/coordinated-vulnerability-disclosure-policy",
+    "expires": null,
+    "expired": null,
+    "acknowledgments": "https://bugcrowd.com/engagements/openai/hall_of_fames",
+    "hiring": "https://openai.com/careers/search?c=security",
+    "preferredLanguages": null,
+    "canonical": [
+     "https://openai.com/.well-known/security.txt"
+    ],
+    "signed": true
+   },
+   {
+    "url": "https://chatgpt.com/.well-known/security.txt",
+    "servedFrom": "https://chatgpt.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://bugcrowd.com/openai",
+     "mailto:disclosure@openai.com"
+    ],
+    "policy": "https://openai.com/policies/coordinated-vulnerability-disclosure-policy",
+    "expires": null,
+    "expired": null,
+    "acknowledgments": "https://bugcrowd.com/engagements/openai/hall_of_fames",
+    "hiring": "https://openai.com/careers/search?c=security",
+    "preferredLanguages": null,
+    "canonical": [
+     "https://openai.com/.well-known/security.txt"
+    ],
+    "signed": true
+   }
+  ],
+  "otter": [
+   {
+    "url": "https://otter.ai/.well-known/security.txt",
+    "servedFrom": "https://otter.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "served an HTML page, not a text file",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "perplexity": [
+   {
+    "url": "https://perplexity.ai/.well-known/security.txt",
+    "servedFrom": "https://perplexity.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@perplexity.ai"
+    ],
+    "policy": "https://www.perplexity.ai/security",
+    "expires": "2027-12-31T00:00:00Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.perplexity.ai/careers",
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "read-ai": [
+   {
+    "url": "https://read.ai/.well-known/security.txt",
+    "servedFrom": "https://read.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:vulnerabilities@read.ai",
+     "https://trust.read.ai",
+     "mailto:security@read.ai"
+    ],
+    "policy": "https://trust.read.ai",
+    "expires": "2027-08-18T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.read.ai/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://www.read.ai/.well-known/security.txt",
+     "https://app.read.ai/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "relevance-ai": [
+   {
+    "url": "https://relevanceai.com/.well-known/security.txt",
+    "servedFrom": "https://relevanceai.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "retool": [
+   {
+    "url": "https://retool.com/.well-known/security.txt",
+    "servedFrom": "https://retool.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://retool.com/vulnerability-reporting",
+     "mailto:security@retool.com"
+    ],
+    "policy": "https://retool.com/vulnerability-reporting",
+    "expires": "2027-03-04T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://retool.com/careers",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://retool.com/.well-known/security.txt",
+     "https://retool.app/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "salesforce": [
+   {
+    "url": "https://salesforce.com/.well-known/security.txt",
+    "servedFrom": "https://www.salesforce.com/.well-known/security.txt?bc=DB",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "slack": [
+   {
+    "url": "https://slack.com/.well-known/security.txt",
+    "servedFrom": "https://slack.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://hackerone.com/slack/"
+    ],
+    "policy": "https://hackerone.com/slack/",
+    "expires": null,
+    "expired": null,
+    "acknowledgments": "https://hackerone.com/slack/thanks",
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "stability": [
+   {
+    "url": "https://stability.ai/.well-known/security.txt",
+    "servedFrom": "https://stability.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "synthflow": [
+   {
+    "url": "https://synthflow.ai/.well-known/security.txt",
+    "servedFrom": "https://synthflow.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "tabnine": [
+   {
+    "url": "https://tabnine.com/.well-known/security.txt",
+    "servedFrom": null,
+    "found": false,
+    "reason": "request failed: GET failed (502) https://tabnine.com/.well-known/security.txt",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "tencent": [
+   {
+    "url": "https://tencent.com/.well-known/security.txt",
+    "servedFrom": null,
+    "found": false,
+    "reason": "request failed: GET failed (fetch failed) https://tencent.com/.well-known/security.txt",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "vapi": [
+   {
+    "url": "https://vapi.ai/.well-known/security.txt",
+    "servedFrom": "https://vapi.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "xai": [
+   {
+    "url": "https://x.ai/.well-known/security.txt",
+    "servedFrom": "https://x.ai/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:vulnerabilities@x.ai",
+     "mailto:abuse@x.ai"
+    ],
+    "policy": null,
+    "expires": "2027-06-29T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [
+     "https://x.ai/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "xiaomi": [
+   {
+    "url": "https://mi.com/.well-known/security.txt",
+    "servedFrom": "https://www.mi.com/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 403",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "zapier": [
+   {
+    "url": "https://zapier.com/.well-known/security.txt",
+    "servedFrom": "https://zapier.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "mailto:security@zapier.com",
+     "https://zapier.com/engineering/bug-bounty-submission/"
+    ],
+    "policy": "https://zapier.com/engineering/bug-bounty-program/",
+    "expires": "2027-11-01T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://zapier.com/jobs",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://zapier.com/.well-known/security.txt"
+    ],
+    "signed": false
+   }
+  ],
+  "zendesk": [
+   {
+    "url": "https://zendesk.com/.well-known/security.txt",
+    "servedFrom": "https://www.zendesk.com/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://www.zendesk.com/company/policies-and-guidelines/responsible-disclosure-policy/",
+     "https://bugcrowd.com/engagements/zendesk",
+     "mailto:security@zendesk.com"
+    ],
+    "policy": "https://www.zendesk.com/company/policies-and-guidelines/responsible-disclosure-policy/",
+    "expires": "2027-04-16T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": "https://www.zendesk.com/company/careers/",
+    "preferredLanguages": "en",
+    "canonical": [
+     "https://www.zendesk.com/.well-known/security.txt"
+    ],
+    "signed": true
+   }
+  ],
+  "zhipu": [
+   {
+    "url": "https://z.ai/.well-known/security.txt",
+    "servedFrom": "https://z.ai/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://zhipuai.cn/.well-known/security.txt",
+    "servedFrom": "https://www.zhipuai.cn/.well-known/security.txt",
+    "found": false,
+    "reason": "HTTP 404",
+    "contact": [],
+    "policy": null,
+    "expires": null,
+    "expired": null,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": null,
+    "canonical": [],
+    "signed": false
+   }
+  ],
+  "zoom": [
+   {
+    "url": "https://zoom.us/.well-known/security.txt",
+    "servedFrom": "https://zoom.us/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://www.zoom.com/en/trust/vulnerability-disclosure/submit-vulnerability-report",
+     "mailto:security-reports@zoom.us"
+    ],
+    "policy": "https://www.zoom.com/en/trust/reporting-vulnerability/",
+    "expires": "2029-12-31T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   },
+   {
+    "url": "https://zoom.com/.well-known/security.txt",
+    "servedFrom": "https://zoom.us/.well-known/security.txt",
+    "found": true,
+    "contact": [
+     "https://www.zoom.com/en/trust/vulnerability-disclosure/submit-vulnerability-report",
+     "mailto:security-reports@zoom.us"
+    ],
+    "policy": "https://www.zoom.com/en/trust/reporting-vulnerability/",
+    "expires": "2029-12-31T00:00:00.000Z",
+    "expired": false,
+    "acknowledgments": null,
+    "hiring": null,
+    "preferredLanguages": "en",
+    "canonical": [],
+    "signed": false
+   }
+  ]
+ },
+ "byIndexId": {}
+}

@@ -16,7 +16,8 @@ import {
   type VetoTag,
 } from "@/lib/schema";
 import type { IcpProfile } from "@/lib/icp";
-import { indexSummary } from "./index-search";
+import { getIndexEntry, indexSummary } from "./index-search";
+import { FACTS_NOTE, openFactsForIndexEntry, openFactsForSlug, openFactsSources } from "./facts";
 import { recordRows, snapshotNews } from "@/lib/vendor-record";
 import { COVERAGE_SLUGS, CAPABILITY_OPEN_WEIGHT, DISAGREEMENT_POINTS, crossChecks, dataSources, effectiveScores, entityFor, signalsFor } from "./signals";
 
@@ -104,6 +105,7 @@ export function getToolProfile(slug: string, profile?: ProfileInput) {
       reviewFlags: crossChecks(tool),
       coverage: signalsFor(tool.slug).length === 0 ? "No open-dataset signal maps to this tool; scores are editorial only." : `${signalsFor(tool.slug).length} open-dataset signal(s).`,
     },
+    openFacts: openFactsForSlug(tool.slug),
     publicRecord: {
       news: snapshotNews(tool.slug),
       registers: recordRows(tool.slug),
@@ -172,10 +174,19 @@ export function methodology() {
       `Open data covers ${COVERAGE_SLUGS.length} of ${tools.length} tools. The rest are editorial; a tool with no open-data signal has less independent backing, not a better score.`,
       "Weights and thresholds are design choices, not validated against ground truth.",
       `The broad index (search_index) lists ${indexSummary().total} models and tools as facts only. Index entries are unreviewed and have no score; the scored catalog is the ${tools.length} reviewed tools.`,
+      `Open-data facts (openFacts in tool profiles and index entries) come from ${openFactsSources().length} further public datasets: vulnerabilities, disclosure programs, status pages, government authorizations, public commitments, legal entities, model records, capability indexes and list prices. ${FACTS_NOTE}`,
       "Reaction simulation is not part of this server yet.",
     ],
     toolCount: tools.length,
     openDataSources: dataSources(),
+    openFactsSources: openFactsSources(),
     disclaimer: DISCLAIMER,
   };
+}
+
+/** An index entry plus the open-data facts about the model and the organization behind it. */
+export function getIndexEntryWithFacts(id: string) {
+  const e = getIndexEntry(id);
+  if ("error" in e) return e;
+  return { ...e, openFacts: openFactsForIndexEntry(e) };
 }

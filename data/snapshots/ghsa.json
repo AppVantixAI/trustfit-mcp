@@ -1,0 +1,253 @@
+{
+ "meta": {
+  "id": "ghsa",
+  "source": "GitHub Advisory Database (reviewed advisories)",
+  "url": "https://github.com/advisories",
+  "license": "CC BY 4.0",
+  "attribution": "Security advisories from the GitHub Advisory Database (https://github.com/advisories), CC BY 4.0",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "b601d13f1209eb83c7d797943e66ae9acd619ff129d2d53fa0379f70d9971485",
+  "status": "collected",
+  "matching": "By the exact package names each organization publishes (src/orgs.ts packages). Only GitHub-reviewed, not withdrawn advisories.",
+  "note": "An advisory means a flaw was found and disclosed, usually with a fix. Many advisories can mean a widely used, well-audited package, not a careless vendor. Read severity and dates; this covers the vendor's published code, not its hosted service."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "anthropic": {
+   "packages": [
+    "npm:@anthropic-ai/sdk",
+    "pip:anthropic",
+    "npm:@anthropic-ai/claude-code"
+   ],
+   "total": 34,
+   "last24Months": 34,
+   "bySeverity": {
+    "high": 24,
+    "medium": 8,
+    "low": 2
+   },
+   "latest": [
+    {
+     "id": "GHSA-5xjx-9qx6-jcrv",
+     "cve": "CVE-2026-88968",
+     "severity": "high",
+     "score": null,
+     "published": "2026-11-09",
+     "package": "npm:@anthropic-ai/claude-code",
+     "summary": "Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace",
+     "url": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv"
+    },
+    {
+     "id": "GHSA-pq7j-f95f-qfcv",
+     "cve": "CVE-2026-86063",
+     "severity": "high",
+     "score": null,
+     "published": "2026-10-15",
+     "package": "npm:@anthropic-ai/claude-code",
+     "summary": "Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
+     "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv"
+    },
+    {
+     "id": "GHSA-7835-87q9-rgvv",
+     "cve": "CVE-2026-55607",
+     "severity": "high",
+     "score": null,
+     "published": "2026-07-24",
+     "package": "npm:@anthropic-ai/claude-code",
+     "summary": "Claude Code: Sandbox Escape via Git Worktree Path Confusion Allows Unsandboxed Code Execution",
+     "url": "https://github.com/advisories/GHSA-7835-87q9-rgvv"
+    },
+    {
+     "id": "GHSA-4vp2-6q8c-pvq2",
+     "cve": "CVE-2026-46406",
+     "severity": "medium",
+     "score": null,
+     "published": "2026-06-25",
+     "package": "npm:@anthropic-ai/claude-code",
+     "summary": "@anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write",
+     "url": "https://github.com/advisories/GHSA-4vp2-6q8c-pvq2"
+    },
+    {
+     "id": "GHSA-fg94-h982-f3mm",
+     "cve": "CVE-2026-54316",
+     "severity": "medium",
+     "score": 9.1,
+     "published": "2026-06-17",
+     "package": "npm:@anthropic-ai/claude-code",
+     "summary": "Claude Code: Out-of-Band Data Exfiltration via Pre-Approved HuggingFace Domain in WebFetch",
+     "url": "https://github.com/advisories/GHSA-fg94-h982-f3mm"
+    }
+   ]
+  },
+  "cohere": {
+   "packages": [
+    "pip:cohere"
+   ],
+   "total": 0,
+   "last24Months": 0,
+   "bySeverity": {},
+   "latest": []
+  },
+  "google": {
+   "packages": [
+    "npm:@google/genai",
+    "pip:google-genai",
+    "npm:@google/gemini-cli"
+   ],
+   "total": 1,
+   "last24Months": 1,
+   "bySeverity": {
+    "critical": 1
+   },
+   "latest": [
+    {
+     "id": "GHSA-wpqr-6v78-jr5g",
+     "cve": "CVE-2026-12537",
+     "severity": "critical",
+     "score": 10,
+     "published": "2026-04-24",
+     "package": "npm:@google/gemini-cli",
+     "summary": "Gemini CLI: Remote Code Execution via workspace trust and tool allowlisting bypasses",
+     "url": "https://github.com/advisories/GHSA-wpqr-6v78-jr5g"
+    }
+   ]
+  },
+  "mistral": {
+   "packages": [
+    "pip:mistralai",
+    "npm:@mistralai/mistralai"
+   ],
+   "total": 2,
+   "last24Months": 2,
+   "bySeverity": {
+    "critical": 1,
+    "low": 1
+   },
+   "latest": [
+    {
+     "id": "GHSA-wx9m-wx4f-4cmg",
+     "cve": null,
+     "severity": "critical",
+     "score": 9.6,
+     "published": "2026-05-18",
+     "package": "pip:mistralai",
+     "summary": "Malicious dropper in mistralai 2.4.6 PyPI package",
+     "url": "https://github.com/advisories/GHSA-wx9m-wx4f-4cmg"
+    },
+    {
+     "id": "GHSA-jgg6-4rpr-wfh7",
+     "cve": null,
+     "severity": "low",
+     "score": null,
+     "published": "2026-05-18",
+     "package": "npm:@mistralai/mistralai",
+     "summary": "Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+     "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7"
+    }
+   ]
+  },
+  "n8n": {
+   "packages": [
+    "npm:n8n",
+    "npm:n8n-workflow",
+    "npm:n8n-nodes-base"
+   ],
+   "total": 83,
+   "last24Months": 83,
+   "bySeverity": {
+    "medium": 44,
+    "high": 37,
+    "critical": 2
+   },
+   "latest": [
+    {
+     "id": "GHSA-cw9w-vv67-hf73",
+     "cve": "CVE-2026-86073",
+     "severity": "medium",
+     "score": null,
+     "published": "2026-09-10",
+     "package": "npm:n8n",
+     "summary": "n8n: Per-Resource OAuth Consent Bypass via Unbound Refresh Token Resource Substitution",
+     "url": "https://github.com/advisories/GHSA-cw9w-vv67-hf73"
+    },
+    {
+     "id": "GHSA-q5wm-mgqx-fv2f",
+     "cve": "CVE-2026-86074",
+     "severity": "medium",
+     "score": null,
+     "published": "2026-09-10",
+     "package": "npm:n8n",
+     "summary": "n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
+     "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f"
+    },
+    {
+     "id": "GHSA-qgpw-8g46-w95v",
+     "cve": "CVE-2026-86995",
+     "severity": "medium",
+     "score": null,
+     "published": "2026-09-10",
+     "package": "npm:n8n",
+     "summary": "n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
+     "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v"
+    },
+    {
+     "id": "GHSA-cqr2-h44g-v75v",
+     "cve": "CVE-2026-86085",
+     "severity": "medium",
+     "score": null,
+     "published": "2026-09-10",
+     "package": "npm:n8n",
+     "summary": "n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
+     "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v"
+    },
+    {
+     "id": "GHSA-pq6c-vh67-xpm3",
+     "cve": "CVE-2026-86993",
+     "severity": "medium",
+     "score": null,
+     "published": "2026-09-10",
+     "package": "npm:n8n",
+     "summary": "n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
+     "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3"
+    }
+   ]
+  },
+  "openai": {
+   "packages": [
+    "npm:openai",
+    "pip:openai",
+    "npm:@openai/codex"
+   ],
+   "total": 2,
+   "last24Months": 2,
+   "bySeverity": {
+    "critical": 1,
+    "high": 1
+   },
+   "latest": [
+    {
+     "id": "GHSA-xrxf-jgv3-qmrm",
+     "cve": "CVE-2025-61260",
+     "severity": "critical",
+     "score": 9.8,
+     "published": "2026-04-14",
+     "package": "npm:@openai/codex",
+     "summary": "OpenAI Codex CLI enables code execution through malicious MCP (Model Context Protocol) configuration files",
+     "url": "https://github.com/advisories/GHSA-xrxf-jgv3-qmrm"
+    },
+    {
+     "id": "GHSA-w5fx-fh39-j5rw",
+     "cve": "CVE-2025-59532",
+     "severity": "high",
+     "score": null,
+     "published": "2025-09-19",
+     "package": "npm:@openai/codex",
+     "summary": "Codex has sandbox bypass due to bug in path configuration logic",
+     "url": "https://github.com/advisories/GHSA-w5fx-fh39-j5rw"
+    }
+   ]
+  }
+ },
+ "byIndexId": {}
+}

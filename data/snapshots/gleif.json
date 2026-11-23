@@ -1,0 +1,560 @@
+{
+ "meta": {
+  "id": "gleif",
+  "source": "GLEIF Global LEI Index",
+  "url": "https://www.gleif.org/en/lei-data/gleif-api",
+  "license": "CC0 1.0",
+  "attribution": "Legal entity data from the Global LEI Index (GLEIF), CC0. GLEIF does not endorse TrustFit.",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "123dc920dcad2fb2baab1784634ee337244889e652ef4a659525ad4345e0ec7c",
+  "status": "collected",
+  "matching": "Exact legal name, case and punctuation ignored, against the legal names curated in src/orgs.ts. Organizations with no exact match are left out.",
+  "note": "An LEI identifies a legal entity for financial reporting. Having one says nothing about conduct; not having one is common for private startups. The ultimate parent is as reported to GLEIF; 'exception' means the entity declared a reason not to report one."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "adobe": {
+   "searchedNames": [
+    "Adobe Inc."
+   ],
+   "records": [
+    {
+     "lei": "FU4LY2G4933NH2E1CP29",
+     "legalName": "ADOBE INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "San Jose, US-CA, US",
+     "createdAt": "1997-05-09",
+     "lastUpdated": "2026-06-16",
+     "nextRenewal": "2027-07-12",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/FU4LY2G4933NH2E1CP29"
+    }
+   ]
+  },
+  "alibaba": {
+   "searchedNames": [
+    "Alibaba Group Holding Limited"
+   ],
+   "records": [
+    {
+     "lei": "5493001NTNQJDH60PM02",
+     "legalName": "Alibaba Group Holding Limited",
+     "jurisdiction": "KY",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Hong Kong, HK",
+     "createdAt": "1999-06-28",
+     "lastUpdated": "2026-04-28",
+     "nextRenewal": "2027-06-27",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/5493001NTNQJDH60PM02"
+    }
+   ]
+  },
+  "amazon": {
+   "searchedNames": [
+    "Amazon.com, Inc."
+   ],
+   "records": [
+    {
+     "lei": "ZXTILKJKG63JELOEG630",
+     "legalName": "AMAZON.COM, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Seattle, US-WA, US",
+     "createdAt": "1996-05-28",
+     "lastUpdated": "2026-10-16",
+     "nextRenewal": "2027-11-07",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/ZXTILKJKG63JELOEG630"
+    }
+   ]
+  },
+  "amplitude": {
+   "searchedNames": [
+    "Amplitude, Inc."
+   ],
+   "records": [
+    {
+     "lei": "984500EZ87C703978858",
+     "legalName": "Amplitude, Inc.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "SAN FRANCISCO, US-CA, US",
+     "createdAt": "2011-11-29",
+     "lastUpdated": "2026-03-15",
+     "nextRenewal": "2027-03-27",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/984500EZ87C703978858"
+    }
+   ]
+  },
+  "anthropic": {
+   "searchedNames": [
+    "Anthropic, PBC",
+    "Anthropic PBC"
+   ],
+   "records": [
+    {
+     "lei": "984500B6DEB8CEBC4Z70",
+     "legalName": "ANTHROPIC, PBC",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "WILMINGTON, US-DE, US",
+     "createdAt": "2021-01-26",
+     "lastUpdated": "2026-01-28",
+     "nextRenewal": "2027-01-28",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/984500B6DEB8CEBC4Z70"
+    }
+   ]
+  },
+  "anysphere": {
+   "searchedNames": [
+    "Anysphere, Inc.",
+    "Anysphere Inc."
+   ],
+   "records": [
+    {
+     "lei": "9845004I8A4U8E2DQA02",
+     "legalName": "Anysphere, Inc.",
+     "jurisdiction": "US-TX",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Hawthorne, US-CA, US",
+     "createdAt": "2026-08-28",
+     "lastUpdated": "2026-11-09",
+     "nextRenewal": "2027-10-15",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/9845004I8A4U8E2DQA02"
+    }
+   ]
+  },
+  "canva": {
+   "searchedNames": [
+    "Canva Pty Ltd"
+   ],
+   "records": [
+    {
+     "lei": "98450090RD6DF9XD1546",
+     "legalName": "CANVA PTY LTD",
+     "jurisdiction": "AU",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Surry Hills, AU-NSW, AU",
+     "createdAt": "2012-06-12",
+     "lastUpdated": "2026-04-24",
+     "nextRenewal": "2027-05-22",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/98450090RD6DF9XD1546"
+    }
+   ]
+  },
+  "figma": {
+   "searchedNames": [
+    "Figma, Inc."
+   ],
+   "records": [
+    {
+     "lei": "254900273Q0J4Z65HU28",
+     "legalName": "FIGMA, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "San Francisco, US-CA, US",
+     "createdAt": "2012-10-19",
+     "lastUpdated": "2026-01-16",
+     "nextRenewal": "2027-01-17",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/254900273Q0J4Z65HU28"
+    }
+   ]
+  },
+  "github": {
+   "searchedNames": [
+    "GitHub, Inc."
+   ],
+   "records": [
+    {
+     "lei": "6354003LMZZAKOPXLX69",
+     "legalName": "GITHUB INC",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "San Francisco, US-CA, US",
+     "createdAt": "2012-07-01",
+     "lastUpdated": "2026-02-06",
+     "nextRenewal": "2027-03-06",
+     "ultimateParent": null,
+     "parentReported": "none",
+     "url": "https://search.gleif.org/#/record/6354003LMZZAKOPXLX69"
+    }
+   ]
+  },
+  "google": {
+   "searchedNames": [
+    "Google LLC",
+    "Alphabet Inc."
+   ],
+   "records": [
+    {
+     "lei": "7ZW8QJWVPR4P1J1KQY45",
+     "legalName": "GOOGLE LLC",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "WILMINGTON, US-DE, US",
+     "createdAt": "2002-10-22",
+     "lastUpdated": "2026-05-04",
+     "nextRenewal": "2027-05-16",
+     "ultimateParent": null,
+     "parentReported": "none",
+     "url": "https://search.gleif.org/#/record/7ZW8QJWVPR4P1J1KQY45"
+    },
+    {
+     "lei": "5493006MHB84DD0ZWV18",
+     "legalName": "ALPHABET INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Mountain View, US-CA, US",
+     "createdAt": "2015-07-23",
+     "lastUpdated": "2026-09-17",
+     "nextRenewal": "2027-09-17",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/5493006MHB84DD0ZWV18"
+    }
+   ]
+  },
+  "hubspot": {
+   "searchedNames": [
+    "HubSpot, Inc."
+   ],
+   "records": [
+    {
+     "lei": "529900BLNVEW0MVKJB37",
+     "legalName": "HUBSPOT, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Cambridge, US-MA, US",
+     "createdAt": "2005-04-04",
+     "lastUpdated": "2026-03-12",
+     "nextRenewal": "2027-03-12",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/529900BLNVEW0MVKJB37"
+    }
+   ]
+  },
+  "ibm": {
+   "searchedNames": [
+    "International Business Machines Corporation"
+   ],
+   "records": [
+    {
+     "lei": "VGRQXHF3J8VDLUA7XE92",
+     "legalName": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+     "jurisdiction": "US-NY",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "NORTH CASTLE, US-NY, US",
+     "createdAt": "1911-06-16",
+     "lastUpdated": "2026-09-16",
+     "nextRenewal": "2027-09-28",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/VGRQXHF3J8VDLUA7XE92"
+    }
+   ]
+  },
+  "make": {
+   "searchedNames": [
+    "Celonis SE"
+   ],
+   "records": [
+    {
+     "lei": "529900DCE9HLEPY8MW24",
+     "legalName": "Celonis SE",
+     "jurisdiction": "DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "München, DE-BY, DE",
+     "createdAt": "2016-04-29",
+     "lastUpdated": "2026-07-24",
+     "nextRenewal": "2027-09-20",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/529900DCE9HLEPY8MW24"
+    }
+   ]
+  },
+  "meta": {
+   "searchedNames": [
+    "Meta Platforms, Inc."
+   ],
+   "records": [
+    {
+     "lei": "BQ4BKCS1HXDV9HN80Z93",
+     "legalName": "META PLATFORMS, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "MENLO PARK, US-CA, US",
+     "createdAt": "2004-07-29",
+     "lastUpdated": "2026-10-14",
+     "nextRenewal": "2027-10-14",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/BQ4BKCS1HXDV9HN80Z93"
+    }
+   ]
+  },
+  "microsoft": {
+   "searchedNames": [
+    "Microsoft Corporation"
+   ],
+   "records": [
+    {
+     "lei": "INR2EJN1ERAN0W5ZP974",
+     "legalName": "MICROSOFT CORPORATION",
+     "jurisdiction": "US-WA",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "REDMOND, US-WA, US",
+     "createdAt": "1993-09-22",
+     "lastUpdated": "2026-04-07",
+     "nextRenewal": "2027-05-04",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/INR2EJN1ERAN0W5ZP974"
+    }
+   ]
+  },
+  "mistral": {
+   "searchedNames": [
+    "MISTRAL AI",
+    "Mistral AI"
+   ],
+   "records": [
+    {
+     "lei": "894500Q9JNDV9YXSOL64",
+     "legalName": "MISTRAL AI",
+     "jurisdiction": "FR",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "Paris, FR",
+     "createdAt": "2023-04-27",
+     "lastUpdated": "2025-12-03",
+     "nextRenewal": "2027-01-15",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/894500Q9JNDV9YXSOL64"
+    }
+   ]
+  },
+  "notion": {
+   "searchedNames": [
+    "Notion Labs, Inc.",
+    "Notion Labs Inc."
+   ],
+   "records": [
+    {
+     "lei": "2138005T88RDXMNXG698",
+     "legalName": "NOTION LABS, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "SAN FRANCISCO, US-CA, US",
+     "createdAt": "2012-06-15",
+     "lastUpdated": "2026-02-11",
+     "nextRenewal": "2027-02-11",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/2138005T88RDXMNXG698"
+    }
+   ]
+  },
+  "nvidia": {
+   "searchedNames": [
+    "NVIDIA Corporation"
+   ],
+   "records": [
+    {
+     "lei": "549300S4KLFTLO7GSQ80",
+     "legalName": "NVIDIA CORPORATION",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "SANTA CLARA, US-CA, US",
+     "createdAt": "1998-02-24",
+     "lastUpdated": "2026-01-07",
+     "nextRenewal": "2027-02-06",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/549300S4KLFTLO7GSQ80"
+    }
+   ]
+  },
+  "openai": {
+   "searchedNames": [
+    "OpenAI, Inc.",
+    "OpenAI OpCo, LLC",
+    "OpenAI Group PBC",
+    "OpenAI Global, LLC"
+   ],
+   "records": [
+    {
+     "lei": "2549007Z729LE3G6JG37",
+     "legalName": "OPENAI GLOBAL, LLC",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "SAN FRANCISCO, US-CA, US",
+     "createdAt": "2022-12-28",
+     "lastUpdated": "2026-11-12",
+     "nextRenewal": "2027-11-12",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/2549007Z729LE3G6JG37"
+    },
+    {
+     "lei": "984500C7AD3A48B9FP18",
+     "legalName": "OPENAI OPCO, LLC",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "SAN FRANCISCO, US-CA, US",
+     "createdAt": "2018-09-19",
+     "lastUpdated": "2026-02-19",
+     "nextRenewal": "2027-02-27",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/984500C7AD3A48B9FP18"
+    }
+   ]
+  },
+  "retool": {
+   "searchedNames": [
+    "Retool, Inc."
+   ],
+   "records": [
+    {
+     "lei": "254900V81L3YD9MEHH80",
+     "legalName": "Retool, Inc.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "LAPSED",
+     "headquarters": "San Francisco, US-CA, US",
+     "createdAt": "2017-03-01",
+     "lastUpdated": "2026-05-30",
+     "nextRenewal": "2026-05-29",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/254900V81L3YD9MEHH80"
+    }
+   ]
+  },
+  "salesforce": {
+   "searchedNames": [
+    "Salesforce, Inc."
+   ],
+   "records": [
+    {
+     "lei": "RCGZFPDMRW58VJ54VR07",
+     "legalName": "SALESFORCE, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "San Francisco, US-CA, US",
+     "createdAt": "1999-02-03",
+     "lastUpdated": "2026-10-26",
+     "nextRenewal": "2027-10-27",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/RCGZFPDMRW58VJ54VR07"
+    }
+   ]
+  },
+  "zapier": {
+   "searchedNames": [
+    "Zapier, Inc."
+   ],
+   "records": [
+    {
+     "lei": "254900XIXKZQ7A7N1M29",
+     "legalName": "ZAPIER, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "SAN FRANCISCO, US-CA, US",
+     "createdAt": "2012-05-22",
+     "lastUpdated": "2026-01-29",
+     "nextRenewal": "2027-02-27",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/254900XIXKZQ7A7N1M29"
+    }
+   ]
+  },
+  "zendesk": {
+   "searchedNames": [
+    "Zendesk, Inc."
+   ],
+   "records": [
+    {
+     "lei": "549300SLI6BN94BKKO36",
+     "legalName": "ZENDESK, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "San Francisco, US-CA, US",
+     "createdAt": "2009-03-03",
+     "lastUpdated": "2026-11-19",
+     "nextRenewal": "2027-11-19",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/549300SLI6BN94BKKO36"
+    }
+   ]
+  },
+  "zoom": {
+   "searchedNames": [
+    "Zoom Communications, Inc.",
+    "Zoom Video Communications, Inc."
+   ],
+   "records": [
+    {
+     "lei": "549300T9GCHU0ODOM055",
+     "legalName": "ZOOM COMMUNICATIONS, INC.",
+     "jurisdiction": "US-DE",
+     "entityStatus": "ACTIVE",
+     "registrationStatus": "ISSUED",
+     "headquarters": "San Jose, US-CA, US",
+     "createdAt": "2011-04-20",
+     "lastUpdated": "2026-11-11",
+     "nextRenewal": "2027-11-24",
+     "ultimateParent": null,
+     "parentReported": "exception",
+     "url": "https://search.gleif.org/#/record/549300T9GCHU0ODOM055"
+    }
+   ]
+  }
+ },
+ "byIndexId": {}
+}

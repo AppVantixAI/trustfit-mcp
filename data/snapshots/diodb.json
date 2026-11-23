@@ -1,0 +1,264 @@
+{
+ "meta": {
+  "id": "diodb",
+  "source": "disclose.io diodb, the open vulnerability disclosure program database",
+  "url": "https://github.com/disclose/diodb",
+  "license": "CC0 1.0 (licence file); the README says CC BY 4.0, so credit is given",
+  "attribution": "Disclosure program data from disclose.io diodb (https://github.com/disclose/diodb)",
+  "redistribute": true,
+  "retrievedAt": "2026-11-23",
+  "sha256": "6021b8bacbabea51f99f2cea995f6fb6887d5414d43a047ccb398d2a30366cf1",
+  "status": "collected",
+  "programsInList": 2433,
+  "matching": "Policy, security.txt or contact URL on an organization's own domain; or a program on a bug bounty platform whose name equals the organization's name exactly.",
+  "note": "Community-maintained. A listed program means the vendor publicly invites security reports; safe harbor says how far it promises not to pursue good-faith researchers. Not listed does not mean no program exists."
+ },
+ "bySlug": {},
+ "byOrg": {
+  "adobe": [
+   {
+    "name": "Adobe",
+    "policyUrl": "https://helpx.adobe.com/security/alertus.html",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "amazon": [
+   {
+    "name": "Amazon",
+    "policyUrl": "https://hackerone.com/amazonvrp",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "platform-name"
+   },
+   {
+    "name": "Amazon Web Services",
+    "policyUrl": "https://aws.amazon.com/security/vulnerability-reporting/",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "bytedance": [
+   {
+    "name": "Bytedance",
+    "policyUrl": "https://security.bytedance.com/media/score-standard/Vulnerability_Rewards_Program.pdf",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "not stated",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "canva": [
+   {
+    "name": "Canva",
+    "policyUrl": "https://www.canva.com/security/bug-bounty/",
+    "securityTxtUrl": "https://www.canva.com/.well-known/security.txt",
+    "bounty": "yes",
+    "safeHarbor": "partial",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "github": [
+   {
+    "name": "Github",
+    "policyUrl": "https://bounty.github.com/",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "full",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "google": [
+   {
+    "name": "Google",
+    "policyUrl": "https://www.google.com/about/appsecurity/",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   },
+   {
+    "name": "Google Chrome",
+    "policyUrl": "https://www.google.com/about/appsecurity/chrome-rewards/",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   },
+   {
+    "name": "Google PRP",
+    "policyUrl": "https://www.google.com/about/appsecurity/patch-rewards/index.html",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "hubspot": [
+   {
+    "name": "HubSpot",
+    "policyUrl": "https://bugcrowd.com/hubspot",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "partial",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "platform-name"
+   }
+  ],
+  "ibm": [
+   {
+    "name": "IBM",
+    "policyUrl": "https://hackerone.com/ibm",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "platform-name"
+   }
+  ],
+  "intercom": [
+   {
+    "name": "Intercom",
+    "policyUrl": "https://bugcrowd.com/intercom",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "partial",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "platform-name"
+   }
+  ],
+  "microsoft": [
+   {
+    "name": "Microsoft (Online Services)",
+    "policyUrl": "http://technet.microsoft.com/en-us/security/dn800983",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   },
+   {
+    "name": "Microsoft (bounty programs)",
+    "policyUrl": "http://technet.microsoft.com/en-US/security/dn425036",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "notion": [
+   {
+    "name": "Notion",
+    "policyUrl": "https://www.notion.so/Responsible-Disclosure-Policy-5f18bb6b86804eaf989c006131778b9c",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "full",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "nvidia": [
+   {
+    "name": "Nvidia",
+    "policyUrl": "https://www.nvidia.com/object/submit-security-vulnerability.html",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "salesforce": [
+   {
+    "name": "Salesforce",
+    "policyUrl": "https://trust.salesforce.com/en/security/responsible-disclosure-policy/",
+    "securityTxtUrl": null,
+    "bounty": "no",
+    "safeHarbor": "partial",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "slack": [
+   {
+    "name": "Slack",
+    "policyUrl": "https://slack.com/report-vulnerability",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "tencent": [
+   {
+    "name": "Tencent",
+    "policyUrl": "http://en.security.tencent.com/",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "none",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "zapier": [
+   {
+    "name": "Zapier",
+    "policyUrl": "https://zapier.com/engineering/bug-bounty-program/",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "not stated",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ],
+  "zoom": [
+   {
+    "name": "Zoom",
+    "policyUrl": "https://zoom.us/docs/en-us/vulnerability-disclosure-policy.html",
+    "securityTxtUrl": null,
+    "bounty": "yes",
+    "safeHarbor": "full",
+    "launched": null,
+    "policyUrlStatus": "alive",
+    "matchedBy": "domain"
+   }
+  ]
+ },
+ "byIndexId": {}
+}

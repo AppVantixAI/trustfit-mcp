@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "id": "statuspage",
+    "source": "Vendors' public status pages (Statuspage JSON format)",
+    "url": "https://www.atlassian.com/software/statuspage",
+    "license": "NOT VERIFIED. No licence stated by the vendors or Atlassian; only derived counts and dates are kept, each with a link to the vendor's page. Not redistributed.",
+    "attribution": "Incident counts derived by TrustFit from each vendor's own public status page (linked).",
+    "redistribute": false,
+    "retrievedAt": "2026-11-23",
+    "sha256": "fa22e0f65ea341e0edb8fae4a3395d280bd97f58dfaeb0a5aaa01d42411b05ca",
+    "status": "not collected: run the ingest script to fill this file",
+    "hostsSkipped": [
+      "status.deepseek.com (no Statuspage JSON)",
+      "status.adobe.com (no Statuspage JSON)",
+      "status.fireflies.ai (no Statuspage JSON)",
+      "status.notion.so (no Statuspage JSON)",
+      "status.jasper.ai (no Statuspage JSON)",
+      "status.canva.com (no Statuspage JSON)",
+      "status.n8n.cloud (no Statuspage JSON)",
+      "status.n8n.io (no Statuspage JSON)",
+      "www.intercomstatus.com (no Statuspage JSON)",
+      "status.vapi.ai (no Statuspage JSON)",
+      "status.lindy.ai (no Statuspage JSON)",
+      "status.relevanceai.com (no Statuspage JSON)",
+      "status.amplitude.com (no Statuspage JSON)",
+      "status.x.ai (no Statuspage JSON)",
+      "stabilityai.instatus.com (no Statuspage JSON)"
+    ],
+    "matching": "Candidate status hosts in src/orgs.ts; a page is kept only if its URL is on the organization's domain or its name contains the organization's name.",
+    "note": "Incidents a vendor itself posted in the 90 days before the check. Vendors differ in what they post: a long list can mean a candid vendor, a short one a quiet vendor. The feed returns about 50 recent incidents, so a busy page may have more than shown (windowCovered false)."
+  },
+  "bySlug": {},
+  "byOrg": {},
+  "byIndexId": {}
+}

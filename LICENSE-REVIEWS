@@ -1,18 +1,20 @@
-The written reviews in shared/content (review text, scores, pros, cons,
-plan notes and evidence lists for the 40 reviewed tools) are licensed under
-the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+The written TrustFit reviews (review text, scores, pros, cons, plan notes and
+evidence lists for the reviewed tools) are no longer part of this repository.
+They are served by the TrustFit review API under TrustFit's terms.
 
 Copyright (c) 2026 AppVantix LLC
 
-Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+This file records the licences of earlier copies only:
 
-You may share and adapt the reviews for any purpose, including commercial
-use, as long as you give credit. Suggested credit:
+- Copies of this repository taken before 2026-11-22 included the reviews in
+  shared/content under the MIT licence.
+- Copies taken from 2026-11-22 until the reviews were removed included them
+  under the Creative Commons Attribution 4.0 International License (CC BY 4.0,
+  https://creativecommons.org/licenses/by/4.0/legalcode). Suggested credit:
+  "Reviews by TrustFit (https://trustfit-iota.vercel.app), CC BY 4.0".
 
-    Reviews by TrustFit (https://trustfit-iota.vercel.app), CC BY 4.0
+Those copies keep the licence they were published under. Neither licence
+covers reviews written or changed later, which are only available through
+the API.
 
-Code in the same files (functions, types and helpers) stays under the MIT
-licence in LICENSE.
-
-This applies from 2026-11-22. Copies taken before that date were published
-under the MIT licence.
+The code in this repository stays under the MIT licence in LICENSE.
